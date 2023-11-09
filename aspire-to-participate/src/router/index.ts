@@ -1,27 +1,27 @@
 import {
-  createRouter,
-  createWebHashHistory,
-  RouterOptions,
-  Router,
-  RouteRecordRaw,
-} from "vue-router";
+	createRouter,
+	createWebHashHistory,
+	type RouterOptions,
+	type Router,
+	type RouteRecordRaw,
+} from 'vue-router';
 // RouterRecordRaw
 const routes: RouteRecordRaw[] = [
-  {
-    path: "/demoView",
-    name: "demoView",
-    component: () => import("../../src/components/HelloWorld.vue"),
-  },
-  {
-    path: "/:pathMatch(.*)*", // match other path
-    redirect: "/demoView",
-  },
+	{
+		path: '/demoView',
+		name: 'demoView',
+		component: async () => import('../../src/components/HelloWorld.vue'),
+	},
+	{
+		path: '/:pathMatch(.*)*', // Match other path
+		redirect: '/demoView',
+	},
 ];
 
 // RouterOptions
 const options: RouterOptions = {
-  history: createWebHashHistory(),
-  routes,
+	history: createWebHashHistory(),
+	routes,
 };
 
 // Router
