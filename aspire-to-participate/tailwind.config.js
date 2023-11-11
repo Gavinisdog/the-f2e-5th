@@ -2,7 +2,8 @@
 export default {
   content: [
     "./src/**/*.{html, js, ts, vue}", 
-    "./src/**/*"
+    "./src/**/*", 
+    "./index.html"
   ],
   corePlugins: {
     preflight: false,
