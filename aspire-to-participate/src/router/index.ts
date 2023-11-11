@@ -8,13 +8,13 @@ import {
 // RouterRecordRaw
 const routes: RouteRecordRaw[] = [
 	{
-		path: '/demoView',
-		name: 'demoView',
-		component: async () => import('../../src/components/HelloWorld.vue'),
-	},
+		path: '/', 
+		name: 'home', 
+		component: async () => import('@/pages/Home/index.vue'),
+	}, 
 	{
 		path: '/:pathMatch(.*)*', // Match other path
-		redirect: '/demoView',
+		redirect: '/home',
 	},
 ];
 
