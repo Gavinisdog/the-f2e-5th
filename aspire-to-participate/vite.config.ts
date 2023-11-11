@@ -22,11 +22,11 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         /**如果引入多个文件，可以使用
-       * '@import "@/assets/scss/globalVariable1.scss";
-       * @import"@/assets/scss/globalVariable2.scss";'
-      **/
+         * '@import "@/assets/scss/globalVariable1.scss";
+         * @import"@/assets/scss/globalVariable2.scss";'
+         **/
         additionalData: '@import "@/main.scss";',
-      }
-    }
+      },
+    },
   },
 });
