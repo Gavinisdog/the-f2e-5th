@@ -18,4 +18,15 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        /**如果引入多个文件，可以使用
+       * '@import "@/assets/scss/globalVariable1.scss";
+       * @import"@/assets/scss/globalVariable2.scss";'
+      **/
+        additionalData: '@import "@/main.scss";',
+      }
+    }
+  },
 });

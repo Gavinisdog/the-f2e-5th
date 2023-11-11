@@ -11,7 +11,6 @@ const countContainerHeight = computed(() => {
   return `min-height: calc(100% - ${headerHeight + footerHeight}px)`;
 })
 </script>
-
 <template>
   <div class="root">
     <div ref="headerRef" class="root-header" >
