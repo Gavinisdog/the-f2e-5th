@@ -1,10 +1,10 @@
 import {
-  createRouter,
-  createWebHashHistory,
-  RouterOptions,
-  Router,
-  RouteRecordRaw,
-} from "vue-router";
+	createRouter,
+	createWebHashHistory,
+	type RouterOptions,
+	type Router,
+	type RouteRecordRaw,
+} from 'vue-router';
 // RouterRecordRaw
 const routes: RouteRecordRaw[] = [
   {
@@ -44,8 +44,8 @@ const routes: RouteRecordRaw[] = [
 
 // RouterOptions
 const options: RouterOptions = {
-  history: createWebHashHistory(),
-  routes,
+	history: createWebHashHistory(),
+	routes,
 };
 
 // Router
