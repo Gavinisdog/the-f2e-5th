@@ -2,12 +2,11 @@
 // import * as echarts from 'echarts';
 // import { ref, onMounted } from 'vue';
 
-
 // const chartRef = ref(null)
 // onMounted(() => {
 //   const myChart = echarts.init(chartRef.value);
 //   myChart.setOption({
-    
+
 //      legend: {
 //       // Try 'horizontal'
 //       orient: 'horizontal',
@@ -38,10 +37,8 @@
 //   });
 // });
 
-
-
-import { ref, onMounted, onBeforeUnmount } from 'vue';
-import * as echarts from 'echarts';
+import { ref, onMounted, onBeforeUnmount } from "vue";
+import * as echarts from "echarts";
 
 const chart = ref(null);
 let chartInstance = null;
@@ -52,19 +49,19 @@ const renderChart = () => {
   // 定义图表数据
   const option = {
     title: {
-      text: '示例图表',
+      text: "示例图表",
     },
     xAxis: {
-      type: 'category',
-      data: ['A', 'B', 'C', 'D', 'E'],
+      type: "category",
+      data: ["A", "B", "C", "D", "E"],
     },
     yAxis: {
-      type: 'value',
+      type: "value",
     },
     series: [
       {
-        name: '示例数据',
-        type: 'bar',
+        name: "示例数据",
+        type: "bar",
         data: [5, 10, 15, 20, 25],
       },
     ],
@@ -85,26 +82,23 @@ onMounted(() => {
   renderChart();
 
   // 在窗口大小变化时重新调整图表大小
-  window.addEventListener('resize', resizeChart);
+  window.addEventListener("resize", resizeChart);
 });
-
 
 onBeforeUnmount(() => {
   // 移除窗口大小变化的事件监听以避免内存泄漏
-  window.removeEventListener('resize', resizeChart);
+  window.removeEventListener("resize", resizeChart);
 });
-
 </script>
 
 <template>
   map pluin:
-  
+
   <!-- <div class="chartRef" ref="chartRef"></div> -->
   <div class="chartRef" ref="chart"></div>
-
 </template>
 <style lang="scss" scoped>
-.chartRef{
+.chartRef {
   width: 100vw;
   height: 80vh;
 }

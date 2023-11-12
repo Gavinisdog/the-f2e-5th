@@ -7,11 +7,11 @@
 import { onMounted } from "vue";
 import { useRoute, useRouter } from "vue-router";
 
-const route = useRoute()
-const router = useRouter()
-onMounted(()=>{
-  if(route.fullPath === '/'){
-    router.push('/login')
+const route = useRoute();
+const router = useRouter();
+onMounted(() => {
+  if (route.fullPath === "/") {
+    router.push("/login");
   }
-})
+});
 </script>
