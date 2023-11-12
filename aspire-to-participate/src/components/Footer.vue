@@ -29,8 +29,8 @@ const navlist = ref([
       <li class="leading-8">電話：(02) 888-5678</li>
       <li class="leading-8">電子郵件地址：meowoffice@linmeow.tw</li>
     </ul>
-    <div class="candidateInfo navlist ml-auto text-black text-[15px] flex flex-col flex-wrap">
-      <div class="text-black text-[15px] flex flex-row flex-wrap">
+    <div class="candidateInfo navlist ml-auto text-[15px] flex flex-col flex-wrap">
+      <div class="text-gray-3 text-[15px] flex flex-row flex-wrap">
         <div class="min-w-[118px] flex flex-col tac">
           <template v-for="(item, idx) in navlist" :key="idx">
             <a v-if="idx <= 2" :href="item.url" class="px-2 py-2 cursor-pointer">{{
@@ -46,7 +46,7 @@ const navlist = ref([
           </template>
         </div>
       </div>
-      <div class="text-lightpink mt-4 text-[10px] ml-6">
+      <div class="text-pink-2 mt-4 text-[10px] ml-6">
         © 2023 喵立翰立委候選人 版權所有
       </div>
     </div>
@@ -55,7 +55,7 @@ const navlist = ref([
 
 <style lang="scss" scoped>
 .footerContainer {
-  @apply w-full inline-flex flex-wrap bg-pink pl-[100px] pr-[50px] py-[50px] box-border;
+  @apply w-full inline-flex flex-wrap bg-pink-1 pl-[100px] pr-[50px] py-[50px] box-border;
 }
 @media screen and (max-width: 1120px) {
   .footerContainer{
@@ -84,7 +84,7 @@ const navlist = ref([
     flex-direction: column;
     justify-content: space-between;
   }
-  .candidateInfo .text-lightpink{
+  .candidateInfo .text-pink-1-2{
     display: inline-block;
     margin: 20px auto;
   }

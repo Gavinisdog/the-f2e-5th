@@ -1,3 +1,1 @@
-<template>
-  Site intro
-</template>
+<template>Site intro</template>

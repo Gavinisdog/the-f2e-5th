@@ -9,11 +9,11 @@ const countContainerHeight = computed(() => {
   const headerHeight = (headerRef.value as HTMLElement)?.clientHeight || 75;
   const footerHeight = (footerRef.value as HTMLElement)?.clientHeight || 220;
   return `min-height: calc(100% - ${headerHeight + footerHeight}px)`;
-})
+});
 </script>
 <template>
   <div class="root">
-    <div ref="headerRef" class="root-header" >
+    <div ref="headerRef" class="root-header">
       <Header />
     </div>
     <div class="container" :style="countContainerHeight">

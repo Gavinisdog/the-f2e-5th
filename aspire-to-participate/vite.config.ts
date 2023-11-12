@@ -27,6 +27,6 @@ export default defineConfig({
       // **/
       //   additionalData: '@import "@/main.scss";',
       // }
-    }
+    },
   },
 });
