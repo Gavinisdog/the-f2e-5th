@@ -10,35 +10,35 @@ const socialList: Array<any> = [
 </script>
 
 <template>
-  <header class="max-h-16 bg-gray-3">
+  <header class="max-h-16 bg-gray-3 h-16">
     <div class="header-wrapper">
       <div class="header-inner flex">
         <div class="logo-wrapper">
-          <div class="logo-inner flex text-white font-itim text-2xl">
-            <div class="logo-english">meow</div>
-            <div class="logo-text">喵立翰</div>
+          <div class="logo-inner flex text-white text-2xl">
+            <div class="logo-english font-itim leading-[3.5rem] px-5">meow</div>
+            <div class="logo-text leading-[4rem]">喵立翰</div>
           </div>
         </div>
-        <nav class="flex">
+        <nav class="flex px-9">
           <dt class="mx-11">
-            <a class="text-pink-2 no-underline" href="#"> 候選人主張</a>
+            <a class="text-pink-2 no-underline leading-[4rem]" href="#"> 候選人主張</a>
           </dt>
           <dt class="mx-11">
-            <a class="text-pink-2 no-underline" href="#"> 最新活動</a>
+            <a class="text-pink-2 no-underline leading-[4rem]" href="#"> 最新活動</a>
           </dt>
           <dt class="mx-11">
-            <a class="text-pink-2 no-underline" href="#"> 政策議題</a>
+            <a class="text-pink-2 no-underline leading-[4rem]" href="#"> 政策議題</a>
           </dt>
           <dt class="mx-11">
-            <a class="text-pink-2 no-underline" href="#"> 小額捐款</a>
+            <a class="text-pink-2 no-underline leading-[4rem]" href="#"> 小額捐款</a>
           </dt>
           <dt class="mx-11">
-            <a class="text-pink-2 no-underline" href="#"> 民眾服務</a>
+            <a class="text-pink-2 no-underline leading-[4rem]" href="#"> 民眾服務</a>
           </dt>
         </nav>
-        <div class="contact-wrapper bg-pink-2">
+        <div class="contact-wrapper">
           <div class="contact-inner">
-            <SplitButton label="追蹤我們" @click="scrollTo" :model="socialList" />
+            <SplitButton class="header-dropdown" label="追蹤我們" @click="scrollTo" :model="socialList" />
           </div>
         </div>
       </div>
@@ -46,4 +46,11 @@ const socialList: Array<any> = [
   </header>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+:deep(.header-dropdown){
+  // @apply ;
+  button{
+    @apply bg-pink-2 outline-none border-0 ;
+  }
+}
+</style>
