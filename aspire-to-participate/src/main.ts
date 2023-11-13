@@ -7,7 +7,7 @@ import PrimeVue from "primevue/config";
 import ScrollTop from "primevue/scrolltop";
 import SplitButton from "primevue/splitbutton";
 
-// import "@/main.scss";
+import "@/main.scss";
 
 const app = createApp(App);
 app.component('Icon', Icon)
