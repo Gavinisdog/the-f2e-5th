@@ -13,7 +13,7 @@ const routes: RouteRecordRaw[] = [
     component: async () => import("@/pages/Home/index.vue"),
   },
   {
-    path: "/",
+    path: "/vote",
     name: "vote",
     component: async () => import("@/pages/Vote/index.vue"),
   },

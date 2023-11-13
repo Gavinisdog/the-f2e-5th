@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url("https://fonts.cdnfonts.com/css/avenir");
 
 html,
@@ -80,7 +83,8 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+div {
   margin: 0;
   padding: 0;
   border: 0;

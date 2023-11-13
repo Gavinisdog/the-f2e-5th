@@ -10,6 +10,8 @@ import SplitButton from "primevue/splitbutton";
 // import "@/main.scss";
 
 const app = createApp(App);
+app.component('Icon', Icon)
+
 app.use(router);
 app.use(PrimeVue, { unstyled: true });
 
