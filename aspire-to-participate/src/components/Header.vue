@@ -45,12 +45,26 @@ const socialList: Array<any> = [
     </div>
   </header>
 </template>
+<style scoped>
 
+</style>
 <style lang="scss" scoped>
+
 :deep(.header-dropdown){
-  // @apply ;
-  button{
-    @apply bg-pink-2 outline-none border-0 ;
-  }
+  @apply my-3;
+  .p-button{
+    @apply bg-pink-2 py-2 px-3 border-0 text-black rounded-l-full;
+    .p-button-label{
+      @apply text-black;
+    }
+    &.p-splitbutton-menubutton{
+      @apply rounded-l-none rounded-r-full;
+    }
+    }
 }
+</style>
+<style lang="scss">
+.p-menuitem-link{
+      @apply px-3 py-5;
+    }
 </style>

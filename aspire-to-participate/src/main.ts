@@ -8,12 +8,13 @@ import ScrollTop from "primevue/scrolltop";
 import SplitButton from "primevue/splitbutton";
 
 import "@/main.scss";
+import "primevue/resources/themes/lara-light-purple/theme.css";
 
 const app = createApp(App);
 app.component('Icon', Icon)
 
 app.use(router);
-app.use(PrimeVue, { unstyled: true });
+app.use(PrimeVue);
 
 app.component("Icon", Icon);
 app.component("ScrollTop", ScrollTop);
