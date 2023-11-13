@@ -21,22 +21,22 @@ const socialList: Array<any> = [
         </div>
         <nav class="flex px-9">
           <dt class="mx-11">
-            <a class="text-pink-2 no-underline leading-[4rem]" href="#"> 候選人主張</a>
+            <a class="text-pink-2 no-underline leading-[4rem] w-min" href="#"> 候選人主張</a>
           </dt>
           <dt class="mx-11">
-            <a class="text-pink-2 no-underline leading-[4rem]" href="#"> 最新活動</a>
+            <a class="text-pink-2 no-underline leading-[4rem] w-min" href="#"> 最新活動</a>
           </dt>
           <dt class="mx-11">
-            <a class="text-pink-2 no-underline leading-[4rem]" href="#"> 政策議題</a>
+            <a class="text-pink-2 no-underline leading-[4rem] w-min" href="#"> 政策議題</a>
           </dt>
           <dt class="mx-11">
-            <a class="text-pink-2 no-underline leading-[4rem]" href="#"> 小額捐款</a>
+            <a class="text-pink-2 no-underline leading-[4rem] w-min" href="#"> 小額捐款</a>
           </dt>
           <dt class="mx-11">
-            <a class="text-pink-2 no-underline leading-[4rem]" href="#"> 民眾服務</a>
+            <a class="text-pink-2 no-underline leading-[4rem] w-min" href="#"> 民眾服務</a>
           </dt>
         </nav>
-        <div class="contact-wrapper">
+        <div class="contact-wrapper mr-auto">
           <div class="contact-inner">
             <SplitButton class="header-dropdown" label="追蹤我們" @click="scrollTo" :model="socialList" />
           </div>
