@@ -1,5 +1,10 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import Banner from "./Banner.vue";
+</script>
 
 <template>
-  <div>HomePage</div>
+  <div class="">
+    <Banner />
+    <div>HomePage</div>
+  </div>
 </template>

@@ -1,15 +1,15 @@
 <script lang="ts" setup>
-console.log(123)
+console.log(123);
 import { ref } from "vue";
 
 const navlist = ref([
-  {name:'首頁', link:'#'},
-  {name:'候選人主張', link:'#'},
-  {name:'最新活動', link:'#'},
-  {name:'政策議題', link:'#'},
-  {name:'小額捐款', link:'#'},
-  {name:'民眾服務', link:'#'},
-])  
+  { name: "首頁", link: "#" },
+  { name: "候選人主張", link: "#" },
+  { name: "最新活動", link: "#" },
+  { name: "政策議題", link: "#" },
+  { name: "小額捐款", link: "#" },
+  { name: "民眾服務", link: "#" },
+]);
 </script>
 
 <template>
@@ -18,7 +18,10 @@ const navlist = ref([
   <footer class="footerContainer">
     <div class="candidateInfo title flex flex-row gap-[30px] text-white">
       <div
-        class="flex-none w-[86px] h-[86px] text-[50px] flex justify-center items-center border-8 border-solid rounded-full text-white">8</div>
+        class="flex-none w-[86px] h-[86px] text-[50px] flex justify-center items-center border-8 border-solid rounded-full text-white"
+      >
+        8
+      </div>
       <div class="font-extrabold -mt-2.5 candidateTilte">
         <div class="sm:text-2xl text-[5vmin]">2024 立委候選人</div>
         <div class="text-[16vmin] sm:text-[65px]">喵立翰</div>
@@ -58,10 +61,10 @@ const navlist = ref([
   @apply w-full inline-flex flex-wrap bg-pink-1 pl-[100px] pr-[50px] py-[50px] box-border;
 }
 @media screen and (max-width: 1120px) {
-  .footerContainer{
+  .footerContainer {
     @apply px-[50px];
   }
-  .candidateInfo{
+  .candidateInfo {
     display: flex;
     justify-content: center;
   }
@@ -73,7 +76,7 @@ const navlist = ref([
   .navlist.candidateInfo > .flex {
     justify-content: center;
   }
-  .candidateInfo.font-medium{
+  .candidateInfo.font-medium {
     flex-direction: column;
     text-align: center;
     margin-left: unset;
@@ -84,21 +87,21 @@ const navlist = ref([
     flex-direction: column;
     justify-content: space-between;
   }
-  .candidateInfo .text-pink-1-2{
+  .candidateInfo .text-pink-1-2 {
     display: inline-block;
     margin: 20px auto;
   }
-  .footerContainer{
+  .footerContainer {
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
   }
-  
-  .tac{
+
+  .tac {
     text-align: center;
   }
 }
-@media screen and (max-width: 500px){
-  .candidateInfo.title{
+@media screen and (max-width: 500px) {
+  .candidateInfo.title {
     flex-direction: column;
     align-items: center;
     text-align: center;

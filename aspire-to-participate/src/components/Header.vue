@@ -151,7 +151,6 @@ const socialList: Array<any> = [
   height: 4px;
   background: transparent;
 }
-
 ::-webkit-scrollbar-thumb {
   background: #919191;
   border-radius: 25px;
