@@ -56,4 +56,15 @@ const countContainerHeight = computed(() => {
 .fade-leave-to {
   opacity: 0;
 }
+::-webkit-scrollbar {
+  width: 0px;
+  height: 4px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #919191;
+  border-radius: 25px;
+  padding: 2px;
+}
 </style>
