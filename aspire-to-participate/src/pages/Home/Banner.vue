@@ -12,13 +12,13 @@
           <div>從喵的眼中,</div>
           <div>看見台灣</div>
         </div>
-        <div class="wrapper-no mt-12 flex text-white flex-col-reverse lg:flex-row w-fit ">
+        <div class="wrapper-no mt-12 flex text-white flex-col-reverse lg:flex-row w-fit">
           <div
             class="number text-6xl border-8 border-solid rounded-full w-24 h-24 border-white flex justify-center items-center mt-5 mx-auto"
           >
             8
           </div>
-          <div class="title ml-4 lg:ml-7 flex flex-col justify-between ">
+          <div class="title ml-4 lg:ml-7 flex flex-col justify-between">
             <div class="text-xl lg:text-2xl font-extrabold flex">
               <div class="lg:block hidden">2024</div>
               <div>立委候選人</div>
@@ -43,7 +43,7 @@
   background: linear-gradient(281deg, #101313 54.12%, #d792a1 120.9%);
   @media all and (max-width: 768px) {
     background: none;
-    background-color: #101313;    
+    background-color: #101313;
   }
 }
 .left {
@@ -51,8 +51,7 @@
   width: -webkit-fill-available;
   @media all and (max-width: 768px) {
     background: none;
-    background-color: #101313;    
+    background-color: #101313;
   }
 }
-
 </style>
