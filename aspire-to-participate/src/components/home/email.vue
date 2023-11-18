@@ -13,7 +13,7 @@ const emaillist = ref([
 ]);
 </script>
 <template>
-<div class="mailblock bg-pink-2">
+  <div class="mailblock bg-pink-2">
     <div
       class="min-h-[30vh] justify-center flex flex-col lg:flex-row px-12 md:px-24 py-10 md:py-20 gap-[50px] max-w-[1420px] mx-auto"
     >
@@ -94,7 +94,7 @@ const emaillist = ref([
         </div>
       </form>
     </div>
-  </div> 
+  </div>
 </template>
 <style lang="scss" scoped>
 .titleBlock {

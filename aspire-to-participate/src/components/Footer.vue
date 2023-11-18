@@ -1,8 +1,6 @@
 <script lang="ts" setup>
 import { ref, computed, provide } from "vue";
 
-
-
 const navlist = ref([
   { name: "首頁", link: "#" },
   { name: "候選人主張", link: "#" },
@@ -14,7 +12,6 @@ const navlist = ref([
 </script>
 
 <template>
-  
   <footer class="footerContainer">
     <div class="candidateInfo title flex flex-row gap-[30px] text-white">
       <div

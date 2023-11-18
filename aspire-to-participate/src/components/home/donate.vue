@@ -8,7 +8,7 @@ import Image from "primevue/image";
 import imagePath from "@/assets/images/home/donation01.png";
 import ScrollPanel from "primevue/scrollpanel";
 // 確認
-import Checkbox from 'primevue/checkbox';
+import Checkbox from "primevue/checkbox";
 import ConfirmDialog from "primevue/confirmdialog";
 import Toast from "primevue/toast";
 import { useConfirm } from "primevue/useconfirm";
@@ -16,34 +16,32 @@ import { useToast } from "primevue/usetoast";
 
 import { ref, computed, provide } from "vue";
 
-
 const confirm = useConfirm();
 const toast = useToast();
 const donateBlock = ref([
-  { title: "喵星人之友1", price: 300, conunt: 100, isDonate: false, isChecked:false },
-  { title: "喵星大使2", price: 500, conunt: 800, isDonate: false, isChecked:false },
-  { title: "喵物精選3", price: 750, conunt: 50, isDonate: false, isChecked:false },
-  { title: "喵星人之友4", price: 300, conunt: 100, isDonate: false, isChecked:false },
-  { title: "喵星大使5", price: 500, conunt: 800, isDonate: false, isChecked:false },
-  { title: "喵物精選6", price: 750, conunt: 50, isDonate: false, isChecked:false },
+  { title: "喵星人之友1", price: 300, conunt: 100, isDonate: false, isChecked: false },
+  { title: "喵星大使2", price: 500, conunt: 800, isDonate: false, isChecked: false },
+  { title: "喵物精選3", price: 750, conunt: 50, isDonate: false, isChecked: false },
+  { title: "喵星人之友4", price: 300, conunt: 100, isDonate: false, isChecked: false },
+  { title: "喵星大使5", price: 500, conunt: 800, isDonate: false, isChecked: false },
+  { title: "喵物精選6", price: 750, conunt: 50, isDonate: false, isChecked: false },
 ]);
 
 const choosenDonate = computed(() => {
   return donateBlock.value
-          .filter((item)=> item.isChecked)
-          .reduce((acc, curr)=>{
-            return acc + curr.title + ', '
-          },'')
-})
+    .filter((item) => item.isChecked)
+    .reduce((acc, curr) => {
+      return acc + curr.title + ", ";
+    }, "");
+});
 const donateHandler = async () => {
-  const checkedItems = donateBlock.value.filter(item => item.isChecked);
-  if(checkedItems.length === 0) return alert('請選擇捐獻方案')
+  const checkedItems = donateBlock.value.filter((item) => item.isChecked);
+  if (checkedItems.length === 0) return alert("請選擇捐獻方案");
   confirm.require({
     message: `您是否要送出捐獻申請`,
     header: "捐贈意願申請",
     icon: "pi pi-exclamation-triangle",
     accept: async () => {
-      
       console.log(checkedItems);
 
       for (const item of checkedItems) {
@@ -56,13 +54,13 @@ const donateHandler = async () => {
         toast.add({
           severity: "success",
           summary: `${item.title}募捐方案`,
-          detail: `完成您${item.isDonate ? '捐獻' : '放棄'}的需求`,
+          detail: `完成您${item.isDonate ? "捐獻" : "放棄"}的需求`,
           life: 3000,
         });
       }
 
       // 异步操作完成后重置 isChecked
-      donateBlock.value.forEach(item => (item.isChecked = false));
+      donateBlock.value.forEach((item) => (item.isChecked = false));
     },
     reject: () => {
       toast.add({
@@ -81,7 +79,6 @@ const totalPrice = computed(() => {
   }, 0);
   return price.toLocaleString();
 });
-
 </script>
 
 <template>
@@ -94,8 +91,16 @@ const totalPrice = computed(() => {
       <div class="flex flex-col gap-5 md:gap-[45px] mx-auto md:mx-[unset]">
         <div class="text-4xl md:text-[50px] text-pink-2 font-black">小額捐款</div>
         <div class="relative">
-          <div class="px-5 font-black rounded-sm py-2.5 text-[50px] bg-pink-2 text-white absolute z-50 -top-[20%] -right-[20%] ab-title1 transition-all duration-500">您的小筆捐款，</div>
-          <div class="px-5 font-black rounded-sm py-2.5 text-[50px] bg-pink-2 text-white absolute z-50 top-[0%] -right-3/4 ab-title2  transition-all duration-500">是每隻毛孩未來的大大動力！</div>
+          <div
+            class="px-5 font-black rounded-sm py-2.5 text-[50px] bg-pink-2 text-white absolute z-50 -top-[20%] -right-[20%] ab-title1 transition-all duration-500"
+          >
+            您的小筆捐款，
+          </div>
+          <div
+            class="px-5 font-black rounded-sm py-2.5 text-[50px] bg-pink-2 text-white absolute z-50 top-[0%] -right-3/4 ab-title2 transition-all duration-500"
+          >
+            是每隻毛孩未來的大大動力！
+          </div>
           <div
             class="w-4/5 md:w-full max-w-[528px] mx-auto rounded-3xl border-[10px] border-solid border-pink-2 overflow-hidden aspect-square"
           >
@@ -144,8 +149,10 @@ const totalPrice = computed(() => {
         class="w-4/5 md:w-full max-w-[400px] mx-auto md:mx-[unset] md:flex-grow md:max-w-xl cursor-pointer"
       >
         <div class="text-white text-2xl font-black flex flex-row flex-wrap items-center">
-          選擇捐款方案: 
-          <span class="text-pink-2" v-show="donateBlock.find(el => el.isChecked)">您目前選擇的方案為{{ choosenDonate }}</span>
+          選擇捐款方案:
+          <span class="text-pink-2" v-show="donateBlock.find((el) => el.isChecked)"
+            >您目前選擇的方案為{{ choosenDonate }}</span
+          >
         </div>
 
         <ScrollPanel
@@ -166,7 +173,9 @@ const totalPrice = computed(() => {
               :for="item.title"
               class="min-w-[252px] pb-6 flex-shrink-0 bg-white rounded-3xl text-center overflow-hidden aspect-square hover:shadow-inner hover:-translate-y-3 transition duration-300"
             >
-              <div class="p-6 bg-pink-2 text-2xl font-black text-white flex flex-row justify-center items-center gap-1">
+              <div
+                class="p-6 bg-pink-2 text-2xl font-black text-white flex flex-row justify-center items-center gap-1"
+              >
                 {{ item.title }}
                 <Checkbox :inputId="item.title" v-model="item.isChecked" :binary="true" />
               </div>
@@ -210,38 +219,35 @@ const totalPrice = computed(() => {
   -webkit-text-stroke: 4px #ebb2bf;
 }
 @media screen and (max-width: 1252px) {
-  .ab-title1{
+  .ab-title1 {
     right: unset;
     left: 0px;
     top: 0%;
     font-size: 3.5vmin;
     text-align: center;
   }
-  .ab-title2{
+  .ab-title2 {
     top: unset;
     right: unset;
     bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     display: inline-block;
-    width:calc(155% - 25vh);
+    width: calc(155% - 25vh);
     // max-width: 700px;
     font-size: 4.25vmin;
     text-align: center;
   }
-  .mtBtn{
+  .mtBtn {
     margin-top: 7.25vmin;
   }
-  
 }
-@media screen  and (max-width: 385px) {
-  .ab-title2{
+@media screen and (max-width: 385px) {
+  .ab-title2 {
     display: none;
   }
-  .mtBtn{
+  .mtBtn {
     margin-top: 0px;
   }
 }
-
-
 </style>
