@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import Header from "@/components/Header.vue";
+import donate from "@/components/home/donate.vue";
+import email from "@/components/home/email.vue";
 import Footer from "@/components/Footer.vue";
-import { computed, ref } from "vue";
-
+import { computed, provide, ref } from "vue";
 const headerRef = ref();
 const footerRef = ref();
 const countContainerHeight = computed(() => {
@@ -16,11 +17,13 @@ const countContainerHeight = computed(() => {
     <div ref="headerRef" class="root-header">
       <Header />
     </div>
-    <div class="container" :style="countContainerHeight">
+    <div class="" :style="countContainerHeight">
       <router-view v-slot="{ Component }">
         <transition name="fade" mode="out-in">
           <div>
             <component :is="Component" />
+            <donate />
+            <email />
           </div>
         </transition>
       </router-view>

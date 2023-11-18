@@ -38,33 +38,35 @@ const socialList: Array<any> = [
         </nav>
         <div class="contact-wrapper">
           <div class="contact-inner">
-            <SplitButton class="header-dropdown" label="追蹤我們" @click="scrollTo" :model="socialList" />
+            <SplitButton
+              class="header-dropdown"
+              label="追蹤我們"
+              @click="scrollTo"
+              :model="socialList"
+            />
           </div>
         </div>
       </div>
     </div>
   </header>
 </template>
-<style scoped>
-
-</style>
+<style scoped></style>
 <style lang="scss" scoped>
-
-:deep(.header-dropdown){
+:deep(.header-dropdown) {
   @apply my-3;
-  .p-button{
+  .p-button {
     @apply bg-pink-2 py-2 px-3 border-0 text-black rounded-l-full;
-    .p-button-label{
+    .p-button-label {
       @apply text-black;
     }
-    &.p-splitbutton-menubutton{
+    &.p-splitbutton-menubutton {
       @apply rounded-l-none rounded-r-full;
     }
-    }
+  }
 }
 </style>
 <style lang="scss">
-.p-menuitem-link{
-      @apply px-3 py-5;
-    }
+.p-menuitem-link {
+  @apply px-3 py-5;
+}
 </style>
