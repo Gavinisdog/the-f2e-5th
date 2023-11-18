@@ -18,7 +18,7 @@ const socialList: Array<any> = [
 </script>
 
 <template>
-  <header class="min-h-14 bg-gray-3 h-16 md:h-14">
+  <header class="min-h-[64px] bg-gray-3 h-16 md:h-14">
     <div class="header-wrapper">
       <div class="header-inner flex">
         <div class="logo-wrapper">
