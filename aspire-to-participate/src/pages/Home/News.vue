@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { ref } from "vue";
+import { useElementBounding, useResizeObserver } from "@vueuse/core";
 const newsList: Array<any> = [
   {
     date: new Date(2023, 11, 26),
@@ -22,10 +24,19 @@ const newsList: Array<any> = [
     img: `src/assets/images/home/news3.jpeg`,
   },
 ];
+const newsRef = ref();
+const { y } = useElementBounding(newsRef);
+const emit = defineEmits(["scrollNews"]);
+useResizeObserver(document.body, () => {
+  emit("scrollNews", y);
+});
+document.body.addEventListener("scroll", () => {
+  emit("scrollNews", y);
+});
 </script>
 
 <template>
-  <section class="news-wrapper bg-gray-3 w-screen">
+  <section class="news-wrapper bg-gray-3 w-screen" ref="newsRef">
     <div class="news-inner px-6 md:px-12 lg:px-24">
       <div class="title-wrapper py-12">
         <div class="title-inner text-pink-2 text-5xl font-black">最新消息</div>
@@ -51,19 +62,21 @@ const newsList: Array<any> = [
               >
                 <Icon icon="octicon:dot-fill-24" class="w-12 h-12" />
               </div>
-              <div class="news-content flex pb-11 flex-col lg:flex-row">
-                <div class="news-img lg:max-w-[200px]">
-                  <img
-                    class="max-w-full rounded-tl-2xl rounded-tr-2xl lg:rounded-bl-2xl lg:rounded-br-none lg:rounded-tr-none lg:rounded-tl-2xl"
-                    :src="news.img"
-                    alt=""
-                  />
-                </div>
-                <div
-                  class="news-text lg:max-h-[200px] px-8 py-9 bg-white rounded-br-2xl rounded-bl-2xl lg:rounded-tl-none lg:rounded-bl-none lg:rounded-tr-2xl lg:rounded-br-2xl overflow-x-hidden"
-                >
-                  <div class="news-title text-2xl font-extrabold">{{ news.title }}</div>
-                  <div class="news-content text-base">{{ news.content }}</div>
+              <div class="pb-11">
+                <div class="news-content flex flex-col lg:flex-row cursor-pointer">
+                  <div class="news-img lg:max-w-[200px]">
+                    <img
+                      class="max-w-full rounded-tl-2xl rounded-tr-2xl lg:rounded-bl-2xl lg:rounded-br-none lg:rounded-tr-none lg:rounded-tl-2xl"
+                      :src="news.img"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="news-text lg:max-h-[200px] px-8 py-9 bg-white rounded-br-2xl rounded-bl-2xl lg:rounded-tl-none lg:rounded-bl-none lg:rounded-tr-2xl lg:rounded-br-2xl overflow-x-hidden"
+                  >
+                    <div class="news-title text-2xl font-extrabold">{{ news.title }}</div>
+                    <div class="news-content text-base">{{ news.content }}</div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -11,7 +11,7 @@
     "lint": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx"
   },
   "dependencies": {
-    "@vueuse/core": "^10.5.0",
+    "@vueuse/core": "^10.6.0",
     "axios": "^1.6.0",
     "echarts": "^5.4.3",
     "eslint-config-prettier": "^9.0.0",
