@@ -41,7 +41,7 @@ const emaillist = ref([
         <div
           class="flex gap-2 sm:gap-5 xl:gap-[50px] flex-wrap justify-between items-center"
         >
-          <div class="text-4xl md:text-[5.5vmin] 2xl:text-8xl text-gray-3 font-black">
+          <div class="text-4xl md:text-[5.5vmin] xl:text-[50px] 2xl:text-8xl text-gray-3 font-black">
             民眾服務信箱
           </div>
           <Button
