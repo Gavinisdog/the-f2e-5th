@@ -1,8 +1,8 @@
-<template>
+<!-- <template> -->
   <!-- 之後放 Header -->
-  <router-view />
+  <!-- <router-view /> -->
   <!-- 之後放 footer -->
-</template>
+<!-- </template>
 <script setup>
 import { onMounted } from "vue";
 import { useRoute, useRouter } from "vue-router";
@@ -13,5 +13,5 @@ onMounted(() => {
   if (route.fullPath === "/") {
     router.push("/login");
   }
-});
-</script>
+}); -->
+<!-- </script> -->

@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <router-view v-slot="{ Component }">
     <keep-alive>
       <component :is="Component" />
@@ -11,4 +11,4 @@
 // import { useRouter, useRoute } from 'vue-router'
 // const includeRouterNames = ref(['Site','Map']);
 // const router =  useRoute()
-</script>
+</script> -->

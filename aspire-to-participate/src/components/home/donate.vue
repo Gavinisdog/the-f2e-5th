@@ -14,7 +14,7 @@ import Toast from "primevue/toast";
 import { useConfirm } from "primevue/useconfirm";
 import { useToast } from "primevue/usetoast";
 
-import { ref, computed, provide } from "vue";
+import { ref, computed } from "vue";
 import { useElementBounding, useResizeObserver } from "@vueuse/core";
 
 const confirm = useConfirm();
@@ -136,7 +136,7 @@ document.body.addEventListener("scroll", () => {
             class="mtBtn flex bg-pink-1 border-gray-1 border-none flex-shrink-0 self-center hover:bg-pink-2"
             rounded
             raised
-            @click="donateHandler($event, item)"
+            @click="donateHandler()"
             label="Confirm"
             id="confirmButton"
           >
@@ -182,7 +182,7 @@ document.body.addEventListener("scroll", () => {
               },
             }"
           >
-            <template v-for="(item, idx) in donateBlock" :key="idx">
+            <div v-for="(item, idx) in donateBlock" :key="idx">
               <label
                 :for="item.title"
                 class="min-w-[252px] pb-6 flex-shrink-0 bg-white rounded-3xl text-center overflow-hidden aspect-square hover:shadow-inner hover:-translate-y-3 transition duration-300"
@@ -219,7 +219,7 @@ document.body.addEventListener("scroll", () => {
                   <div class="text-lg">人贊助</div>
                 </div>
               </label>
-            </template>
+            </div>
           </ScrollPanel>
           <div class="text-pink-2 font-black">
             <div class="text-2xl text-center md:text-left">目前小額贊助總金額：</div>

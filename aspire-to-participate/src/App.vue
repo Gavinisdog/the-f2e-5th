@@ -10,11 +10,11 @@ const countContainerHeight = computed(() => {
   const footerHeight = (footerRef.value as HTMLElement)?.clientHeight || 220;
   return `min-height: calc(100% - ${headerHeight + footerHeight}px)`;
 });
-let scrollList = ref();
-function test($event: any) {
-  scrollList = $event.value;
-}
-const el = ref();
+// let scrollList = ref();
+// function test($event: any) {
+//   scrollList = $event.value;
+// }
+// const el = ref();
 // const { y } = useScroll(el, { behavior: "smooth" });
 // const { x, y } = useWindowScroll({ behavior: "smooth" });
 // function scrollTo($event: string) {
@@ -32,7 +32,7 @@ const el = ref();
       <router-view v-slot="{ Component }">
         <transition name="fade" mode="out-in">
           <div>
-            <component :is="Component" @atScroll="test" />
+            <component :is="Component" />
           </div>
         </transition>
       </router-view>

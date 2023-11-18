@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<!-- <script lang="ts" setup>
 // import * as echarts from 'echarts';
 // import { ref, onMounted } from 'vue';
 
@@ -102,4 +102,4 @@ onBeforeUnmount(() => {
   width: 100vw;
   height: 80vh;
 }
-</style>
+</style> -->

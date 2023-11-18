@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 import { Icon } from "@iconify/vue";
 </script>
 <template>
@@ -47,4 +47,4 @@ import { Icon } from "@iconify/vue";
   text-align: center;
   flex: 1 0 50%;
 }
-</style>
+</style> -->

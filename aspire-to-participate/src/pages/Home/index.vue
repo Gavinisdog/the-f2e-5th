@@ -5,7 +5,7 @@ import News from "./News.vue";
 import donate from "@/components/home/donate.vue";
 import email from "@/components/home/email.vue";
 
-import { useElementBounding, useResizeObserver } from "@vueuse/core";
+import { useResizeObserver } from "@vueuse/core";
 import { ref } from "vue";
 
 const manifestoRef = ref<HTMLElement | null>(null);

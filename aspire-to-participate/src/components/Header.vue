@@ -3,9 +3,10 @@ import { useWindowScroll, useWindowSize } from "@vueuse/core";
 import { ref } from "vue";
 
 const { y } = useWindowScroll({ behavior: "smooth" });
-const scrollTo = ($event) => {
+const scrollTo = ($event:any) => {
   const el = document.getElementById($event);
-  y.value = el?.offsetTop - 65;
+  if (el?.offsetTop !== undefined){
+  y.value = el?.offsetTop - 65;}
 };
 const emit = defineEmits(["atHeader"]);
 const { width } = useWindowSize();
@@ -13,9 +14,9 @@ const { width } = useWindowSize();
 const visible = ref(false);
 
 const socialList: Array<any> = [
-  { label: "Facebook", command: () => scrollTo() },
-  { label: "Instagram", command: () => scrollTo() },
-  { label: "YouTube", command: () => scrollTo() },
+  { label: "Facebook", command: () => scrollTo("email") },
+  { label: "Instagram", command: () => scrollTo("email") },
+  { label: "YouTube", command: () => scrollTo("email") },
 ];
 </script>
 

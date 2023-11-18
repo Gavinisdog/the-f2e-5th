@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { useWindowScroll } from "@vueuse/core";
-import { ref, computed, provide } from "vue";
+import { ref } from "vue";
 
 const navlist = ref([
   { name: "首頁", link: "#" },
@@ -11,9 +11,11 @@ const navlist = ref([
   { name: "民眾服務", link: "#", tag: "email" },
 ]);
 const { y } = useWindowScroll({ behavior: "smooth" });
-const scrollTo = ($event) => {
+const scrollTo = ($event:any) => {
   const el = document.getElementById($event);
-  y.value = el?.offsetTop - 65;
+  if (el?.offsetTop !== undefined){
+    y.value = el?.offsetTop - 65;
+  }
 };
 </script>
 

@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import Textarea from "primevue/textarea";
 import Button from "primevue/button";
-import Tooltip from "primevue/tooltip";
 import InputText from "primevue/inputtext";
-import { ref, computed } from "vue";
+import { ref } from "vue";
 import { useElementBounding, useResizeObserver } from "@vueuse/core";
 
 const emaillist = ref([
@@ -14,6 +13,7 @@ const emaillist = ref([
 ]);
 
 const mailRef = ref();
+const value = ref("");
 const { y } = useElementBounding(mailRef);
 const emit = defineEmits(["scrollMail"]);
 useResizeObserver(document.body, () => {
