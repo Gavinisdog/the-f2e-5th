@@ -11,12 +11,16 @@ import Sidebar from "primevue/sidebar";
 
 import "@/main.scss";
 import "primevue/resources/themes/lara-light-purple/theme.css";
-
+import ConfirmationService from "primevue/confirmationservice";
+import ToastService from "primevue/toastservice";
+import DialogService from "primevue/dialogservice";
 const app = createApp(App);
 
 app.use(router);
 app.use(PrimeVue);
-
+app.use(ConfirmationService);
+app.use(ToastService);
+app.use(DialogService);
 app.component("Icon", Icon);
 app.component("Button", Button);
 app.component("ScrollTop", ScrollTop);
