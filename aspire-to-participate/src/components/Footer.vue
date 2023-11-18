@@ -1,14 +1,20 @@
 <script lang="ts" setup>
+import { useWindowScroll } from "@vueuse/core";
 import { ref, computed, provide } from "vue";
 
 const navlist = ref([
   { name: "首頁", link: "#" },
-  { name: "候選人主張", link: "#" },
-  { name: "最新活動", link: "#" },
-  { name: "政策議題", link: "#" },
-  { name: "小額捐款", link: "#" },
-  { name: "民眾服務", link: "#" },
+  { name: "候選人主張", link: "#", tag: "manifesto" },
+  { name: "最新活動", link: "#", tag: "news" },
+  { name: "政策議題", link: "#", tag: "issue" },
+  { name: "小額捐款", link: "#", tag: "donate" },
+  { name: "民眾服務", link: "#", tag: "email" },
 ]);
+const { y } = useWindowScroll({ behavior: "smooth" });
+const scrollTo = ($event) => {
+  const el = document.getElementById($event);
+  y.value = el?.offsetTop - 65;
+};
 </script>
 
 <template>
@@ -33,16 +39,22 @@ const navlist = ref([
       <div class="text-gray-3 text-[15px] flex flex-row flex-wrap">
         <div class="min-w-[118px] flex flex-col tac">
           <template v-for="(item, idx) in navlist" :key="idx">
-            <a v-if="idx <= 2" :href="item.url" class="px-2 py-2 cursor-pointer">{{
-              item.name
-            }}</a>
+            <a
+              v-if="idx <= 2"
+              class="px-2 py-2 cursor-pointer"
+              @click="scrollTo(item.tag)"
+              >{{ item.name }}</a
+            >
           </template>
         </div>
         <div class="min-w-[118px] flex flex-col tac">
           <template v-for="(item, idx) in navlist" :key="idx">
-            <a v-if="idx > 2" :href="item.url" class="px-2 py-2 cursor-pointer">{{
-              item.name
-            }}</a>
+            <a
+              v-if="idx > 2"
+              class="px-2 py-2 cursor-pointer"
+              @click="scrollTo(item.tag)"
+              >{{ item.name }}</a
+            >
           </template>
         </div>
       </div>

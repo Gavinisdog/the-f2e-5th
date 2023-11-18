@@ -44,9 +44,9 @@ function atMail($event: any) {
 <template>
   <div class="">
     <Banner />
-    <Manifesto ref="manifestoRef" @scrollManifesto="atManifesto" />
-    <News ref="newsRef" @scrollNews="atNews" />
-    <donate ref="donateRef" @scrollDonate="atDonate" />
-    <email ref="emailRef" @scrollMail="atMail" />
+    <Manifesto id="manifesto" ref="manifestoRef" @scrollManifesto="atManifesto" />
+    <News id="news" ref="newsRef" @scrollNews="atNews" />
+    <donate id="donate" ref="donateRef" @scrollDonate="atDonate" />
+    <email id="email" ref="emailRef" @scrollMail="atMail" />
   </div>
 </template>

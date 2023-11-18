@@ -2,7 +2,7 @@
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import { computed, ref } from "vue";
-import { useScroll, useWindowScroll } from "@vueuse/core";
+// import {  useWindowScroll } from "@vueuse/core";
 const headerRef = ref();
 const footerRef = ref();
 const countContainerHeight = computed(() => {
@@ -16,17 +16,17 @@ function test($event: any) {
 }
 const el = ref();
 // const { y } = useScroll(el, { behavior: "smooth" });
-const { x, y } = useWindowScroll({ behavior: "smooth" });
-function scrollTo($event: string) {
-  // window.scrollTo({top: scrollList[$event], behavior: 'smooth'});
-  console.log(scrollList);
-  y.value = scrollList[$event];
-}
+// const { x, y } = useWindowScroll({ behavior: "smooth" });
+// function scrollTo($event: string) {
+//   // window.scrollTo({top: scrollList[$event], behavior: 'smooth'});
+//   console.log(scrollList);
+//   y.value = scrollList[$event];
+// }
 </script>
 <template>
   <div class="root" ref="el">
     <div ref="headerRef" class="root-header">
-      <Header @atHeader="scrollTo" />
+      <Header />
     </div>
     <div class="" :style="countContainerHeight">
       <router-view v-slot="{ Component }">
