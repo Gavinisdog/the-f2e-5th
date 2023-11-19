@@ -5,7 +5,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "the-f2e-5th",
+  base: "/the-f2e-5th/",
   plugins: [
     vue(),
     createHtmlPlugin({

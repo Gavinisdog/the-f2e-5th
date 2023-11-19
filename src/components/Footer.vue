@@ -11,9 +11,9 @@ const navlist = ref([
   { name: "民眾服務", link: "#", tag: "email" },
 ]);
 const { y } = useWindowScroll({ behavior: "smooth" });
-const scrollTo = ($event:any) => {
+const scrollTo = ($event: any) => {
   const el = document.getElementById($event);
-  if (el?.offsetTop !== undefined){
+  if (el?.offsetTop !== undefined) {
     y.value = el?.offsetTop - 65;
   }
 };

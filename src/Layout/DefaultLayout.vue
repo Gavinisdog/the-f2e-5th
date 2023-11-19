@@ -1,7 +1,7 @@
 <!-- <template> -->
-  <!-- 之後放 Header -->
-  <!-- <router-view /> -->
-  <!-- 之後放 footer -->
+<!-- 之後放 Header -->
+<!-- <router-view /> -->
+<!-- 之後放 footer -->
 <!-- </template>
 <script setup>
 import { onMounted } from "vue";

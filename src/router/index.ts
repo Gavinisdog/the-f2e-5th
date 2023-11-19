@@ -25,7 +25,7 @@ const routes: RouteRecordRaw[] = [
 
 // RouterOptions
 const options: RouterOptions = {
-  history: createWebHashHistory(),
+  history: createWebHashHistory("/the-f2e-5th/"),
   routes,
 };
 

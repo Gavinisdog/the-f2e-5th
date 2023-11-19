@@ -43,16 +43,18 @@ document.body.addEventListener("scroll", () => {
       </div>
       <div class="news-container pb-20">
         <div class="all-news pl-3 md:pl-12 overflow-x-hidden h-[360px]">
-          <div v-for="(news, index) in newsList" :key="index">
+          <div>
             <div class="single-inner flex">
               <div class="news-date text-white font-extrabold">
                 <div class="flex flex-col items-end md:mr-10">
                   <span class="date-date text-4xl md:text-7xl md:w-24">
-                    {{ news.date.getDate() }}
+                    {{ newsList[0].date.getDate() }}
                   </span>
                   <span class="date-month text-xl md:text-3xl">
                     {{
-                      news.date.toLocaleString("eng", { month: "short" }).toUpperCase()
+                      newsList[0].date
+                        .toLocaleString("eng", { month: "short" })
+                        .toUpperCase()
                     }}
                   </span>
                 </div>
@@ -67,15 +69,101 @@ document.body.addEventListener("scroll", () => {
                   <div class="news-img lg:max-w-[200px]">
                     <img
                       class="max-w-full rounded-tl-2xl rounded-tr-2xl lg:rounded-bl-2xl lg:rounded-br-none lg:rounded-tr-none lg:rounded-tl-2xl"
-                      :src="news.img"
+                      src="@/assets/images/home/news1.jpeg"
                       alt=""
                     />
                   </div>
                   <div
                     class="news-text lg:max-h-[200px] px-8 py-9 bg-white rounded-br-2xl rounded-bl-2xl lg:rounded-tl-none lg:rounded-bl-none lg:rounded-tr-2xl lg:rounded-br-2xl overflow-x-hidden"
                   >
-                    <div class="news-title text-2xl font-extrabold">{{ news.title }}</div>
-                    <div class="news-content text-base">{{ news.content }}</div>
+                    <div class="news-title text-2xl font-extrabold">
+                      {{ newsList[0].title }}
+                    </div>
+                    <div class="news-content text-base">{{ newsList[0].content }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="single-inner flex">
+              <div class="news-date text-white font-extrabold">
+                <div class="flex flex-col items-end md:mr-10">
+                  <span class="date-date text-4xl md:text-7xl md:w-24">
+                    {{ newsList[1].date.getDate() }}
+                  </span>
+                  <span class="date-month text-xl md:text-3xl">
+                    {{
+                      newsList[1].date
+                        .toLocaleString("eng", { month: "short" })
+                        .toUpperCase()
+                    }}
+                  </span>
+                </div>
+              </div>
+              <div
+                class="news-timeline text-pink-2 flex items-center relative md:ml-3.5 md:mr-14"
+              >
+                <Icon icon="octicon:dot-fill-24" class="w-12 h-12" />
+              </div>
+              <div class="pb-11">
+                <div class="news-content flex flex-col lg:flex-row cursor-pointer">
+                  <div class="news-img lg:max-w-[200px]">
+                    <img
+                      class="max-w-full rounded-tl-2xl rounded-tr-2xl lg:rounded-bl-2xl lg:rounded-br-none lg:rounded-tr-none lg:rounded-tl-2xl"
+                      src="@/assets/images/home/news2.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="news-text lg:max-h-[200px] px-8 py-9 bg-white rounded-br-2xl rounded-bl-2xl lg:rounded-tl-none lg:rounded-bl-none lg:rounded-tr-2xl lg:rounded-br-2xl overflow-x-hidden"
+                  >
+                    <div class="news-title text-2xl font-extrabold">
+                      {{ newsList[1].title }}
+                    </div>
+                    <div class="news-content text-base">{{ newsList[1].content }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="single-inner flex">
+              <div class="news-date text-white font-extrabold">
+                <div class="flex flex-col items-end md:mr-10">
+                  <span class="date-date text-4xl md:text-7xl md:w-24">
+                    {{ newsList[2].date.getDate() }}
+                  </span>
+                  <span class="date-month text-xl md:text-3xl">
+                    {{
+                      newsList[2].date
+                        .toLocaleString("eng", { month: "short" })
+                        .toUpperCase()
+                    }}
+                  </span>
+                </div>
+              </div>
+              <div
+                class="news-timeline text-pink-2 flex items-center relative md:ml-3.5 md:mr-14"
+              >
+                <Icon icon="octicon:dot-fill-24" class="w-12 h-12" />
+              </div>
+              <div class="pb-11">
+                <div class="news-content flex flex-col lg:flex-row cursor-pointer">
+                  <div class="news-img lg:max-w-[200px]">
+                    <img
+                      class="max-w-full rounded-tl-2xl rounded-tr-2xl lg:rounded-bl-2xl lg:rounded-br-none lg:rounded-tr-none lg:rounded-tl-2xl"
+                      src="@/assets/images/home/news3.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="news-text lg:max-h-[200px] px-8 py-9 bg-white rounded-br-2xl rounded-bl-2xl lg:rounded-tl-none lg:rounded-bl-none lg:rounded-tr-2xl lg:rounded-br-2xl overflow-x-hidden"
+                  >
+                    <div class="news-title text-2xl font-extrabold">
+                      {{ newsList[2].title }}
+                    </div>
+                    <div class="news-content text-base">{{ newsList[2].content }}</div>
                   </div>
                 </div>
               </div>
