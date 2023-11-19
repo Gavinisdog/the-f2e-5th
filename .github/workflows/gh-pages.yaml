@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: 18.16.0
           cache: 'npm'
-          cache-dependency-path: the-f2e-5th/package-lock.json
+          cache-dependency-path: /package-lock.json
       - name: Install dependencies
         run: npm install
       - name: Build
