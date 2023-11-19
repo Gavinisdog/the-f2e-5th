@@ -2,8 +2,8 @@
 import Banner from "./Banner.vue";
 import Manifesto from "./Manifesto.vue";
 import News from "./News.vue";
-import donate from "@/components/home/donate.vue";
-import email from "@/components/home/email.vue";
+import Donate from "@/components/home/Donate.vue";
+import Email from "@/components/home/Email.vue";
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import email from "@/components/home/email.vue";
     <Banner />
     <Manifesto />
     <News />
-    <donate />
-    <email />
+    <Donate />
+    <Email />
   </div>
 </template>
