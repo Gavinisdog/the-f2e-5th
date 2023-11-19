@@ -15,7 +15,7 @@ import { useConfirm } from "primevue/useconfirm";
 import { useToast } from "primevue/usetoast";
 
 import { ref, computed, provide, watch } from "vue";
-import gsap from 'gsap'
+import gsap from "gsap";
 import AnimationToValue from "@/components/home/AnimationToValue.vue";
 
 const confirm = useConfirm();
@@ -91,7 +91,7 @@ const donateHandler = async () => {
   });
 };
 
-const a = ref(0)
+const a = ref(0);
 </script>
 
 <template>
@@ -100,7 +100,7 @@ const a = ref(0)
   <div class="title-wrapper py-12 px-6 md:px-12 lg:px-24 bg-gray-3">
     <div class="title-inner text-pink-2 text-5xl font-black">小額捐款</div>
   </div>
-  <div class="donateBlock bg-gray-3 pt-10 md:px-5 pb-[140px] pt-0 overflow-hidden">
+  <div class="donateBlock bg-gray-3 md:px-5 pb-[140px] pt-0 overflow-hidden">
     <div
       class="flex flex-col px-5 md:flex-row gap-6 md:gap-[50px] items-end flex-nowrap md:flex-wrap justify-center"
     >
@@ -193,7 +193,12 @@ const a = ref(0)
                 class="p-6 bg-pink-2 text-2xl font-black text-white flex flex-row justify-center items-center gap-1"
               >
                 {{ item.title }}
-                <Checkbox class="hidden" :inputId="item.title" v-model="item.isChecked" :binary="true" />
+                <Checkbox
+                  class="hidden"
+                  :inputId="item.title"
+                  v-model="item.isChecked"
+                  :binary="true"
+                />
               </div>
               <div class="px-6 py-3 text-center text-pink-2">
                 <div class="text-base">
@@ -249,7 +254,7 @@ const a = ref(0)
     left: 50%;
     transform: translateX(-50%);
     display: inline-block;
-    width:max(calc(155% - 30vh), 150px);
+    width: max(calc(155% - 30vh), 150px);
     // max-width: 700px;
     font-size: 4.25vmin;
     text-align: center;
