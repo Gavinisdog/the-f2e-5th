@@ -4,7 +4,7 @@ import Manifesto from "./Manifesto.vue";
 import News from "./News.vue";
 import Issues from "@/components/home/Issues.vue";
 
-import { useElementBounding, useResizeObserver } from "@vueuse/core";
+import { useResizeObserver } from "@vueuse/core";
 import { ref } from "vue";
 
 const manifestoRef = ref<HTMLElement | null>(null);
@@ -47,6 +47,7 @@ import Email from "@/components/home/email.vue";
     <Banner />
     <Manifesto id="manifesto" ref="manifestoRef" @scrollManifesto="atManifesto" />
     <News id="news" ref="newsRef" @scrollNews="atNews" />
+    <Issues id="issues" ref="issuesRef" />
     <Donate id="donate" ref="donateRef" @scrollDonate="atDonate" />
     <Email id="email" ref="emailRef" @scrollMail="atMail" />
   </div>

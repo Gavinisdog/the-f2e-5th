@@ -46,12 +46,6 @@ watch(donateBlock, (newDonateBlock, oldDonateBlock) => {
   });
 });
 
-const totalPrice = computed(() => {
-  const price = donateBlock.value.reduce((acc, curr) => {
-    return acc + curr.price * curr.conunt;
-  }, 0);
-  return price;
-});
 const donateHandler = async () => {
   const checkedItems = donateBlock.value.filter((item) => item.isChecked);
   if (checkedItems.length === 0) return alert("請選擇捐獻方案");

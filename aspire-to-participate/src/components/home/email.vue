@@ -2,7 +2,7 @@
 import Textarea from "primevue/textarea";
 import Button from "primevue/button";
 import InputText from "primevue/inputtext";
-import { ref, computed } from "vue";
+import { ref } from "vue";
 import { useElementBounding, useResizeObserver } from "@vueuse/core";
 
 const emaillist = ref([

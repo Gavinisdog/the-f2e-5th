@@ -1,11 +1,15 @@
+// @ts-nocheck
 <script lang="ts" setup>
 import { useWindowScroll, useWindowSize } from "@vueuse/core";
 import { ref } from "vue";
 
-const { y } = useWindowScroll({ behavior: "smooth" });
-const scrollTo = ($event) => {
+const behavior: any = { behavior: "smooth" };
+const { y } = useWindowScroll(behavior);
+const scrollTo = ($event: any) => {
   const el = document.getElementById($event);
-  y.value = el?.offsetTop - 65;
+  if (el) {
+    y.value = el?.offsetTop - 65;
+  }
 };
 const emit = defineEmits(["atHeader"]);
 const { width } = useWindowSize();
@@ -13,9 +17,9 @@ const { width } = useWindowSize();
 const visible = ref(false);
 
 const socialList: Array<any> = [
-  { label: "Facebook", command: () => scrollTo() },
-  { label: "Instagram", command: () => scrollTo() },
-  { label: "YouTube", command: () => scrollTo() },
+  { label: "Facebook", command: () => scrollTo("email") },
+  { label: "Instagram", command: () => scrollTo("email") },
+  { label: "YouTube", command: () => scrollTo("email") },
 ];
 </script>
 
@@ -50,7 +54,7 @@ const socialList: Array<any> = [
             <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
               <a
                 class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
-                @click="scrollTo('issue')"
+                @click="scrollTo('issues')"
               >
                 政策議題</a
               >
