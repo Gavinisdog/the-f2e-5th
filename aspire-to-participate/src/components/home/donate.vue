@@ -16,6 +16,7 @@ import { useToast } from "primevue/usetoast";
 
 import { ref, computed, watch } from "vue";
 import AnimationToValue from "@/components/home/AnimationToValue.vue";
+import { useElementBounding, useResizeObserver } from "@vueuse/core";
 
 const confirm = useConfirm();
 const toast = useToast();
@@ -45,12 +46,6 @@ watch(donateBlock, (newDonateBlock, oldDonateBlock) => {
   });
 });
 
-const totalPrice = computed(() => {
-  const price = donateBlock.value.reduce((acc, curr) => {
-    return acc + curr.price * curr.conunt;
-  }, 0);
-  return price;
-});
 const donateHandler = async () => {
   const checkedItems = donateBlock.value.filter((item) => item.isChecked);
   if (checkedItems.length === 0) return alert("請選擇捐獻方案");
@@ -89,16 +84,30 @@ const donateHandler = async () => {
     },
   });
 };
+
+const totalPrice = computed(() => {
+  const price = donateBlock.value.reduce((acc, curr) => {
+    return acc + curr.price * curr.conunt;
+  }, 0);
+  return price.toLocaleString();
+});
+
+const donateRef = ref();
+const { y } = useElementBounding(donateRef);
+const emit = defineEmits(["scrollDonate"]);
+useResizeObserver(document.body, () => {
+  emit("scrollDonate", y);
+});
+document.body.addEventListener("scroll", () => {
+  emit("scrollDonate", y);
+});
 </script>
 
 <template>
-  <div>
+  <div ref="donateRef">
     <Toast />
     <ConfirmDialog id="confirm" aria-label="popup"></ConfirmDialog>
-    <div class="title-wrapper py-12 px-6 md:px-12 lg:px-24 bg-gray-3">
-      <div class="title-inner text-pink-2 text-5xl font-black">小額捐款</div>
-    </div>
-    <div class="donateBlock bg-gray-3 md:px-5 pb-[140px] pt-0 overflow-hidden">
+    <div class="donateBlock bg-gray-3 pt-10 md:px-5 pb-[140px] py-20 overflow-hidden">
       <div
         class="flex flex-col px-5 md:flex-row gap-6 md:gap-[50px] items-end flex-nowrap md:flex-wrap justify-center"
       >

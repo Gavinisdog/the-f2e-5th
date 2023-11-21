@@ -3,6 +3,7 @@ import Textarea from "primevue/textarea";
 import Button from "primevue/button";
 import InputText from "primevue/inputtext";
 import { ref } from "vue";
+import { useElementBounding, useResizeObserver } from "@vueuse/core";
 
 const emaillist = ref([
   { labelName: "name", name: "您的名字", value: "" },
@@ -10,9 +11,19 @@ const emaillist = ref([
   { labelName: "phone", name: "您的手機", value: "" },
   { labelName: "message", name: "您的建言", value: "" },
 ]);
+
+const mailRef = ref();
+const { y } = useElementBounding(mailRef);
+const emit = defineEmits(["scrollMail"]);
+useResizeObserver(document.body, () => {
+  emit("scrollMail", y);
+});
+document.body.addEventListener("scroll", () => {
+  emit("scrollMail", y);
+});
 </script>
 <template>
-  <div class="mailblock bg-pink-2">
+  <div class="mailblock bg-pink-2" ref="mailRef">
     <div
       class="min-h-[30vh] justify-center flex flex-col lg:flex-row px-12 md:px-24 py-10 md:py-20 gap-[50px] max-w-[1420px] mx-auto"
     >

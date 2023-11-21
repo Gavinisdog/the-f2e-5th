@@ -1,7 +1,19 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { useElementBounding, useResizeObserver } from "@vueuse/core";
+import { ref } from "vue";
+const manifestoRef = ref();
+const { y } = useElementBounding(manifestoRef);
+const emit = defineEmits(["scrollManifesto"]);
+useResizeObserver(document.body, () => {
+  emit("scrollManifesto", y);
+});
+document.body.addEventListener("scroll", () => {
+  emit("scrollManifesto", y);
+});
+</script>
 
 <template>
-  <section class="w-screen">
+  <section class="w-screen" ref="manifestoRef">
     <div
       class="bg-pink-1 text-white py-1.5 text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl tracking-widest font-black overflow-hidden"
     >

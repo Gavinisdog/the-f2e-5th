@@ -1,14 +1,25 @@
+// @ts-nocheck
 <script lang="ts" setup>
+import { useWindowScroll } from "@vueuse/core";
 import { ref } from "vue";
 
 const navlist = ref([
   { name: "首頁", link: "#" },
-  { name: "候選人主張", link: "#" },
-  { name: "最新活動", link: "#" },
-  { name: "政策議題", link: "#" },
-  { name: "小額捐款", link: "#" },
-  { name: "民眾服務", link: "#" },
+  { name: "候選人主張", link: "#", tag: "manifesto" },
+  { name: "最新活動", link: "#", tag: "news" },
+  { name: "政策議題", link: "#", tag: "issues" },
+  { name: "小額捐款", link: "#", tag: "donate" },
+  { name: "民眾服務", link: "#", tag: "email" },
 ]);
+const behavior: any = { behavior: "smooth" };
+
+const { y } = useWindowScroll(behavior);
+const scrollTo = ($event: any) => {
+  const el = document.getElementById($event);
+  if (el) {
+    y.value = el?.offsetTop - 65;
+  }
+};
 </script>
 
 <template>
@@ -33,16 +44,23 @@ const navlist = ref([
       <div class="text-gray-3 text-[15px] flex flex-row flex-wrap">
         <div class="min-w-[118px] flex flex-col tac">
           <div v-for="(item, idx) in navlist" :key="idx">
-            <a v-if="idx <= 2" :href="item.link" class="px-2 py-2 cursor-pointer">{{
-              item.name
-            }}</a>
+            <a
+              v-if="idx <= 2"
+              :href="item.link"
+              class="px-2 py-2 cursor-pointer"
+              @click="scrollTo(item.tag)"
+              >{{ item.name }}</a
+            >
           </div>
         </div>
         <div class="min-w-[118px] flex flex-col tac">
           <div v-for="(item, idx) in navlist" :key="idx">
-            <a v-if="idx > 2" :href="item.link" class="px-2 py-2 cursor-pointer">{{
-              item.name
-            }}</a>
+            <a
+              v-if="idx > 2"
+              @click="scrollTo(item.tag)"
+              class="px-2 py-2 cursor-pointer"
+              >{{ item.name }}</a
+            >
           </div>
         </div>
       </div>
