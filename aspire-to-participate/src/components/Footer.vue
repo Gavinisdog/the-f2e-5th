@@ -38,24 +38,18 @@ const scrollTo = ($event) => {
     <div class="candidateInfo navlist ml-auto text-[15px] flex flex-col flex-wrap">
       <div class="text-gray-3 text-[15px] flex flex-row flex-wrap">
         <div class="min-w-[118px] flex flex-col tac">
-          <template v-for="(item, idx) in navlist" :key="idx">
-            <a
-              v-if="idx <= 2"
-              class="px-2 py-2 cursor-pointer"
-              @click="scrollTo(item.tag)"
-              >{{ item.name }}</a
-            >
-          </template>
+          <div v-for="(item, idx) in navlist" :key="idx">
+            <a v-if="idx <= 2" :href="item.link" class="px-2 py-2 cursor-pointer">{{
+              item.name
+            }}</a>
+          </div>
         </div>
         <div class="min-w-[118px] flex flex-col tac">
-          <template v-for="(item, idx) in navlist" :key="idx">
-            <a
-              v-if="idx > 2"
-              class="px-2 py-2 cursor-pointer"
-              @click="scrollTo(item.tag)"
-              >{{ item.name }}</a
-            >
-          </template>
+          <div v-for="(item, idx) in navlist" :key="idx">
+            <a v-if="idx > 2" :href="item.link" class="px-2 py-2 cursor-pointer">{{
+              item.name
+            }}</a>
+          </div>
         </div>
       </div>
       <div class="text-pink-2 mt-4 text-[10px] ml-6">

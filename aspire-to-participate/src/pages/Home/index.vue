@@ -2,8 +2,7 @@
 import Banner from "./Banner.vue";
 import Manifesto from "./Manifesto.vue";
 import News from "./News.vue";
-import donate from "@/components/home/donate.vue";
-import email from "@/components/home/email.vue";
+import Issues from "@/components/home/Issues.vue";
 
 import { useElementBounding, useResizeObserver } from "@vueuse/core";
 import { ref } from "vue";
@@ -39,6 +38,8 @@ function atDonate($event: any) {
 function atMail($event: any) {
   scrollList.value.email = $event.value;
 }
+import Donate from "@/components/home/donate.vue";
+import Email from "@/components/home/email.vue";
 </script>
 
 <template>
@@ -46,7 +47,7 @@ function atMail($event: any) {
     <Banner />
     <Manifesto id="manifesto" ref="manifestoRef" @scrollManifesto="atManifesto" />
     <News id="news" ref="newsRef" @scrollNews="atNews" />
-    <donate id="donate" ref="donateRef" @scrollDonate="atDonate" />
-    <email id="email" ref="emailRef" @scrollMail="atMail" />
+    <Donate id="donate" ref="donateRef" @scrollDonate="atDonate" />
+    <Email id="email" ref="emailRef" @scrollMail="atMail" />
   </div>
 </template>

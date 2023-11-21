@@ -14,7 +14,8 @@ import Toast from "primevue/toast";
 import { useConfirm } from "primevue/useconfirm";
 import { useToast } from "primevue/usetoast";
 
-import { ref, computed, provide } from "vue";
+import { ref, computed, watch } from "vue";
+import AnimationToValue from "@/components/home/AnimationToValue.vue";
 import { useElementBounding, useResizeObserver } from "@vueuse/core";
 
 const confirm = useConfirm();
@@ -34,6 +35,22 @@ const choosenDonate = computed(() => {
     .reduce((acc, curr) => {
       return acc + curr.title + ", ";
     }, "");
+});
+
+watch(donateBlock, (newDonateBlock, oldDonateBlock) => {
+  newDonateBlock.forEach((newItem, index) => {
+    const oldItem = oldDonateBlock[index];
+    if (newItem.isDonate !== oldItem.isDonate) {
+      choosenDonate.value;
+    }
+  });
+});
+
+const totalPrice = computed(() => {
+  const price = donateBlock.value.reduce((acc, curr) => {
+    return acc + curr.price * curr.conunt;
+  }, 0);
+  return price;
 });
 const donateHandler = async () => {
   const checkedItems = donateBlock.value.filter((item) => item.isChecked);
@@ -101,7 +118,7 @@ document.body.addEventListener("scroll", () => {
         class="flex flex-col px-5 md:flex-row gap-6 md:gap-[50px] items-end flex-nowrap md:flex-wrap justify-center"
       >
         <div class="flex flex-col gap-5 md:gap-[45px] mx-auto md:mx-[unset]">
-          <div class="text-4xl md:text-[50px] text-pink-2 font-black">小額捐款</div>
+          <!-- <div class="text-4xl md:text-[50px] text-pink-2 font-black"></div> -->
           <div class="relative">
             <div
               class="px-5 font-black rounded-sm py-2.5 text-[50px] bg-pink-2 text-white absolute z-50 -top-[20%] -right-[20%] ab-title1 transition-all duration-500"
@@ -136,7 +153,7 @@ document.body.addEventListener("scroll", () => {
             class="mtBtn flex bg-pink-1 border-gray-1 border-none flex-shrink-0 self-center hover:bg-pink-2"
             rounded
             raised
-            @click="donateHandler($event, item)"
+            @click="donateHandler()"
             label="Confirm"
             id="confirmButton"
           >
@@ -182,7 +199,7 @@ document.body.addEventListener("scroll", () => {
               },
             }"
           >
-            <template v-for="(item, idx) in donateBlock" :key="idx">
+            <div v-for="(item, idx) in donateBlock" :key="idx">
               <label
                 :for="item.title"
                 class="min-w-[252px] pb-6 flex-shrink-0 bg-white rounded-3xl text-center overflow-hidden aspect-square hover:shadow-inner hover:-translate-y-3 transition duration-300"
@@ -192,6 +209,7 @@ document.body.addEventListener("scroll", () => {
                 >
                   {{ item.title }}
                   <Checkbox
+                    class="hidden"
                     :inputId="item.title"
                     v-model="item.isChecked"
                     :binary="true"
@@ -206,7 +224,7 @@ document.body.addEventListener("scroll", () => {
                   <div
                     class="text-transparent text-stroke text-[50px] md:text-[70px] font-black -my-1.5 flex flex-row items-center justify-center gap-2 relative"
                   >
-                    <span>{{ item.conunt }}</span>
+                    <AnimationToValue :value="item.conunt" />
                     <Icon
                       v-if="item.isDonate"
                       icon="line-md:confirm-circle"
@@ -219,12 +237,12 @@ document.body.addEventListener("scroll", () => {
                   <div class="text-lg">人贊助</div>
                 </div>
               </label>
-            </template>
+            </div>
           </ScrollPanel>
           <div class="text-pink-2 font-black">
             <div class="text-2xl text-center md:text-left">目前小額贊助總金額：</div>
             <div class="text-center md:text-left text-[40px] md:text-[70px]">
-              {{ totalPrice }} 元
+              <AnimationToValue :value="totalPrice" /> 元
             </div>
           </div>
         </div>
@@ -242,7 +260,7 @@ document.body.addEventListener("scroll", () => {
     right: unset;
     left: 0px;
     top: 0%;
-    font-size: 3.5vmin;
+    font-size: 3.85vmin;
     text-align: center;
   }
   .ab-title2 {
@@ -252,13 +270,13 @@ document.body.addEventListener("scroll", () => {
     left: 50%;
     transform: translateX(-50%);
     display: inline-block;
-    width: calc(155% - 25vh);
+    width: max(calc(155% - 30vh), 150px);
     // max-width: 700px;
     font-size: 4.25vmin;
     text-align: center;
   }
   .mtBtn {
-    margin-top: 7.25vmin;
+    // margin-top: 5vmin;
   }
 }
 @media screen and (max-width: 385px) {
@@ -266,7 +284,7 @@ document.body.addEventListener("scroll", () => {
     display: none;
   }
   .mtBtn {
-    margin-top: 0px;
+    // margin-top: 0px;
   }
 }
 </style>
