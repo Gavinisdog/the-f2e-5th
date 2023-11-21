@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ref, computed, provide } from "vue";
+import { ref } from "vue";
 
 const navlist = ref([
   { name: "首頁", link: "#" },
@@ -32,18 +32,18 @@ const navlist = ref([
     <div class="candidateInfo navlist ml-auto text-[15px] flex flex-col flex-wrap">
       <div class="text-gray-3 text-[15px] flex flex-row flex-wrap">
         <div class="min-w-[118px] flex flex-col tac">
-          <template v-for="(item, idx) in navlist" :key="idx">
-            <a v-if="idx <= 2" :href="item.url" class="px-2 py-2 cursor-pointer">{{
+          <div v-for="(item, idx) in navlist" :key="idx">
+            <a v-if="idx <= 2" :href="item.link" class="px-2 py-2 cursor-pointer">{{
               item.name
             }}</a>
-          </template>
+          </div>
         </div>
         <div class="min-w-[118px] flex flex-col tac">
-          <template v-for="(item, idx) in navlist" :key="idx">
-            <a v-if="idx > 2" :href="item.url" class="px-2 py-2 cursor-pointer">{{
+          <div v-for="(item, idx) in navlist" :key="idx">
+            <a v-if="idx > 2" :href="item.link" class="px-2 py-2 cursor-pointer">{{
               item.name
             }}</a>
-          </template>
+          </div>
         </div>
       </div>
       <div class="text-pink-2 mt-4 text-[10px] ml-6">

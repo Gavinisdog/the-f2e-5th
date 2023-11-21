@@ -1,6 +1,4 @@
-<script>
-import { Icon } from "@iconify/vue";
-</script>
+<script lang="ts"></script>
 <template>
   <div class="header-navlist w-full">
     <router-link

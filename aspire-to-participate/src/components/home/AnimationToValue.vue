@@ -2,7 +2,7 @@
   <span>{{ parseInt(d.toFixed(0)).toLocaleString() }}</span>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import gsap from "gsap";
 import { ref, watch, onMounted, defineProps } from "vue";
 

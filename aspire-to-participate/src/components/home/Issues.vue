@@ -70,7 +70,6 @@ import image01 from "@/assets/images/home/issue01.png";
 import image02 from "@/assets/images/home/issue02.png";
 import image03 from "@/assets/images/home/issue03.png";
 // 載入圖片功能
-import Image from "primevue/image";
 
 const issuelist = ref([
   {

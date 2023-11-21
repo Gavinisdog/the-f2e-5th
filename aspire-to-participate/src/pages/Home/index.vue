@@ -3,8 +3,8 @@ import Banner from "./Banner.vue";
 import Manifesto from "./Manifesto.vue";
 import News from "./News.vue";
 import Issues from "@/components/home/Issues.vue";
-import Donate from "@/components/home/Donate.vue";
-import Email from "@/components/home/Email.vue";
+import Donate from "@/components/home/donate.vue";
+import Email from "@/components/home/email.vue";
 </script>
 
 <template>

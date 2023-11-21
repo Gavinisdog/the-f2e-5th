@@ -3,7 +3,7 @@
   <router-view />
   <!-- 之後放 footer -->
 </template>
-<script setup>
+<script setup lang="ts">
 import { onMounted } from "vue";
 import { useRoute, useRouter } from "vue-router";
 

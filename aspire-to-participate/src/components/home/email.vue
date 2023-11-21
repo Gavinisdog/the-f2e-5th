@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import Textarea from "primevue/textarea";
 import Button from "primevue/button";
-import Tooltip from "primevue/tooltip";
 import InputText from "primevue/inputtext";
-import { ref, computed } from "vue";
+import { ref } from "vue";
 
 const emaillist = ref([
   { labelName: "name", name: "您的名字", value: "" },
@@ -69,7 +68,7 @@ const emaillist = ref([
           </Button>
         </div>
         <div class="flex flex-col gap-8">
-          <template v-for="input in emaillist" :key="input.labelName">
+          <div v-for="input in emaillist" :key="input.labelName">
             <span class="p-float-label">
               <InputText
                 v-if="input.labelName !== 'message'"
@@ -81,7 +80,7 @@ const emaillist = ref([
               />
               <Textarea
                 v-else
-                v-model="value"
+                v-model="input.value"
                 autoResize
                 rows="1"
                 cols="30"
@@ -92,7 +91,7 @@ const emaillist = ref([
                 input.name
               }}</label>
             </span>
-          </template>
+          </div>
         </div>
       </form>
     </div>

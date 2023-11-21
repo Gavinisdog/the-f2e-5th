@@ -41,7 +41,7 @@ import { ref, onMounted, onBeforeUnmount } from "vue";
 import * as echarts from "echarts";
 
 const chart = ref(null);
-let chartInstance = null;
+let chartInstance: any = null;
 
 const renderChart = () => {
   chartInstance = echarts.init(chart.value);
@@ -92,7 +92,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  map pluin:
+  <!-- map pluin: -->
 
   <!-- <div class="chartRef" ref="chartRef"></div> -->
   <div class="chartRef" ref="chart"></div>
