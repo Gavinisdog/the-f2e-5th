@@ -1,0 +1,2703 @@
+[
+  {
+    "http": "https://db.cec.gov.tw/static/elections/data/statistics/ticket_percents/ELC/P0/00/D/63_000_00_000_0000.json",
+    "area_code_str": "63_000_00_010_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "松山區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 5436,
+        "ticket_percent": 4.3294
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "松山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 55918,
+        "ticket_percent": 44.5345
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "松山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 64207,
+        "ticket_percent": 51.1361
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "松山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 45353,
+        "ticket_percent": 40.539
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "松山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 54812,
+        "ticket_percent": 48.994
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "松山區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 11710,
+        "ticket_percent": 10.467
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "松山區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 3191,
+        "ticket_percent": 2.5415
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "松山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 46270,
+        "ticket_percent": 36.8515
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "松山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 76097,
+        "ticket_percent": 60.6071
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "松山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 43797,
+        "ticket_percent": 34.537
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "松山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 83015,
+        "ticket_percent": 65.463
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "松山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 50791,
+        "ticket_percent": 41.3284
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "松山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 72105,
+        "ticket_percent": 58.6716
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "松山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 44680,
+        "ticket_percent": 36.3462
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "松山區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 51444,
+        "ticket_percent": 41.8485
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "松山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 25950,
+        "ticket_percent": 21.1097
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "松山區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 151,
+        "ticket_percent": 0.1228
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "松山區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 704,
+        "ticket_percent": 0.5727
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "松山區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 31374,
+        "ticket_percent": 28.6743
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "松山區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 13532,
+        "ticket_percent": 12.3676
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "松山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 38135,
+        "ticket_percent": 34.8535
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "松山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 26374,
+        "ticket_percent": 24.1046
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_020_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "信義區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 5878,
+        "ticket_percent": 4.2436
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "信義區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 62353,
+        "ticket_percent": 45.015
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "信義區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 70285,
+        "ticket_percent": 50.7414
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "信義區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 50633,
+        "ticket_percent": 40.5067
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "信義區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 60817,
+        "ticket_percent": 48.654
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "信義區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 13549,
+        "ticket_percent": 10.8393
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "信義區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 50792,
+        "ticket_percent": 36.3358
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "信義區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 85314,
+        "ticket_percent": 61.0323
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "信義區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 3679,
+        "ticket_percent": 2.6319
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "信義區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 47840,
+        "ticket_percent": 33.3631
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "信義區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 95552,
+        "ticket_percent": 66.6369
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "信義區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 56566,
+        "ticket_percent": 39.1834
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "信義區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 87796,
+        "ticket_percent": 60.8166
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "信義區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 50229,
+        "ticket_percent": 33.8397
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "信義區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 66188,
+        "ticket_percent": 44.5915
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "信義區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 30927,
+        "ticket_percent": 20.8358
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "信義區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 176,
+        "ticket_percent": 0.1186
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "信義區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 912,
+        "ticket_percent": 0.6144
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "信義區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 39856,
+        "ticket_percent": 30.2356
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "信義區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 16087,
+        "ticket_percent": 12.2039
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "信義區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 48346,
+        "ticket_percent": 36.6763
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "信義區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 27529,
+        "ticket_percent": 20.8841
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_030_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "大安區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 7534,
+        "ticket_percent": 4.1395
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "大安區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 85490,
+        "ticket_percent": 46.9723
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "大安區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 88977,
+        "ticket_percent": 48.8882
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "大安區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 69737,
+        "ticket_percent": 42.9264
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "大安區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 76278,
+        "ticket_percent": 46.9527
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "大安區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 16442,
+        "ticket_percent": 10.1208
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "大安區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 62918,
+        "ticket_percent": 34.1071
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "大安區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 116778,
+        "ticket_percent": 63.3039
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "大安區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 4776,
+        "ticket_percent": 2.589
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "大安區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 129870,
+        "ticket_percent": 68.5894
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "大安區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 59474,
+        "ticket_percent": 31.4106
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "大安區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 69038,
+        "ticket_percent": 36.8437
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "大安區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 118343,
+        "ticket_percent": 63.1563
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "大安區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 1217,
+        "ticket_percent": 0.6461
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "大安區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 60570,
+        "ticket_percent": 32.1548
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "大安區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 242,
+        "ticket_percent": 0.1285
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "大安區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 40121,
+        "ticket_percent": 21.299
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "大安區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 86220,
+        "ticket_percent": 45.7716
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "大安區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 55807,
+        "ticket_percent": 32.9198
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "大安區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 35676,
+        "ticket_percent": 21.0448
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "大安區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 55325,
+        "ticket_percent": 32.6355
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "大安區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 22716,
+        "ticket_percent": 13.3999
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_040_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "中山區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 6367,
+        "ticket_percent": 4.4876
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "中山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 56491,
+        "ticket_percent": 39.816
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "中山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 79022,
+        "ticket_percent": 55.6964
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "中山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 43333,
+        "ticket_percent": 34.5203
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "中山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 69001,
+        "ticket_percent": 54.9682
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "中山區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 13195,
+        "ticket_percent": 10.5115
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "中山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 58439,
+        "ticket_percent": 42.6391
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "中山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 74867,
+        "ticket_percent": 54.6255
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "中山區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 3749,
+        "ticket_percent": 2.7354
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "中山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 54839,
+        "ticket_percent": 40.711
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "中山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 79864,
+        "ticket_percent": 59.289
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "中山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 63273,
+        "ticket_percent": 47.5837
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "中山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 69699,
+        "ticket_percent": 52.4163
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "中山區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 45342,
+        "ticket_percent": 34.9279
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "中山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 53599,
+        "ticket_percent": 41.2884
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "中山區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 670,
+        "ticket_percent": 0.5161
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "中山區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 123,
+        "ticket_percent": 0.0947
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "中山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 30082,
+        "ticket_percent": 23.1728
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "中山區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 13188,
+        "ticket_percent": 11.4361
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "中山區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 23566,
+        "ticket_percent": 20.4355
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "中山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 32870,
+        "ticket_percent": 28.5035
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "中山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 45695,
+        "ticket_percent": 39.6249
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_050_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "中正區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 4188,
+        "ticket_percent": 4.4633
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "中正區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 41461,
+        "ticket_percent": 44.1864
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "中正區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 48183,
+        "ticket_percent": 51.3503
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "中正區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 33780,
+        "ticket_percent": 40.0071
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "中正區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 41640,
+        "ticket_percent": 49.316
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "中正區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 9015,
+        "ticket_percent": 10.6769
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "中正區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 56982,
+        "ticket_percent": 60.7432
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "中正區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 34295,
+        "ticket_percent": 36.5587
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "中正區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 2531,
+        "ticket_percent": 2.6981
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "中正區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 31797,
+        "ticket_percent": 33.7301
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "中正區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 62472,
+        "ticket_percent": 66.2699
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "中正區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 37262,
+        "ticket_percent": 39.6755
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "中正區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 56655,
+        "ticket_percent": 60.3245
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "中正區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 40982,
+        "ticket_percent": 42.3906
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "中正區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 33211,
+        "ticket_percent": 34.3525
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "中正區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 610,
+        "ticket_percent": 0.631
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "中正區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 140,
+        "ticket_percent": 0.1448
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "中正區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 21734,
+        "ticket_percent": 22.481
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "中正區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 10850,
+        "ticket_percent": 12.2833
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "中正區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 24718,
+        "ticket_percent": 27.9834
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "中正區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 20558,
+        "ticket_percent": 23.2738
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "中正區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 32205,
+        "ticket_percent": 36.4595
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_060_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "大同區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 3463,
+        "ticket_percent": 4.4317
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "大同區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 24673,
+        "ticket_percent": 31.5746
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "大同區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 50006,
+        "ticket_percent": 63.9938
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "大同區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 19312,
+        "ticket_percent": 26.6413
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "大同區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 45920,
+        "ticket_percent": 63.3475
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "大同區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 7257,
+        "ticket_percent": 10.0112
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "大同區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 40907,
+        "ticket_percent": 52.3972
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "大同區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 1944,
+        "ticket_percent": 2.49
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "大同區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 35220,
+        "ticket_percent": 45.1128
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "大同區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 38230,
+        "ticket_percent": 49.322
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "大同區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 39281,
+        "ticket_percent": 50.678
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "大同區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 45327,
+        "ticket_percent": 57.5296
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "大同區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 33462,
+        "ticket_percent": 42.4704
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "大同區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 20395,
+        "ticket_percent": 25.1918
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "大同區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 20067,
+        "ticket_percent": 24.7866
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "大同區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 85,
+        "ticket_percent": 0.105
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "大同區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 332,
+        "ticket_percent": 0.4101
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "大同區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 40080,
+        "ticket_percent": 49.5065
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "大同區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 7189,
+        "ticket_percent": 9.8282
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "大同區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 33107,
+        "ticket_percent": 45.2609
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "大同區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 25081,
+        "ticket_percent": 34.2885
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "大同區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 7770,
+        "ticket_percent": 10.6224
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_070_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "萬華區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 5008,
+        "ticket_percent": 4.2235
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "萬華區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 46700,
+        "ticket_percent": 39.3847
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "萬華區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 66866,
+        "ticket_percent": 56.3918
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "萬華區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 37911,
+        "ticket_percent": 34.5538
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "萬華區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 60566,
+        "ticket_percent": 55.2025
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "萬華區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 11239,
+        "ticket_percent": 10.2437
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "萬華區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 53436,
+        "ticket_percent": 44.642
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "萬華區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 3172,
+        "ticket_percent": 2.65
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "萬華區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 63091,
+        "ticket_percent": 52.708
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "萬華區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 70880,
+        "ticket_percent": 58.1599
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "萬華區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 50991,
+        "ticket_percent": 41.8401
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "萬華區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 60440,
+        "ticket_percent": 48.187
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "萬華區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 64988,
+        "ticket_percent": 51.813
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "萬華區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 28508,
+        "ticket_percent": 22.1296
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "萬華區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 46402,
+        "ticket_percent": 36.02
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "萬華區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 53168,
+        "ticket_percent": 41.2721
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "萬華區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 588,
+        "ticket_percent": 0.4564
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "萬華區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 157,
+        "ticket_percent": 0.1219
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "萬華區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 49078,
+        "ticket_percent": 42.1665
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "萬華區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 12455,
+        "ticket_percent": 10.701
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "萬華區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 22600,
+        "ticket_percent": 19.4173
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "萬華區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 32258,
+        "ticket_percent": 27.7152
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_080_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "文山區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 7502,
+        "ticket_percent": 4.4672
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "文山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 82305,
+        "ticket_percent": 49.0097
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "文山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 78129,
+        "ticket_percent": 46.5231
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "文山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 65560,
+        "ticket_percent": 44.8062
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "文山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 63903,
+        "ticket_percent": 43.6738
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "文山區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 16856,
+        "ticket_percent": 11.52
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "文山區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 4293,
+        "ticket_percent": 2.6604
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "文山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 49403,
+        "ticket_percent": 30.6159
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "文山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 107668,
+        "ticket_percent": 66.7237
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "文山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 115486,
+        "ticket_percent": 72.2451
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "文山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 44367,
+        "ticket_percent": 27.7549
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "文山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 52080,
+        "ticket_percent": 33.7114
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "文山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 102408,
+        "ticket_percent": 66.2886
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "文山區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 75500,
+        "ticket_percent": 50.1658
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "文山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 44791,
+        "ticket_percent": 29.7613
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "文山區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 902,
+        "ticket_percent": 0.5993
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "文山區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 180,
+        "ticket_percent": 0.1196
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "文山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 29128,
+        "ticket_percent": 19.354
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "文山區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 15579,
+        "ticket_percent": 12.7312
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "文山區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 41456,
+        "ticket_percent": 33.8779
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "文山區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 21423,
+        "ticket_percent": 17.5069
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "文山區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 43911,
+        "ticket_percent": 35.8841
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_090_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "南港區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 3409,
+        "ticket_percent": 4.5245
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "南港區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 30968,
+        "ticket_percent": 41.1011
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "南港區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 40969,
+        "ticket_percent": 54.3745
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "南港區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 23860,
+        "ticket_percent": 36.0663
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "南港區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 34593,
+        "ticket_percent": 52.29
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "南港區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 7703,
+        "ticket_percent": 11.6437
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "南港區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 41141,
+        "ticket_percent": 57.8237
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "南港區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 1890,
+        "ticket_percent": 2.6564
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "南港區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 28118,
+        "ticket_percent": 39.5199
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "南港區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 25955,
+        "ticket_percent": 37.0844
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "南港區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 44034,
+        "ticket_percent": 62.9156
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "南港區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 30013,
+        "ticket_percent": 43.8447
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "南港區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 38440,
+        "ticket_percent": 56.1553
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "南港區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 26808,
+        "ticket_percent": 39.3547
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "南港區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 15416,
+        "ticket_percent": 22.631
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "南港區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 74,
+        "ticket_percent": 0.1086
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "南港區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 355,
+        "ticket_percent": 0.5211
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "南港區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 25466,
+        "ticket_percent": 37.3846
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "南港區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 6973,
+        "ticket_percent": 11.693
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "南港區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 26615,
+        "ticket_percent": 44.6306
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "南港區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 13093,
+        "ticket_percent": 21.9556
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "南港區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 12953,
+        "ticket_percent": 21.7208
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_100_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "內湖區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 8356,
+        "ticket_percent": 4.7193
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "內湖區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 74437,
+        "ticket_percent": 42.0401
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "內湖區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 94269,
+        "ticket_percent": 53.2407
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "內湖區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 57500,
+        "ticket_percent": 37.7981
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "內湖區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 77297,
+        "ticket_percent": 50.8118
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "內湖區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 17327,
+        "ticket_percent": 11.3901
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "內湖區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 99397,
+        "ticket_percent": 60.3511
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "內湖區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 60949,
+        "ticket_percent": 37.0065
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "內湖區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 4352,
+        "ticket_percent": 2.6424
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "內湖區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 54513,
+        "ticket_percent": 34.4057
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "內湖區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 103929,
+        "ticket_percent": 65.5943
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "內湖區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 62821,
+        "ticket_percent": 41.2889
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "內湖區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 89329,
+        "ticket_percent": 58.7111
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "內湖區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 62715,
+        "ticket_percent": 43.1996
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "內湖區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 29359,
+        "ticket_percent": 20.2232
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "內湖區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 162,
+        "ticket_percent": 0.1116
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "內湖區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 741,
+        "ticket_percent": 0.5104
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "內湖區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 52198,
+        "ticket_percent": 35.9552
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "內湖區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 14848,
+        "ticket_percent": 12.655
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "內湖區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 44454,
+        "ticket_percent": 37.8883
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "內湖區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 26202,
+        "ticket_percent": 22.3321
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "內湖區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 31825,
+        "ticket_percent": 27.1246
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_110_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "士林區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 7185,
+        "ticket_percent": 4.0536
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "士林區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 65183,
+        "ticket_percent": 36.7748
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "士林區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 104881,
+        "ticket_percent": 59.1716
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "士林區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 51581,
+        "ticket_percent": 32.1349
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "士林區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 93585,
+        "ticket_percent": 58.3033
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "士林區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 15348,
+        "ticket_percent": 9.5618
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "士林區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 82052,
+        "ticket_percent": 46.4334
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "士林區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 90454,
+        "ticket_percent": 51.1881
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "士林區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 4203,
+        "ticket_percent": 2.3785
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "士林區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 99112,
+        "ticket_percent": 56.075
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "士林區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 77637,
+        "ticket_percent": 43.925
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "士林區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 89835,
+        "ticket_percent": 50.8528
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "士林區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 86822,
+        "ticket_percent": 49.1472
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "士林區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 78126,
+        "ticket_percent": 43.8211
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "士林區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 41206,
+        "ticket_percent": 23.1126
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "士林區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 205,
+        "ticket_percent": 0.115
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "士林區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 903,
+        "ticket_percent": 0.5065
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "士林區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 57844,
+        "ticket_percent": 32.4449
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "士林區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 29512,
+        "ticket_percent": 18.6031
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "士林區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 66450,
+        "ticket_percent": 41.8873
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "士林區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 45302,
+        "ticket_percent": 28.5565
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "士林區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 17376,
+        "ticket_percent": 10.9531
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_120_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "北投區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 6443,
+        "ticket_percent": 4.1208
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "北投區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 59851,
+        "ticket_percent": 38.2792
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "北投區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 90060,
+        "ticket_percent": 57.6001
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "北投區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 47931,
+        "ticket_percent": 33.978
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "北投區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 78971,
+        "ticket_percent": 55.982
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "北投區",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 14163,
+        "ticket_percent": 10.0401
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "北投區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 81708,
+        "ticket_percent": 53.6275
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "北投區",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 3668,
+        "ticket_percent": 2.4074
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "北投區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 66986,
+        "ticket_percent": 43.965
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "北投區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 62765,
+        "ticket_percent": 41.3289
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "北投區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 89102,
+        "ticket_percent": 58.6711
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "北投區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 72933,
+        "ticket_percent": 48.3782
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "北投區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 77823,
+        "ticket_percent": 51.6218
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "北投區",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 181,
+        "ticket_percent": 0.1214
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "北投區",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 789,
+        "ticket_percent": 0.5292
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "北投區",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 51698,
+        "ticket_percent": 34.6778
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "北投區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 61347,
+        "ticket_percent": 41.1501
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "北投區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 35066,
+        "ticket_percent": 23.5214
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "北投區",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 14748,
+        "ticket_percent": 11.3001
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "北投區",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 32529,
+        "ticket_percent": 24.9241
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "北投區",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 24835,
+        "ticket_percent": 19.0289
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "北投區",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 58400,
+        "ticket_percent": 44.7468
+      }
+    ]
+  }
+]

@@ -1,0 +1,241 @@
+[
+  { "http": "https://db.cec.gov.tw/static/visualizations/cards/P0.json" },
+  {
+    "theme_data": {
+      "type_id": "ELC",
+      "subject_id": "P0",
+      "theme_ids": [
+        {
+          "legislator_type_id": "00",
+          "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+          "data_prof_seq": ["N", "C", "D", "L", "T"],
+          "data_tckt_seq": ["N", "C", "D", "L", "T"]
+        }
+      ],
+      "theme_group": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+      "theme_name": "第15任總統副總統選舉",
+      "vote_date": "2020-01-11"
+    },
+    "cand_data": [
+      {
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "cand_no": 3,
+        "cand_name": "蔡英文",
+        "is_vice": " "
+      },
+      {
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "cand_no": 3,
+        "cand_name": "賴清德",
+        "is_vice": "Y"
+      }
+    ],
+    "ticket_data": { "ticket_num": 8170231 }
+  },
+  {
+    "theme_data": {
+      "type_id": "ELC",
+      "subject_id": "P0",
+      "theme_ids": [
+        {
+          "legislator_type_id": "00",
+          "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+          "data_prof_seq": ["N", "C", "D", "L", "T"],
+          "data_tckt_seq": ["N", "C", "D", "L", "T"]
+        }
+      ],
+      "theme_group": "61b4dda0ebac3332203ef3729a9a0ada",
+      "theme_name": "第14任總統副總統選舉",
+      "vote_date": "2016-01-16"
+    },
+    "cand_data": [
+      {
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "cand_no": 2,
+        "cand_name": "蔡英文",
+        "is_vice": " "
+      },
+      {
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "cand_no": 2,
+        "cand_name": "陳建仁",
+        "is_vice": "Y"
+      }
+    ],
+    "ticket_data": { "ticket_num": 6894744 }
+  },
+  {
+    "theme_data": {
+      "type_id": "ELC",
+      "subject_id": "P0",
+      "theme_ids": [
+        {
+          "legislator_type_id": "00",
+          "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+          "data_prof_seq": ["N", "C", "D", "L", "T"],
+          "data_tckt_seq": ["N", "C", "D", "L", "T"]
+        }
+      ],
+      "theme_group": "fddf766f2a250a2e3688d644fda346d2",
+      "theme_name": "第13任總統副總統選舉",
+      "vote_date": "2012-01-14"
+    },
+    "cand_data": [
+      {
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "cand_no": 2,
+        "cand_name": "馬英九",
+        "is_vice": " "
+      },
+      {
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "cand_no": 2,
+        "cand_name": "吳敦義",
+        "is_vice": "Y"
+      }
+    ],
+    "ticket_data": { "ticket_num": 6891139 }
+  },
+  {
+    "theme_data": {
+      "type_id": "ELC",
+      "subject_id": "P0",
+      "theme_ids": [
+        {
+          "legislator_type_id": "00",
+          "theme_id": "54deeba50d3cc135f45018059c0cb062",
+          "data_prof_seq": ["N", "C", "D", "L", "T"],
+          "data_tckt_seq": ["N", "C", "D", "L", "T"]
+        }
+      ],
+      "theme_group": "54deeba50d3cc135f45018059c0cb062",
+      "theme_name": "第12任總統副總統選舉",
+      "vote_date": "2008-03-22"
+    },
+    "cand_data": [
+      {
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "cand_no": 2,
+        "cand_name": "馬英九",
+        "is_vice": " "
+      },
+      {
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "cand_no": 2,
+        "cand_name": "蕭萬長",
+        "is_vice": "Y"
+      }
+    ],
+    "ticket_data": { "ticket_num": 7659014 }
+  },
+  {
+    "theme_data": {
+      "type_id": "ELC",
+      "subject_id": "P0",
+      "theme_ids": [
+        {
+          "legislator_type_id": "00",
+          "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+          "data_prof_seq": ["N", "C", "D", "L", "T"],
+          "data_tckt_seq": ["N", "C", "D", "L", "T"]
+        }
+      ],
+      "theme_group": "38b0ef91b5866696f58891ecf69cb3c7",
+      "theme_name": "第11任總統副總統選舉",
+      "vote_date": "2004-03-20"
+    },
+    "cand_data": [
+      {
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "cand_no": 1,
+        "cand_name": "陳水扁",
+        "is_vice": " "
+      },
+      {
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "cand_no": 1,
+        "cand_name": "呂秀蓮",
+        "is_vice": "Y"
+      }
+    ],
+    "ticket_data": { "ticket_num": 6471970 }
+  },
+  {
+    "theme_data": {
+      "type_id": "ELC",
+      "subject_id": "P0",
+      "theme_ids": [
+        {
+          "legislator_type_id": "00",
+          "theme_id": "bc69efc4ab84479137e749aac2078116",
+          "data_prof_seq": ["N", "C", "D", "L", "T"],
+          "data_tckt_seq": ["N", "C", "D", "L", "T"]
+        }
+      ],
+      "theme_group": "bc69efc4ab84479137e749aac2078116",
+      "theme_name": "第10任總統副總統選舉",
+      "vote_date": "2000-03-18"
+    },
+    "cand_data": [
+      {
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "cand_no": 5,
+        "cand_name": "陳水扁",
+        "is_vice": " "
+      },
+      {
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "cand_no": 5,
+        "cand_name": "呂秀蓮",
+        "is_vice": "Y"
+      }
+    ],
+    "ticket_data": { "ticket_num": 4977697 }
+  },
+  {
+    "theme_data": {
+      "type_id": "ELC",
+      "subject_id": "P0",
+      "theme_ids": [
+        {
+          "legislator_type_id": "00",
+          "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+          "data_prof_seq": ["N", "C", "D", "L", "T"],
+          "data_tckt_seq": ["N", "C", "D", "L", "T"]
+        }
+      ],
+      "theme_group": "c818e628012243a0ea7eb3c3c3b81565",
+      "theme_name": "第09任總統副總統選舉",
+      "vote_date": "1996-03-23"
+    },
+    "cand_data": [
+      {
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "cand_no": 2,
+        "cand_name": "李登輝",
+        "is_vice": " "
+      },
+      {
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "cand_no": 2,
+        "cand_name": "連戰",
+        "is_vice": "Y"
+      }
+    ],
+    "ticket_data": { "ticket_num": 5813699 }
+  }
+]

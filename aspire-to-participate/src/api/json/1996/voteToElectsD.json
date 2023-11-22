@@ -1,0 +1,567 @@
+[
+  {
+    "http": "https://db.cec.gov.tw/static/elections/data/statistics/vote_to_elects/ELC/P0/00/D/63_000_00_000_0000.json",
+    "area_code_str": "63_000_00_010_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 77.33,
+        "area_name": "松山區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 68.45,
+        "area_name": "松山區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 76.89,
+        "area_name": "松山區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 79.0,
+        "area_name": "松山區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.18,
+        "area_name": "松山區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 82.42,
+        "area_name": "松山區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 74.19,
+        "area_name": "松山區"
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_020_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 76.03,
+        "area_name": "信義區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 67.36,
+        "area_name": "信義區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 76.55,
+        "area_name": "信義區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 79.72,
+        "area_name": "信義區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.63,
+        "area_name": "信義區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 83.72,
+        "area_name": "信義區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 76.8,
+        "area_name": "信義區"
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_030_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 74.83,
+        "area_name": "大安區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 66.65,
+        "area_name": "大安區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 75.37,
+        "area_name": "大安區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 77.81,
+        "area_name": "大安區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 79.9,
+        "area_name": "大安區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 80.74,
+        "area_name": "大安區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 72.2,
+        "area_name": "大安區"
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_040_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 75.61,
+        "area_name": "中山區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 66.85,
+        "area_name": "中山區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 75.53,
+        "area_name": "中山區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 77.58,
+        "area_name": "中山區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 80.37,
+        "area_name": "中山區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 81.75,
+        "area_name": "中山區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 72.56,
+        "area_name": "中山區"
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_050_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 76.12,
+        "area_name": "中正區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 67.72,
+        "area_name": "中正區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 76.06,
+        "area_name": "中正區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 78.3,
+        "area_name": "中正區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 80.65,
+        "area_name": "中正區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 81.75,
+        "area_name": "中正區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 75.36,
+        "area_name": "中正區"
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_060_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 76.01,
+        "area_name": "大同區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 69.15,
+        "area_name": "大同區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 77.27,
+        "area_name": "大同區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 78.38,
+        "area_name": "大同區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.01,
+        "area_name": "大同區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 83.26,
+        "area_name": "大同區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 77.84,
+        "area_name": "大同區"
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_070_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 75.4,
+        "area_name": "萬華區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 68.56,
+        "area_name": "萬華區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 76.38,
+        "area_name": "萬華區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 78.9,
+        "area_name": "萬華區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 82.04,
+        "area_name": "萬華區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 83.96,
+        "area_name": "萬華區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 76.94,
+        "area_name": "萬華區"
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_080_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 77.01,
+        "area_name": "文山區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 68.16,
+        "area_name": "文山區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 78.17,
+        "area_name": "文山區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 80.93,
+        "area_name": "文山區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 82.91,
+        "area_name": "文山區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 85.18,
+        "area_name": "文山區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 77.41,
+        "area_name": "文山區"
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_090_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 77.26,
+        "area_name": "南港區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 68.11,
+        "area_name": "南港區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 77.43,
+        "area_name": "南港區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 80.03,
+        "area_name": "南港區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 82.87,
+        "area_name": "南港區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 85.57,
+        "area_name": "南港區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 79.8,
+        "area_name": "南港區"
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_100_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 77.79,
+        "area_name": "內湖區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 68.0,
+        "area_name": "內湖區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 77.89,
+        "area_name": "內湖區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 80.81,
+        "area_name": "內湖區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 83.43,
+        "area_name": "內湖區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 85.87,
+        "area_name": "內湖區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 79.73,
+        "area_name": "內湖區"
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_110_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 76.31,
+        "area_name": "士林區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 68.86,
+        "area_name": "士林區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 77.26,
+        "area_name": "士林區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 79.34,
+        "area_name": "士林區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 82.2,
+        "area_name": "士林區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 84.25,
+        "area_name": "士林區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 77.35,
+        "area_name": "士林區"
+      }
+    ]
+  },
+  {
+    "area_code_str": "63_000_00_120_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 76.28,
+        "area_name": "北投區"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 69.11,
+        "area_name": "北投區"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 76.79,
+        "area_name": "北投區"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 79.22,
+        "area_name": "北投區"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 82.44,
+        "area_name": "北投區"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 84.92,
+        "area_name": "北投區"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 78.85,
+        "area_name": "北投區"
+      }
+    ]
+  }
+]

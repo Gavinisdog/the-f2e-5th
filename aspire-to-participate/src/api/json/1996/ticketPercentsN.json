@@ -1,0 +1,228 @@
+[
+  {
+    "http": "https://db.cec.gov.tw/static/elections/data/statistics/ticket_percents/ELC/P0/00/N/00_000_00_000_0000.json",
+    "area_code_str": "00_000_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "全國",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 608590,
+        "ticket_percent": 4.2556
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "全國",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 5522119,
+        "ticket_percent": 38.6137
+      },
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "area_name": "全國",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 8170231,
+        "ticket_percent": 57.1307
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "全國",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 3813365,
+        "ticket_percent": 31.0409
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "全國",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 6894744,
+        "ticket_percent": 56.1234
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "area_name": "全國",
+        "party_code": 90,
+        "party_name": "親民黨",
+        "joint_no": null,
+        "ticket_num": 1576861,
+        "ticket_percent": 12.8357
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "全國",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 6093578,
+        "ticket_percent": 45.6301
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "全國",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 6891139,
+        "ticket_percent": 51.6024
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "area_name": "全國",
+        "party_code": 999,
+        "party_name": "無黨籍及未經政黨推薦",
+        "joint_no": null,
+        "ticket_num": 369588,
+        "ticket_percent": 2.7676
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "全國",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 5444949,
+        "ticket_percent": 41.5519
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "area_name": "全國",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 7659014,
+        "ticket_percent": 58.4481
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "全國",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 6471970,
+        "ticket_percent": 50.1143
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "area_name": "全國",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 6442452,
+        "ticket_percent": 49.8857
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "全國",
+        "party_code": 998,
+        "party_name": "連署(2000年1號)",
+        "joint_no": 1,
+        "ticket_num": 4664972,
+        "ticket_percent": 36.8353
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "全國",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 2925513,
+        "ticket_percent": 23.1003
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "全國",
+        "party_code": 74,
+        "party_name": "新黨",
+        "joint_no": null,
+        "ticket_num": 16782,
+        "ticket_percent": 0.1325
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "全國",
+        "party_code": 998,
+        "party_name": "連署(2000年4號)",
+        "joint_no": 4,
+        "ticket_num": 79429,
+        "ticket_percent": 0.6272
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "area_name": "全國",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 4977697,
+        "ticket_percent": 39.3047
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "全國",
+        "party_code": 998,
+        "party_name": "連署(1996年1號)",
+        "joint_no": 1,
+        "ticket_num": 1074044,
+        "ticket_percent": 9.9761
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "全國",
+        "party_code": 1,
+        "party_name": "中國國民黨",
+        "joint_no": null,
+        "ticket_num": 5813699,
+        "ticket_percent": 54.0
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "全國",
+        "party_code": 16,
+        "party_name": "民主進步黨",
+        "joint_no": null,
+        "ticket_num": 2274586,
+        "ticket_percent": 21.1273
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "area_name": "全國",
+        "party_code": 998,
+        "party_name": "連署(1996年4號)",
+        "joint_no": 4,
+        "ticket_num": 1603790,
+        "ticket_percent": 14.8966
+      }
+    ]
+  }
+]

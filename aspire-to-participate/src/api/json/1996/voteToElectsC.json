@@ -1,0 +1,1144 @@
+[
+  {
+    "http": "https://db.cec.gov.tw/static/elections/data/statistics/vote_to_elects/ELC/P0/00/C/00_000_00_000_0000.json",
+    "area_code_str": "63_000_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 76.31,
+        "area_name": "臺北市"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 68.03,
+        "area_name": "臺北市"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 76.78,
+        "area_name": "臺北市"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 79.19,
+        "area_name": "臺北市"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.71,
+        "area_name": "臺北市"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 83.53,
+        "area_name": "臺北市"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 76.26,
+        "area_name": "臺北市"
+      }
+    ]
+  },
+  {
+    "area_code_str": "65_000_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 75.09,
+        "area_name": "新北市"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 67.23,
+        "area_name": "新北市"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 75.9,
+        "area_name": "新北市"
+      }
+    ]
+  },
+  {
+    "area_code_str": "68_000_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 74.42,
+        "area_name": "桃園市"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 66.66,
+        "area_name": "桃園市"
+      }
+    ]
+  },
+  {
+    "area_code_str": "66_000_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 76.36,
+        "area_name": "臺中市"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 68.36,
+        "area_name": "臺中市"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 75.76,
+        "area_name": "臺中市"
+      }
+    ]
+  },
+  {
+    "area_code_str": "67_000_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 75.77,
+        "area_name": "臺南市"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 65.81,
+        "area_name": "臺南市"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 74.18,
+        "area_name": "臺南市"
+      }
+    ]
+  },
+  {
+    "area_code_str": "64_000_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 77.44,
+        "area_name": "高雄市"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 67.64,
+        "area_name": "高雄市"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 75.91,
+        "area_name": "高雄市"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 78.79,
+        "area_name": "高雄市"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.81,
+        "area_name": "高雄市"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 84.25,
+        "area_name": "高雄市"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 77.79,
+        "area_name": "高雄市"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_002_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 73.86,
+        "area_name": "宜蘭縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 64.05,
+        "area_name": "宜蘭縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 72.54,
+        "area_name": "宜蘭縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 73.98,
+        "area_name": "宜蘭縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 78.46,
+        "area_name": "宜蘭縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 81.03,
+        "area_name": "宜蘭縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 74.02,
+        "area_name": "宜蘭縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_004_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 75.11,
+        "area_name": "新竹縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 65.89,
+        "area_name": "新竹縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 76.07,
+        "area_name": "新竹縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 79.33,
+        "area_name": "新竹縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.8,
+        "area_name": "新竹縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 85.1,
+        "area_name": "新竹縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 79.53,
+        "area_name": "新竹縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_005_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 73.8,
+        "area_name": "苗栗縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 64.81,
+        "area_name": "苗栗縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 74.63,
+        "area_name": "苗栗縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 76.83,
+        "area_name": "苗栗縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 79.82,
+        "area_name": "苗栗縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 83.59,
+        "area_name": "苗栗縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 78.01,
+        "area_name": "苗栗縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_007_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 74.7,
+        "area_name": "彰化縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 66.63,
+        "area_name": "彰化縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 73.46,
+        "area_name": "彰化縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 75.05,
+        "area_name": "彰化縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 80.18,
+        "area_name": "彰化縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 84.08,
+        "area_name": "彰化縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 77.18,
+        "area_name": "彰化縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_008_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 73.21,
+        "area_name": "南投縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 63.65,
+        "area_name": "南投縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 71.13,
+        "area_name": "南投縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 72.12,
+        "area_name": "南投縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 77.97,
+        "area_name": "南投縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 81.17,
+        "area_name": "南投縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 74.48,
+        "area_name": "南投縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_009_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 71.65,
+        "area_name": "雲林縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 61.84,
+        "area_name": "雲林縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 68.92,
+        "area_name": "雲林縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 70.06,
+        "area_name": "雲林縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 75.94,
+        "area_name": "雲林縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 77.23,
+        "area_name": "雲林縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 69.63,
+        "area_name": "雲林縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_010_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 72.56,
+        "area_name": "嘉義縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 65.93,
+        "area_name": "嘉義縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 72.48,
+        "area_name": "嘉義縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 72.32,
+        "area_name": "嘉義縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 78.03,
+        "area_name": "嘉義縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 78.23,
+        "area_name": "嘉義縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 69.82,
+        "area_name": "嘉義縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_013_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 74.92,
+        "area_name": "屏東縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 66.01,
+        "area_name": "屏東縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 72.67,
+        "area_name": "屏東縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 73.75,
+        "area_name": "屏東縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 78.92,
+        "area_name": "屏東縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 80.23,
+        "area_name": "屏東縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 74.68,
+        "area_name": "屏東縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_014_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 65.05,
+        "area_name": "臺東縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 55.07,
+        "area_name": "臺東縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 61.79,
+        "area_name": "臺東縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 63.18,
+        "area_name": "臺東縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 66.45,
+        "area_name": "臺東縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 68.95,
+        "area_name": "臺東縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 62.49,
+        "area_name": "臺東縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_015_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 69.48,
+        "area_name": "花蓮縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 58.68,
+        "area_name": "花蓮縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 64.64,
+        "area_name": "花蓮縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 68.85,
+        "area_name": "花蓮縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 70.98,
+        "area_name": "花蓮縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 74.84,
+        "area_name": "花蓮縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 67.51,
+        "area_name": "花蓮縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_016_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 58.29,
+        "area_name": "澎湖縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 51.37,
+        "area_name": "澎湖縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 59.01,
+        "area_name": "澎湖縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 60.39,
+        "area_name": "澎湖縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 66.16,
+        "area_name": "澎湖縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 69.66,
+        "area_name": "澎湖縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 64.65,
+        "area_name": "澎湖縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "09_007_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 57.34,
+        "area_name": "連江縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 44.46,
+        "area_name": "連江縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 65.79,
+        "area_name": "連江縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 58.12,
+        "area_name": "連江縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 65.66,
+        "area_name": "連江縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 68.92,
+        "area_name": "連江縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 68.75,
+        "area_name": "連江縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "09_020_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 40.14,
+        "area_name": "金門縣"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 33.58,
+        "area_name": "金門縣"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 46.67,
+        "area_name": "金門縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 53.78,
+        "area_name": "金門縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 64.39,
+        "area_name": "金門縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 68.84,
+        "area_name": "金門縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 69.12,
+        "area_name": "金門縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_017_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 73.34,
+        "area_name": "基隆市"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 63.99,
+        "area_name": "基隆市"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 72.09,
+        "area_name": "基隆市"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 76.09,
+        "area_name": "基隆市"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 78.35,
+        "area_name": "基隆市"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 82.65,
+        "area_name": "基隆市"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 76.75,
+        "area_name": "基隆市"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_018_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 76.6,
+        "area_name": "新竹市"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 68.32,
+        "area_name": "新竹市"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 75.68,
+        "area_name": "新竹市"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 78.52,
+        "area_name": "新竹市"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.22,
+        "area_name": "新竹市"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 83.65,
+        "area_name": "新竹市"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 78.07,
+        "area_name": "新竹市"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_020_00_000_0000",
+    "items": [
+      {
+        "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+        "vote_date": "2020-01-11",
+        "vote_to_elect": 75.98,
+        "area_name": "嘉義市"
+      },
+      {
+        "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+        "vote_date": "2016-01-16",
+        "vote_to_elect": 66.61,
+        "area_name": "嘉義市"
+      },
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 73.53,
+        "area_name": "嘉義市"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 76.34,
+        "area_name": "嘉義市"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 80.53,
+        "area_name": "嘉義市"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 82.0,
+        "area_name": "嘉義市"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 74.24,
+        "area_name": "嘉義市"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_003_00_000_0000",
+    "items": [
+      {
+        "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+        "vote_date": "2012-01-14",
+        "vote_to_elect": 74.69,
+        "area_name": "桃園縣"
+      },
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 77.58,
+        "area_name": "桃園縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.33,
+        "area_name": "桃園縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 84.16,
+        "area_name": "桃園縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 77.91,
+        "area_name": "桃園縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_001_00_000_0000",
+    "items": [
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 78.08,
+        "area_name": "臺北縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.31,
+        "area_name": "臺北縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 83.77,
+        "area_name": "臺北縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 76.69,
+        "area_name": "臺北縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_006_00_000_0000",
+    "items": [
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 76.47,
+        "area_name": "臺中縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.41,
+        "area_name": "臺中縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 85.17,
+        "area_name": "臺中縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 80.06,
+        "area_name": "臺中縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_011_00_000_0000",
+    "items": [
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 74.54,
+        "area_name": "臺南縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.15,
+        "area_name": "臺南縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 82.44,
+        "area_name": "臺南縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 75.02,
+        "area_name": "臺南縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_012_00_000_0000",
+    "items": [
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 76.88,
+        "area_name": "高雄縣"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 81.56,
+        "area_name": "高雄縣"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 83.73,
+        "area_name": "高雄縣"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 78.04,
+        "area_name": "高雄縣"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_019_00_000_0000",
+    "items": [
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 77.74,
+        "area_name": "臺中市"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 80.89,
+        "area_name": "臺中市"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 83.38,
+        "area_name": "臺中市"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 76.6,
+        "area_name": "臺中市"
+      }
+    ]
+  },
+  {
+    "area_code_str": "10_021_00_000_0000",
+    "items": [
+      {
+        "theme_id": "54deeba50d3cc135f45018059c0cb062",
+        "vote_date": "2008-03-22",
+        "vote_to_elect": 76.74,
+        "area_name": "臺南市"
+      },
+      {
+        "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+        "vote_date": "2004-03-20",
+        "vote_to_elect": 80.93,
+        "area_name": "臺南市"
+      },
+      {
+        "theme_id": "bc69efc4ab84479137e749aac2078116",
+        "vote_date": "2000-03-18",
+        "vote_to_elect": 82.3,
+        "area_name": "臺南市"
+      },
+      {
+        "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+        "vote_date": "1996-03-23",
+        "vote_to_elect": 76.5,
+        "area_name": "臺南市"
+      }
+    ]
+  }
+]

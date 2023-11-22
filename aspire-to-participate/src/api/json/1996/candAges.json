@@ -1,0 +1,141 @@
+[
+  {
+    "http": "https://db.cec.gov.tw/static/elections/data/statistics/cand_ages/ELC/P0/00/N.json",
+    "area_code_str": "00_000_00_000_0000",
+    "items": [
+      {
+        "theme_data": {
+          "type_id": "ELC",
+          "subject_id": "P0",
+          "legislator_type_id": "00",
+          "theme_id": "1f7d9f4f6bfe06fdaf4db7df2ed4d60c",
+          "vote_date": "2020-01-11"
+        },
+        "cand_data": {
+          "lt29": 0,
+          "gt30_lt34": 0,
+          "gt35_lt39": 0,
+          "gt40_lt44": 0,
+          "gt45_lt49": 0,
+          "gt50_lt54": 0,
+          "gt55_lt59": 0,
+          "gt60": 6
+        }
+      },
+      {
+        "theme_data": {
+          "type_id": "ELC",
+          "subject_id": "P0",
+          "legislator_type_id": "00",
+          "theme_id": "61b4dda0ebac3332203ef3729a9a0ada",
+          "vote_date": "2016-01-16"
+        },
+        "cand_data": {
+          "lt29": 0,
+          "gt30_lt34": 0,
+          "gt35_lt39": 0,
+          "gt40_lt44": 1,
+          "gt45_lt49": 0,
+          "gt50_lt54": 2,
+          "gt55_lt59": 1,
+          "gt60": 2
+        }
+      },
+      {
+        "theme_data": {
+          "type_id": "ELC",
+          "subject_id": "P0",
+          "legislator_type_id": "00",
+          "theme_id": "fddf766f2a250a2e3688d644fda346d2",
+          "vote_date": "2012-01-14"
+        },
+        "cand_data": {
+          "lt29": 0,
+          "gt30_lt34": 0,
+          "gt35_lt39": 0,
+          "gt40_lt44": 0,
+          "gt45_lt49": 0,
+          "gt50_lt54": 0,
+          "gt55_lt59": 2,
+          "gt60": 4
+        }
+      },
+      {
+        "theme_data": {
+          "type_id": "ELC",
+          "subject_id": "P0",
+          "legislator_type_id": "00",
+          "theme_id": "54deeba50d3cc135f45018059c0cb062",
+          "vote_date": "2008-03-22"
+        },
+        "cand_data": {
+          "lt29": 0,
+          "gt30_lt34": 0,
+          "gt35_lt39": 0,
+          "gt40_lt44": 0,
+          "gt45_lt49": 0,
+          "gt50_lt54": 0,
+          "gt55_lt59": 1,
+          "gt60": 3
+        }
+      },
+      {
+        "theme_data": {
+          "type_id": "ELC",
+          "subject_id": "P0",
+          "legislator_type_id": "00",
+          "theme_id": "38b0ef91b5866696f58891ecf69cb3c7",
+          "vote_date": "2004-03-20"
+        },
+        "cand_data": {
+          "lt29": 0,
+          "gt30_lt34": 0,
+          "gt35_lt39": 0,
+          "gt40_lt44": 0,
+          "gt45_lt49": 0,
+          "gt50_lt54": 1,
+          "gt55_lt59": 0,
+          "gt60": 3
+        }
+      },
+      {
+        "theme_data": {
+          "type_id": "ELC",
+          "subject_id": "P0",
+          "legislator_type_id": "00",
+          "theme_id": "bc69efc4ab84479137e749aac2078116",
+          "vote_date": "2000-03-18"
+        },
+        "cand_data": {
+          "lt29": 0,
+          "gt30_lt34": 0,
+          "gt35_lt39": 0,
+          "gt40_lt44": 0,
+          "gt45_lt49": 0,
+          "gt50_lt54": 1,
+          "gt55_lt59": 0,
+          "gt60": 9
+        }
+      },
+      {
+        "theme_data": {
+          "type_id": "ELC",
+          "subject_id": "P0",
+          "legislator_type_id": "00",
+          "theme_id": "c818e628012243a0ea7eb3c3c3b81565",
+          "vote_date": "1996-03-23"
+        },
+        "cand_data": {
+          "lt29": 0,
+          "gt30_lt34": 0,
+          "gt35_lt39": 0,
+          "gt40_lt44": 0,
+          "gt45_lt49": 0,
+          "gt50_lt54": 0,
+          "gt55_lt59": 0,
+          "gt60": 8
+        }
+      }
+    ]
+  }
+]
