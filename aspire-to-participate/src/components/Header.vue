@@ -75,6 +75,11 @@ const socialList: Array<any> = [
                 民眾服務</a
               >
             </dt>
+            <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
+              <Button class="button-vote" @click="$router.push('vote')">
+                選舉開票結果</Button
+              >
+            </dt>
           </nav>
         </div>
         <div class="contact-wrapper ml-auto mr-16" v-if="width > 768">
@@ -110,7 +115,7 @@ const socialList: Array<any> = [
               <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
                 <a
                   class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
-                  @click="scrollTo('issue'), (visible = false)"
+                  @click="scrollTo('issues'), (visible = false)"
                 >
                   政策議題</a
                 >
@@ -131,6 +136,14 @@ const socialList: Array<any> = [
                   民眾服務</a
                 >
               </dt>
+              <dt class="px-5 w-min cursor-pointer whitespace-nowrap mt-6">
+                <Button
+                  class="button-vote"
+                  @click="$router.push('vote'), (visible = false)"
+                >
+                  選舉開票結果</Button
+                >
+              </dt>
             </nav>
           </Sidebar>
           <Button @click="visible = true"> <Icon icon="zondicons:menu" /></Button>
@@ -140,6 +153,44 @@ const socialList: Array<any> = [
   </header>
 </template>
 <style lang="scss" scoped>
+:deep(.button-vote) {
+  &.p-button {
+    @apply px-2 py-1.5 m-0 bg-pink-1 relative border-none outline-none z-0 rounded-lg;
+    &::before {
+      content: "";
+      background: linear-gradient(
+        45deg,
+        #bf6384,
+        #0080ff,
+        #59b200,
+        #ff5500,
+        #ff0080,
+        #bf6384
+      );
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      background-size: 400%;
+      z-index: -1;
+      filter: blur(5px);
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+      animation: glowing 20s linear infinite;
+      border-radius: 8px;
+    }
+  }
+}
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
 :deep(.header-dropdown) {
   @apply my-3;
   .p-button {

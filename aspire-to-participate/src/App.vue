@@ -2,6 +2,7 @@
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import { computed, ref } from "vue";
+import router from "./router";
 // import {  useWindowScroll } from "@vueuse/core";
 const headerRef = ref();
 const footerRef = ref();
@@ -21,7 +22,11 @@ const el = ref();
 </script>
 <template>
   <div class="root" ref="el">
-    <div ref="headerRef" class="root-header">
+    <div
+      ref="headerRef"
+      class="root-header"
+      v-show="router.currentRoute.value.name !== 'vote'"
+    >
       <Header />
     </div>
     <div class="" :style="countContainerHeight">
@@ -33,7 +38,11 @@ const el = ref();
         </transition>
       </router-view>
     </div>
-    <div class="root-footer" ref="footerRef">
+    <div
+      class="root-footer"
+      ref="footerRef"
+      v-show="router.currentRoute.value.name !== 'vote'"
+    >
       <Footer />
     </div>
   </div>
