@@ -1,5 +1,6 @@
 {
-  "http": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/P0/00/c818e628012243a0ea7eb3c3c3b81565/N/00_000_00_000_0000.json",
+  "_http": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/P0/00/c818e628012243a0ea7eb3c3c3b81565/N/00_000_00_000_0000.json",
+  "_comment": "這裡是拿1996得票數",
   "00_000_00_000_0000": [
     {
       "prv_code": "00",

@@ -1,7 +1,7 @@
 [
   {
-    "http": "https://db.cec.gov.tw/static/elections/data/attachments/ELC/P0/c818e628012243a0ea7eb3c3c3b81565/list.json",
-
+    "_http": "https://db.cec.gov.tw/static/elections/data/attachments/ELC/P0/c818e628012243a0ea7eb3c3c3b81565/list.json",
+    "_comment": "WTF token????",
     "file_name": "第09任總統(副總統)得票概況.zip",
     "file_path": "elections/data/attachments/ELC/P0/c818e628012243a0ea7eb3c3c3b81565/第09任總統(副總統)得票概況.zip",
     "file_desc": "第09任總統(副總統)各投票所明細",

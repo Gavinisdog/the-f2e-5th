@@ -1,6 +1,7 @@
 [
-  { "http": "https://db.cec.gov.tw/static/webs/configs/menus.json" },
   {
+    "_http": "https://db.cec.gov.tw/static/webs/configs/menus.json",
+    "_comment": "WTF Header要Call API???",
     "menu_id": 1,
     "mode_code": "BULT",
     "name": "投開票概況",

@@ -1,6 +1,7 @@
 [
   {
-    "http": "https://db.cec.gov.tw/static/elections/data/statistics/ticket_percents/ELC/P0/00/D/63_000_00_000_0000.json",
+    "_http": "https://db.cec.gov.tw/static/elections/data/statistics/ticket_percents/ELC/P0/00/D/63_000_00_000_0000.json",
+    "_comment": "這裡是拿all全國政黨得票數/得票率",
     "area_code_str": "63_000_00_010_0000",
     "items": [
       {

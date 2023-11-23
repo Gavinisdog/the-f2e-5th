@@ -5,7 +5,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/the-f2e-5th/aspire-to-participate/",
+  base: "./",
+  // base: "/the-f2e-5th/aspire-to-participate/",
   plugins: [
     vue(),
     createHtmlPlugin({
