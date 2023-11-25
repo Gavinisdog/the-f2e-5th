@@ -16,7 +16,7 @@ const isMarqueeMove = ref(false);
           href="https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%B8%BD%E7%B5%B1%E5%8F%8A%E5%89%AF%E7%B8%BD%E7%B5%B1%E5%85%AC%E6%B0%91%E7%9B%B4%E6%8E%A5%E9%81%B8%E8%88%89%E5%88%97%E8%A1%A8"
         >
           <MarqueeText
-            class="text-v-dark text-sm font-bold py-2 w-screen"
+            class="text-v-dark text-sm font-serif font-bold py-2 w-screen"
             :duration="30"
             :paused="isMarqueeMove"
             @mouseenter="isMarqueeMove = !isMarqueeMove"
@@ -36,11 +36,11 @@ const isMarqueeMove = ref(false);
       <template v-if="isShow">
         <div
           @click="toggleFooter"
-          class="bg-v-grey w-full rounded-none text-v-dark py-2 min-w-fit mx-auto text-center absolute bottom-0 cursor-pointer"
+          class="bg-v-grey w-full rounded-none text-v-dark py-2 min-w-fit mx-auto text-center absolute bottom-0 cursor-pointer font-serif"
         >
           <Icon icon="ic:outline-keyboard-arrow-up" class="h-4" :rotate="2" />
           <div
-            class="p-0 bg-v-grey w-full rounded-none pt-1 text-v-dark flex flex-col items-center font-sans"
+            class="p-0 bg-v-grey w-full rounded-none pt-1 text-v-dark flex flex-col items-center font-serif"
           >
             <span class="mb-1 text-[10px] leading-4 font-bold">© aspire team 2023</span>
             <div class="flex">

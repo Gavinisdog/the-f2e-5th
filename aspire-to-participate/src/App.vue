@@ -62,10 +62,51 @@ const el = ref();
 }
 
 @font-face {
-  font-family: "Noto";
-  src: url("@/assets/css/font/NotoSansTC-VariableFont_wght.ttf");
+  font-family: "NotoSans";
+  src: url("@/assets/css/font/NotoSansTC-VariableFont.ttf");
 }
-
+@font-face {
+  font-family: "NotoSerif";
+  src: url("@/assets/css/font/NotoSerifTC-ExtraLight.otf");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "NotoSerif";
+  src: url("@/assets/css/font/NotoSerifTC-Light.otf");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "NotoSerif";
+  src: url("@/assets/css/font/NotoSerifTC-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "NotoSerif";
+  src: url("@/assets/css/font/NotoSerifTC-Medium.otf");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "NotoSerif";
+  src: url("@/assets/css/font/NotoSerifTC-SemiBold.otf");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "NotoSerif";
+  src: url("@/assets/css/font/NotoSerifTC-Bold.otf");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "NotoSerif";
+  src: url("@/assets/css/font/NotoSerifTC-Black.otf");
+  font-style: normal;
+  font-weight: 900;
+}
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s ease;
