@@ -8,6 +8,8 @@ import Button from "primevue/button";
 import ScrollTop from "primevue/scrolltop";
 import SplitButton from "primevue/splitbutton";
 import Sidebar from "primevue/sidebar";
+import Switch from "primevue/inputswitch";
+import MarqueeText from "vue-marquee-text-component";
 
 import "@/main.scss";
 import "primevue/resources/themes/lara-light-purple/theme.css";
@@ -23,7 +25,9 @@ app.use(ToastService);
 app.use(DialogService);
 app.component("Icon", Icon);
 app.component("Button", Button);
+app.component("MarqueeText", MarqueeText);
 app.component("ScrollTop", ScrollTop);
 app.component("SplitButton", SplitButton);
 app.component("Sidebar", Sidebar);
+app.component("Switch", Switch);
 app.mount("#app");

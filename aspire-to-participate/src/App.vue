@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+import VoteHeader from "@/components/VoteHeader.vue";
+import VoteFooter from "@/components/VoteFooter.vue";
 import { computed, ref } from "vue";
 import router from "./router";
 // import {  useWindowScroll } from "@vueuse/core";
@@ -22,12 +24,9 @@ const el = ref();
 </script>
 <template>
   <div class="root" ref="el">
-    <div
-      ref="headerRef"
-      class="root-header"
-      v-show="router.currentRoute.value.name !== 'vote'"
-    >
-      <Header />
+    <div ref="headerRef" class="root-header">
+      <Header v-if="router.currentRoute.value.name !== 'vote'" />
+      <VoteHeader v-else class="overflow-hidden" />
     </div>
     <div class="" :style="countContainerHeight">
       <router-view v-slot="{ Component }">
@@ -38,12 +37,9 @@ const el = ref();
         </transition>
       </router-view>
     </div>
-    <div
-      class="root-footer"
-      ref="footerRef"
-      v-show="router.currentRoute.value.name !== 'vote'"
-    >
-      <Footer />
+    <div class="root-footer" ref="footerRef">
+      <Footer v-if="router.currentRoute.value.name !== 'vote'" />
+      <VoteFooter v-else class="overflow-hidden" />
     </div>
   </div>
 </template>
@@ -63,6 +59,11 @@ const el = ref();
 @font-face {
   font-family: "Itim";
   src: url("@/assets/css/font/Itim-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noto";
+  src: url("@/assets/css/font/NotoSansTC-VariableFont_wght.ttf");
 }
 
 .fade-enter-active,

@@ -1,7 +1,5 @@
-<script lang="ts" setup>
-import router from "@/router";
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <div>{{ router }}</div>
+  <main>Vote</main>
 </template>

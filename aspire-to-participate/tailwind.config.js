@@ -6,7 +6,7 @@ export default {
   },
   theme: {
     fontFamily: {
-      sans: ["ui-sans-serif", "system-ui"],
+      sans: ["Noto", "system-ui"],
       serif: ["ui-serif", "Georgia"],
       mono: ["ui-monospace", "SFMono-Regular"],
       itim: ["Itim"],
