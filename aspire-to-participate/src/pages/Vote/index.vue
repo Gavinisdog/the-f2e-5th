@@ -54,19 +54,38 @@ candidateList.forEach((candidate) => {
 </script>
 
 <template>
-  <main class="w-full sm:mx-4 xs:mx-auto 2xl:mx-20 max-w-screen-xl 2xl:max-w-none">
+  <main class="w-full xs:mx-4 md:mx-auto 2xl:mx-20 max-w-screen-xl 2xl:max-w-min">
     <span class="hidden xs:block text-v-dark-grey text-xs font-sans mb-3"
       >最後更新時間：{{ new Date().toLocaleString() }}</span
     >
     <section
-      class="px-6 xs:px-0 text-v-dark text-4xl xs:text-5xl font-serif leading-normal mb-10 xs:mb-2.5 xs:flex"
+      class="px-6 xs:px-0 text-v-dark text-4xl xs:text-5xl font-serif leading-normal mb-10 xs:mb-2.5 md:flex justify-between"
     >
-      <div class="">
-        <span class="font-black mr-2 xs:mr-4">2024</span
-        ><span class="font-semibold xs:mr-4">總統大選</span>
+      <div class="md:flex">
+        <div class="">
+          <span class="font-black mr-2 md:mr-4">2024</span
+          ><span class="font-semibold md:mr-4">總統大選</span>
+        </div>
+        <div class="">
+          <span class="font-semibold">即時開票全台地圖</span>
+        </div>
       </div>
-      <div class="">
-        <span class="font-semibold">即時開票全台地圖</span>
+      <div class="relative xs:static">
+        <div class="relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="89"
+            height="57"
+            viewBox="0 0 89 57"
+            fill="none"
+          >
+            <line x1="-4.37114e-08" y1="28.5" x2="87" y2="28.5" stroke="#676879" />
+            <path d="M60 1L87.5 28.5L60 56" stroke="#676879" />
+          </svg>
+          <span class="text-v-dark-grey text-sm text-sans absolute left-0 bottom-3.5"
+            >台灣地圖</span
+          >
+        </div>
       </div>
     </section>
     <section class="candidate-section overflow-scroll px-2 xs:px-0">
@@ -82,45 +101,52 @@ candidateList.forEach((candidate) => {
         <div
           v-for="(row, index) in tickets1996"
           :key="index"
-          :class="`bg-gradient-to-t from-${row.gradient} relative z-0 border-solid border-0 border-l border-${row.color} overflow-hidden`"
+          :class="`bg-gradient-to-t from-${row.gradient} relative z-0 border-solid border-0 border-l border-${row.color} md:overflow-hidden`"
         >
           <div
-            class="min-w-[175px] min-h-[380px] w-[319px] h-[770px] flex flex-col justify-between"
+            class="min-w-[175px] min-h-[380px] xs:w-[319px] xs:h-[770px] flex flex-col justify-between"
           >
             <dl class="flex flex-col grow-0 pl-1.5">
-              <dt class="block text-xs font-sans font-bold leading-normal">得票數</dt>
-              <div class="block leading-4 font-sans font-bold">
+              <dt class="block text-xs xs:text-sm font-sans font-bold leading-normal">
+                得票數
+              </dt>
+              <div class="block leading-4 font-sans font-bold xs:text-3xl">
                 {{ row.totalTickets.toLocaleString() }}
               </div>
             </dl>
             <div class="grow">
               <div
-                class="block font-sans text-xs font-bold leading-relaxed absolute left-0 pl-1.5"
+                class="font-sans text-xs font-bold leading-relaxed absolute left-0 xs:text-base w-10 xs:w-16 text-center"
                 :style="`bottom: ${row.totalPercent}%`"
               >
                 {{ toRound(row.totalPercent, 2) }}%
               </div>
               <div
-                :class="`min-w-min w-10 bg-${row.color} absolute bottom-0 z-10`"
+                :class="`min-w-min w-10 xs:w-16 bg-${row.color} absolute bottom-0 z-10`"
                 :style="`height: ${row.totalPercent}%`"
               ></div>
-              <img :src="row.img" alt="" class="h-56 absolute bottom-0 right-0" />
+              <img
+                :src="row.img"
+                alt=""
+                class="h-56 md:h-[420px] absolute bottom-0 right-0"
+              />
             </div>
           </div>
           <span
-            class="text-v-grey font-sans font-bold -z-10 text-[163px] xs:text-[300px] leading-none absolute top-0 left-0 opacity-40"
+            class="text-v-grey font-sans font-bold -z-10 text-[163px] xs:text-[300px] leading-none absolute top-0 left-0 xs:-left-7 opacity-40"
             >{{ row.no }}</span
           >
           <span
-            class="text-v-grey font-sans font-bold -z-10 text-6xl xs:text-8xl w-1 absolute right-14 top-0 whitespace-pre-line opacity-40"
+            class="text-v-grey font-sans font-bold -z-10 text-6xl xs:text-8xl w-1 absolute right-14 xs:right-24 top-0 whitespace-pre-line opacity-40"
             >{{ row.name }}</span
           >
           <div
             :class="`absolute bg-gradient-to-t from-${row.color} w-full h-11 bottom-0`"
           ></div>
           <img
+            v-if="row.isCurrent"
             src="@/assets/images/vote/logo-vote.svg"
-            class="absolute w-20 xs:w-40"
+            class="absolute w-20 xs:w-40 -top-px -left-px"
             alt=""
           />
         </div>
