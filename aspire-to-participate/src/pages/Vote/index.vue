@@ -43,7 +43,9 @@ const candidateList: Array<any> = [
 const tickets1996: Array<any> = [];
 
 candidateList.forEach((candidate) => {
-  const found = ticketsNational1996.data.find((data) => data.cand_no === candidate.no);
+  const found = ticketsNational1996["00_000_00_000_0000"].find(
+    (data: { cand_no: number }) => data.cand_no === candidate.no
+  );
   candidate.totalTickets = found?.ticket_num;
   candidate.totalPercent = found?.ticket_percent;
   candidate.isCurrent = found?.is_current === "Y" ? true : false;
@@ -71,7 +73,7 @@ candidateList.forEach((candidate) => {
         </div>
       </div>
       <div class="relative xs:static">
-        <div class="relative">
+        <div class="absolute xs:relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="89"

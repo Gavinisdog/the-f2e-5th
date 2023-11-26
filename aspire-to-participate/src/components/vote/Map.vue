@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import { ref, reactive, onMounted, watch } from "vue";
+import { ref, reactive, onMounted, Ref } from "vue";
 import * as echarts from "echarts";
 import mapGeo from "@/assets/map/TaiwanMapGEOJSON.json";
 import TabMenu from "primevue/tabmenu";
 import Button from "primevue/button";
-const active = ref(0);
+const active: Ref<number> = ref(0);
 const items = ref([
   { label: "2020" },
   // { label: "2016" },
@@ -14,7 +14,7 @@ const items = ref([
 
 // chartMap 物件
 const mapContainer = ref(null);
-let myChart = null;
+let myChart: any = null;
 
 const dataGetorHandler = () => {
   return mapGeo.features.map((feature) => {
@@ -25,7 +25,7 @@ const dataGetorHandler = () => {
       name: feature.properties.name,
       id: feature.properties.COUNTYID,
       zoom: feature.properties.ZOOM,
-      center: feature.properties.CENTER,    
+      center: feature.properties.CENTER,
       select: {
         itemStyle: {
           color: color,
@@ -51,10 +51,10 @@ const dataGetorHandler = () => {
   });
 };
 // 隨機分配最高票候選人
-const getRandomInt = (max) => {
+const getRandomInt = (max: number) => {
   return Math.floor(Math.random() * max);
 };
-const setItemStyleBackgroundHandler = (candidate) => {
+const setItemStyleBackgroundHandler = (candidate: number) => {
   let bgAreaColor = "";
   switch (candidate) {
     case 1:
@@ -84,7 +84,12 @@ const centerCoordHandler = () => {
 };
 
 // 移動地圖 控制zoom 跟 center
-const zoomAndCeterHandler = (zoom, center, duration = 1000, easing = "linear") => {
+const zoomAndCeterHandler = (
+  zoom: number,
+  center: Array<number>,
+  duration = 1000,
+  easing = "linear"
+) => {
   myChart.setOption({
     series: [
       {
@@ -96,7 +101,11 @@ const zoomAndCeterHandler = (zoom, center, duration = 1000, easing = "linear") =
     animationEasing: easing,
   });
 };
-const clickSthCityHandler = async (params, code, outcontrl = false) => {
+const clickSthCityHandler = async (
+  params: any,
+  code: any,
+  outcontrl: boolean = false
+) => {
   // 获取当前点击区域的中心坐标, 放大倍率
   // console.log(params)
   // console.log(params.data)
@@ -105,7 +114,7 @@ const clickSthCityHandler = async (params, code, outcontrl = false) => {
   if (outcontrl) {
     // 使用外部componet 來操作echart
     const data = JSON.parse(JSON.stringify(option.series[0].data));
-    const findIndex = data.findIndex((el) => el.id === code);
+    const findIndex = data.findIndex((el: { id: any }) => el.id === code);
     const findObj = data[findIndex];
     myChart.dispatchAction({
       type: "select",
@@ -159,11 +168,11 @@ const option = reactive({
       },
       center: [2.107717973667881, -0.4230652624372137],
       projection: {
-        project: (point) => [
+        project: (point: Array<any>) => [
           (point[0] / 180) * Math.PI,
           -Math.log(Math.tan((Math.PI / 2 + (point[1] / 180) * Math.PI) / 2)),
         ],
-        unproject: (point) => [
+        unproject: (point: Array<any>) => [
           (point[0] * 180) / Math.PI,
           ((2 * 180) / Math.PI) * Math.atan(Math.exp(point[1])) - 90,
         ],
@@ -214,23 +223,23 @@ const option = reactive({
   ],
 });
 
-const getLeadingCandidate = (countyVotes) => {
-  let leadingCandidate = "";
-  let maxVotes = 0;
+// const getLeadingCandidate = (countyVotes: Array<any>) => {
+//   let leadingCandidate = "";
+//   let maxVotes = 0;
 
-  // 遍历投票数据，找到得票最多的候選人
-  for (const candidate in countyVotes) {
-    if (countyVotes[candidate] > maxVotes) {
-      maxVotes = countyVotes[candidate];
-      leadingCandidate = candidate;
-    }
-  }
+//   // 遍历投票数据，找到得票最多的候選人
+//   for (const candidate in countyVotes) {
+//     if (countyVotes[candidate] > maxVotes) {
+//       maxVotes = countyVotes[candidate];
+//       leadingCandidate = candidate;
+//     }
+//   }
 
-  return leadingCandidate;
-};
+//   return leadingCandidate;
+// };
 
 onMounted(() => {
-  const taiwanGeoJson = mapGeo; // GeoJSON 數據匯入
+  const taiwanGeoJson: any = mapGeo; // GeoJSON 數據匯入
   // 在此處加載台灣地圖 的 GeoJSON 數據，然後註冊地圖
   echarts.registerMap("Taiwan", taiwanGeoJson);
   // 初始化套件
@@ -245,7 +254,7 @@ onMounted(() => {
   // 監聽地圖點擊空白處(回到預設狀態)
   myChart
     .getZr()
-    .on("click", (event) =>
+    .on("click", (event: any) =>
       !event.target
         ? zoomAndCeterHandler(5, [2.107717973667881, -0.4230652624372137])
         : () => {}
@@ -256,7 +265,7 @@ onMounted(() => {
   myChart.setOption(option);
 });
 
-watch(option, (newValue, oldValue) => {});
+// watch(option, (newValue: any, oldValue: any) => {});
 </script>
 
 <template>
@@ -267,7 +276,7 @@ watch(option, (newValue, oldValue) => {});
       <Button label="嘉義縣" @click="clickSthCityHandler(null, 'Q', true)" />
     </div>
     <TabMenu
-      v-model:activeIndex="active"
+      :activeIndex="active"
       class="flex justify-end"
       :label="'text-2xl'"
       :model="items"
@@ -298,7 +307,6 @@ watch(option, (newValue, oldValue) => {});
   padding: 20px 24px;
 }
 </style>
-
 
 <!-- 明天務必討論一下
 1.問題處
