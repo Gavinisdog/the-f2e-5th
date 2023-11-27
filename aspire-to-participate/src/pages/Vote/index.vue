@@ -5,6 +5,12 @@ import candidateImg3 from "@/assets/images/vote/vote-03.png";
 import candidateImg4 from "@/assets/images/vote/vote-04.png";
 import ticketsNational1996 from "@/api/json/1996/ticketsN.json";
 
+import * as echarts from "echarts/core";
+import { GridComponent, GridComponentOption } from "echarts/components";
+import { BarChart, BarSeriesOption } from "echarts/charts";
+import { SVGRenderer } from "echarts/renderers";
+import { onMounted, Ref, ref } from "vue";
+
 const toRound = (numberToBeRound: number, digit: number) => {
   return Math.floor((numberToBeRound + Number.EPSILON) * 10 ** digit) / 10 ** digit;
 };
@@ -41,9 +47,11 @@ const candidateList: Array<any> = [
 ];
 
 const tickets1996: Array<any> = [];
+// no type for this key
+const key = "00_000_00_000_0000";
 
 candidateList.forEach((candidate) => {
-  const found = ticketsNational1996["00_000_00_000_0000"].find(
+  const found = ticketsNational1996[key].find(
     (data: { cand_no: number }) => data.cand_no === candidate.no
   );
   candidate.totalTickets = found?.ticket_num;
@@ -53,15 +61,48 @@ candidateList.forEach((candidate) => {
     tickets1996.push(candidate);
   }
 });
+
+echarts.use([GridComponent, BarChart, SVGRenderer]);
+
+type EChartsOption = echarts.ComposeOption<GridComponentOption | BarSeriesOption>;
+
+const candidateChart: Ref<HTMLElement | null> = ref(null);
+
+console.log(tickets1996);
+const option: EChartsOption = {
+  xAxis: {
+    type: "category",
+    data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+  },
+  yAxis: {
+    type: "value",
+  },
+  series: [
+    {
+      data: [120, 200, 150, 80, 70, 110, 130],
+      type: "bar",
+      showBackground: true,
+      backgroundStyle: {
+        color: "rgba(180, 180, 180, 0.2)",
+      },
+    },
+  ],
+};
+
+onMounted(() => {
+  const myChart = echarts.init(candidateChart.value);
+
+  myChart.setOption(option);
+});
 </script>
 
 <template>
-  <main class="w-full xs:mx-4 md:mx-auto 2xl:mx-20 max-w-screen-xl 2xl:max-w-min">
+  <main class="w-full xs:mx-4 md:mx-auto xl:mx-20 2xl:mx-auto max-w-screen-xl">
     <span class="hidden xs:block text-v-dark-grey text-xs font-sans mb-3"
       >最後更新時間：{{ new Date().toLocaleString() }}</span
     >
     <section
-      class="px-6 xs:px-0 text-v-dark text-4xl xs:text-5xl font-serif leading-normal mb-10 xs:mb-2.5 md:flex justify-between"
+      class="pr-6 xs:px-0 sm:mr-4 md:mx-auto text-v-dark text-4xl xs:text-5xl font-serif leading-normal mb-10 xs:mb-2.5 md:flex justify-between"
     >
       <div class="md:flex">
         <div class="">
@@ -72,14 +113,15 @@ candidateList.forEach((candidate) => {
           <span class="font-semibold">即時開票全台地圖</span>
         </div>
       </div>
-      <div class="relative xs:static">
-        <div class="absolute xs:relative">
+      <div class="relative xs:static cursor-pointer" @click="$router.push('map')">
+        <div class="static xs:relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="89"
             height="57"
             viewBox="0 0 89 57"
             fill="none"
+            class="animate-shake"
           >
             <line x1="-4.37114e-08" y1="28.5" x2="87" y2="28.5" stroke="#676879" />
             <path d="M60 1L87.5 28.5L60 56" stroke="#676879" />
@@ -90,6 +132,7 @@ candidateList.forEach((candidate) => {
         </div>
       </div>
     </section>
+    <section ref="candidateChart" class="candidate-chart"></section>
     <section class="candidate-section overflow-scroll px-2 xs:px-0">
       <div class="flex">
         <div class="hidden from-fire-gradient"></div>
@@ -158,6 +201,7 @@ candidateList.forEach((candidate) => {
 </template>
 
 <style lang="scss" scoped>
-.candidate-section {
+.candidate-chart {
+  @apply min-h-[380px] xs:h-[770px];
 }
 </style>

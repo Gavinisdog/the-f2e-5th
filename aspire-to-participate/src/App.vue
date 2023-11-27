@@ -25,7 +25,7 @@ const el = ref();
 <template>
   <div class="root" ref="el">
     <div ref="headerRef" class="root-header">
-      <Header v-if="router.currentRoute.value.name !== 'vote'" />
+      <Header v-if="router.currentRoute.value.name === 'home'" />
       <VoteHeader v-else class="overflow-hidden" />
     </div>
     <div class="" :style="countContainerHeight">
@@ -38,7 +38,7 @@ const el = ref();
       </router-view>
     </div>
     <div class="root-footer" ref="footerRef">
-      <Footer v-if="router.currentRoute.value.name !== 'vote'" />
+      <Footer v-if="router.currentRoute.value.name === 'home'" />
       <VoteFooter v-else class="overflow-hidden" />
     </div>
   </div>

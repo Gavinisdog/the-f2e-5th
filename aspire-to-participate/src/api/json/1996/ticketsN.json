@@ -12,7 +12,7 @@
       "cand_no": 1,
       "ticket_num": 1074044,
       "ticket_percent": 9.98,
-      "is_victor": " ",
+
       "ris_prv_code": "00",
       "ris_city_code": "000",
       "ris_area_code": "00",
@@ -20,13 +20,12 @@
       "area_name": "全國",
       "cand_id": 8039,
       "cand_name": "陳履安",
-      "cand_sex": "1",
+
       "cand_birthyear": "1937",
-      "cand_edu": null,
+
       "party_code": 998,
       "party_name": "連署",
-      "is_current": "N",
-      "is_vice": " "
+      "is_current": "N"
     },
     {
       "prv_code": "00",
@@ -38,7 +37,7 @@
       "cand_no": 1,
       "ticket_num": 1074044,
       "ticket_percent": 9.98,
-      "is_victor": " ",
+
       "ris_prv_code": "00",
       "ris_city_code": "000",
       "ris_area_code": "00",
@@ -48,11 +47,10 @@
       "cand_name": "王清峰",
       "cand_sex": "2",
       "cand_birthyear": "1952",
-      "cand_edu": null,
+
       "party_code": 998,
       "party_name": "連署",
-      "is_current": "N",
-      "is_vice": "Y"
+      "is_current": "N"
     },
     {
       "prv_code": "00",
@@ -72,13 +70,12 @@
       "area_name": "全國",
       "cand_id": 8041,
       "cand_name": "李登輝",
-      "cand_sex": "1",
+
       "cand_birthyear": "1923",
-      "cand_edu": null,
+
       "party_code": 1,
       "party_name": "中國國民黨",
-      "is_current": "Y",
-      "is_vice": " "
+      "is_current": "Y"
     },
     {
       "prv_code": "00",
@@ -98,13 +95,12 @@
       "area_name": "全國",
       "cand_id": 8042,
       "cand_name": "連戰",
-      "cand_sex": "1",
+
       "cand_birthyear": "1936",
-      "cand_edu": null,
+
       "party_code": 1,
       "party_name": "中國國民黨",
-      "is_current": "N",
-      "is_vice": "Y"
+      "is_current": "N"
     },
     {
       "prv_code": "00",
@@ -116,7 +112,7 @@
       "cand_no": 3,
       "ticket_num": 2274586,
       "ticket_percent": 21.13,
-      "is_victor": " ",
+
       "ris_prv_code": "00",
       "ris_city_code": "000",
       "ris_area_code": "00",
@@ -124,13 +120,12 @@
       "area_name": "全國",
       "cand_id": 8043,
       "cand_name": "彭明敏",
-      "cand_sex": "1",
+
       "cand_birthyear": "1923",
-      "cand_edu": null,
+
       "party_code": 16,
       "party_name": "民主進步黨",
-      "is_current": "N",
-      "is_vice": " "
+      "is_current": "N"
     },
     {
       "prv_code": "00",
@@ -142,7 +137,7 @@
       "cand_no": 3,
       "ticket_num": 2274586,
       "ticket_percent": 21.13,
-      "is_victor": " ",
+
       "ris_prv_code": "00",
       "ris_city_code": "000",
       "ris_area_code": "00",
@@ -150,13 +145,12 @@
       "area_name": "全國",
       "cand_id": 8044,
       "cand_name": "謝長廷",
-      "cand_sex": "1",
+
       "cand_birthyear": "1946",
-      "cand_edu": null,
+
       "party_code": 16,
       "party_name": "民主進步黨",
-      "is_current": "N",
-      "is_vice": "Y"
+      "is_current": "N"
     },
     {
       "prv_code": "00",
@@ -168,7 +162,7 @@
       "cand_no": 4,
       "ticket_num": 1603790,
       "ticket_percent": 14.9,
-      "is_victor": " ",
+
       "ris_prv_code": "00",
       "ris_city_code": "000",
       "ris_area_code": "00",
@@ -176,13 +170,12 @@
       "area_name": "全國",
       "cand_id": 8045,
       "cand_name": "林洋港",
-      "cand_sex": "1",
+
       "cand_birthyear": "1927",
-      "cand_edu": null,
+
       "party_code": 998,
       "party_name": "連署",
-      "is_current": "N",
-      "is_vice": " "
+      "is_current": "N"
     },
     {
       "prv_code": "00",
@@ -194,7 +187,7 @@
       "cand_no": 4,
       "ticket_num": 1603790,
       "ticket_percent": 14.9,
-      "is_victor": " ",
+
       "ris_prv_code": "00",
       "ris_city_code": "000",
       "ris_area_code": "00",
@@ -202,13 +195,12 @@
       "area_name": "全國",
       "cand_id": 8046,
       "cand_name": "郝柏村",
-      "cand_sex": "1",
+
       "cand_birthyear": "1919",
-      "cand_edu": null,
+
       "party_code": 998,
       "party_name": "連署",
-      "is_current": "N",
-      "is_vice": "Y"
+      "is_current": "N"
     }
   ]
 }

@@ -18,6 +18,11 @@ const routes: RouteRecordRaw[] = [
     component: async () => import("@/pages/Vote/index.vue"),
   },
   {
+    path: "/map",
+    name: "map",
+    component: async () => import("@/pages/Map/index.vue"),
+  },
+  {
     path: "/:pathMatch(.*)*", // Match other path
     redirect: "/",
   },
