@@ -18,13 +18,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "全國",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -43,13 +36,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "全國",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -62,19 +48,11 @@
       "cand_no": 2,
       "ticket_num": 5813699,
       "ticket_percent": 54.0,
-      "is_victor": "*",
       "ris_prv_code": "00",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "全國",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -87,19 +65,11 @@
       "cand_no": 2,
       "ticket_num": 5813699,
       "ticket_percent": 54.0,
-      "is_victor": "*",
       "ris_prv_code": "00",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "全國",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -118,13 +88,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "全國",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -143,13 +106,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "全國",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -168,13 +124,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "全國",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -193,13 +142,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "全國",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     }
   ]

@@ -12,19 +12,11 @@
       "cand_no": 1,
       "ticket_num": 165541,
       "ticket_percent": 11.89,
-
       "ris_prv_code": "63",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北市",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -37,19 +29,11 @@
       "cand_no": 1,
       "ticket_num": 165541,
       "ticket_percent": 11.89,
-
       "ris_prv_code": "63",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北市",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -62,19 +46,11 @@
       "cand_no": 2,
       "ticket_num": 541721,
       "ticket_percent": 38.9,
-      "is_victor": "*",
       "ris_prv_code": "63",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北市",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -87,19 +63,11 @@
       "cand_no": 2,
       "ticket_num": 541721,
       "ticket_percent": 38.9,
-      "is_victor": "*",
       "ris_prv_code": "63",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北市",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -112,19 +80,11 @@
       "cand_no": 3,
       "ticket_num": 338895,
       "ticket_percent": 24.34,
-
       "ris_prv_code": "63",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北市",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -137,19 +97,11 @@
       "cand_no": 3,
       "ticket_num": 338895,
       "ticket_percent": 24.34,
-
       "ris_prv_code": "63",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北市",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -162,19 +114,11 @@
       "cand_no": 4,
       "ticket_num": 346272,
       "ticket_percent": 24.87,
-
       "ris_prv_code": "63",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北市",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -187,19 +131,11 @@
       "cand_no": 4,
       "ticket_num": 346272,
       "ticket_percent": 24.87,
-
       "ris_prv_code": "63",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北市",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -218,13 +154,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄市",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -243,13 +172,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄市",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -262,19 +184,11 @@
       "cand_no": 2,
       "ticket_num": 371391,
       "ticket_percent": 50.62,
-      "is_victor": "*",
       "ris_prv_code": "64",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄市",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -287,19 +201,11 @@
       "cand_no": 2,
       "ticket_num": 371391,
       "ticket_percent": 50.62,
-      "is_victor": "*",
       "ris_prv_code": "64",
       "ris_city_code": "000",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄市",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -318,13 +224,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄市",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -343,13 +242,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄市",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -368,13 +260,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄市",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -393,13 +278,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄市",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -412,19 +290,11 @@
       "cand_no": 1,
       "ticket_num": 186973,
       "ticket_percent": 11.37,
-
       "ris_prv_code": "10",
       "ris_city_code": "001",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -437,19 +307,11 @@
       "cand_no": 1,
       "ticket_num": 186973,
       "ticket_percent": 11.37,
-
       "ris_prv_code": "10",
       "ris_city_code": "001",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -462,19 +324,11 @@
       "cand_no": 2,
       "ticket_num": 793718,
       "ticket_percent": 48.28,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "001",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -487,19 +341,11 @@
       "cand_no": 2,
       "ticket_num": 793718,
       "ticket_percent": 48.28,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "001",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -512,19 +358,11 @@
       "cand_no": 3,
       "ticket_num": 370728,
       "ticket_percent": 22.55,
-
       "ris_prv_code": "10",
       "ris_city_code": "001",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -537,19 +375,11 @@
       "cand_no": 3,
       "ticket_num": 370728,
       "ticket_percent": 22.55,
-
       "ris_prv_code": "10",
       "ris_city_code": "001",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -562,19 +392,11 @@
       "cand_no": 4,
       "ticket_num": 292541,
       "ticket_percent": 17.79,
-
       "ris_prv_code": "10",
       "ris_city_code": "001",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -587,19 +409,11 @@
       "cand_no": 4,
       "ticket_num": 292541,
       "ticket_percent": 17.79,
-
       "ris_prv_code": "10",
       "ris_city_code": "001",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺北縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -612,19 +426,11 @@
       "cand_no": 1,
       "ticket_num": 20573,
       "ticket_percent": 8.94,
-
       "ris_prv_code": "10",
       "ris_city_code": "002",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "宜蘭縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -637,19 +443,11 @@
       "cand_no": 1,
       "ticket_num": 20573,
       "ticket_percent": 8.94,
-
       "ris_prv_code": "10",
       "ris_city_code": "002",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "宜蘭縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -662,19 +460,11 @@
       "cand_no": 2,
       "ticket_num": 126405,
       "ticket_percent": 54.92,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "002",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "宜蘭縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -687,19 +477,11 @@
       "cand_no": 2,
       "ticket_num": 126405,
       "ticket_percent": 54.92,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "002",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "宜蘭縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -712,19 +494,11 @@
       "cand_no": 3,
       "ticket_num": 68044,
       "ticket_percent": 29.56,
-
       "ris_prv_code": "10",
       "ris_city_code": "002",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "宜蘭縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -737,19 +511,11 @@
       "cand_no": 3,
       "ticket_num": 68044,
       "ticket_percent": 29.56,
-
       "ris_prv_code": "10",
       "ris_city_code": "002",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "宜蘭縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -762,19 +528,11 @@
       "cand_no": 4,
       "ticket_num": 15154,
       "ticket_percent": 6.58,
-
       "ris_prv_code": "10",
       "ris_city_code": "002",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "宜蘭縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -787,19 +545,11 @@
       "cand_no": 4,
       "ticket_num": 15154,
       "ticket_percent": 6.58,
-
       "ris_prv_code": "10",
       "ris_city_code": "002",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "宜蘭縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -812,19 +562,11 @@
       "cand_no": 1,
       "ticket_num": 91048,
       "ticket_percent": 12.02,
-
       "ris_prv_code": "10",
       "ris_city_code": "003",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "桃園縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -837,19 +579,11 @@
       "cand_no": 1,
       "ticket_num": 91048,
       "ticket_percent": 12.02,
-
       "ris_prv_code": "10",
       "ris_city_code": "003",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "桃園縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -862,19 +596,11 @@
       "cand_no": 2,
       "ticket_num": 423198,
       "ticket_percent": 55.85,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "003",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "桃園縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -887,19 +613,11 @@
       "cand_no": 2,
       "ticket_num": 423198,
       "ticket_percent": 55.85,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "003",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "桃園縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -912,19 +630,11 @@
       "cand_no": 3,
       "ticket_num": 114901,
       "ticket_percent": 15.16,
-
       "ris_prv_code": "10",
       "ris_city_code": "003",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "桃園縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -937,19 +647,11 @@
       "cand_no": 3,
       "ticket_num": 114901,
       "ticket_percent": 15.16,
-
       "ris_prv_code": "10",
       "ris_city_code": "003",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "桃園縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -962,19 +664,11 @@
       "cand_no": 4,
       "ticket_num": 128607,
       "ticket_percent": 16.97,
-
       "ris_prv_code": "10",
       "ris_city_code": "003",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "桃園縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -987,19 +681,11 @@
       "cand_no": 4,
       "ticket_num": 128607,
       "ticket_percent": 16.97,
-
       "ris_prv_code": "10",
       "ris_city_code": "003",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "桃園縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1012,19 +698,11 @@
       "cand_no": 1,
       "ticket_num": 24746,
       "ticket_percent": 11.67,
-
       "ris_prv_code": "10",
       "ris_city_code": "004",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1037,19 +715,11 @@
       "cand_no": 1,
       "ticket_num": 24746,
       "ticket_percent": 11.67,
-
       "ris_prv_code": "10",
       "ris_city_code": "004",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1062,19 +732,11 @@
       "cand_no": 2,
       "ticket_num": 140321,
       "ticket_percent": 66.2,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "004",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -1087,19 +749,11 @@
       "cand_no": 2,
       "ticket_num": 140321,
       "ticket_percent": 66.2,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "004",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -1112,19 +766,11 @@
       "cand_no": 3,
       "ticket_num": 23555,
       "ticket_percent": 11.11,
-
       "ris_prv_code": "10",
       "ris_city_code": "004",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -1137,19 +783,11 @@
       "cand_no": 3,
       "ticket_num": 23555,
       "ticket_percent": 11.11,
-
       "ris_prv_code": "10",
       "ris_city_code": "004",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -1162,19 +800,11 @@
       "cand_no": 4,
       "ticket_num": 23342,
       "ticket_percent": 11.01,
-
       "ris_prv_code": "10",
       "ris_city_code": "004",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1187,19 +817,11 @@
       "cand_no": 4,
       "ticket_num": 23342,
       "ticket_percent": 11.01,
-
       "ris_prv_code": "10",
       "ris_city_code": "004",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1212,19 +834,11 @@
       "cand_no": 1,
       "ticket_num": 29884,
       "ticket_percent": 10.31,
-
       "ris_prv_code": "10",
       "ris_city_code": "005",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "苗栗縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1237,19 +851,11 @@
       "cand_no": 1,
       "ticket_num": 29884,
       "ticket_percent": 10.31,
-
       "ris_prv_code": "10",
       "ris_city_code": "005",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "苗栗縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1262,19 +868,11 @@
       "cand_no": 2,
       "ticket_num": 202593,
       "ticket_percent": 69.87,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "005",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "苗栗縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -1287,19 +885,11 @@
       "cand_no": 2,
       "ticket_num": 202593,
       "ticket_percent": 69.87,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "005",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "苗栗縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -1312,19 +902,11 @@
       "cand_no": 3,
       "ticket_num": 31036,
       "ticket_percent": 10.7,
-
       "ris_prv_code": "10",
       "ris_city_code": "005",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "苗栗縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -1337,19 +919,11 @@
       "cand_no": 3,
       "ticket_num": 31036,
       "ticket_percent": 10.7,
-
       "ris_prv_code": "10",
       "ris_city_code": "005",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "苗栗縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -1362,19 +936,11 @@
       "cand_no": 4,
       "ticket_num": 26459,
       "ticket_percent": 9.12,
-
       "ris_prv_code": "10",
       "ris_city_code": "005",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "苗栗縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1387,19 +953,11 @@
       "cand_no": 4,
       "ticket_num": 26459,
       "ticket_percent": 9.12,
-
       "ris_prv_code": "10",
       "ris_city_code": "005",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "苗栗縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1412,19 +970,11 @@
       "cand_no": 1,
       "ticket_num": 71030,
       "ticket_percent": 10.01,
-
       "ris_prv_code": "10",
       "ris_city_code": "006",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1437,19 +987,11 @@
       "cand_no": 1,
       "ticket_num": 71030,
       "ticket_percent": 10.01,
-
       "ris_prv_code": "10",
       "ris_city_code": "006",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1462,19 +1004,11 @@
       "cand_no": 2,
       "ticket_num": 426668,
       "ticket_percent": 60.15,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "006",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -1487,19 +1021,11 @@
       "cand_no": 2,
       "ticket_num": 426668,
       "ticket_percent": 60.15,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "006",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -1512,19 +1038,11 @@
       "cand_no": 3,
       "ticket_num": 115034,
       "ticket_percent": 16.22,
-
       "ris_prv_code": "10",
       "ris_city_code": "006",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -1537,19 +1055,11 @@
       "cand_no": 3,
       "ticket_num": 115034,
       "ticket_percent": 16.22,
-
       "ris_prv_code": "10",
       "ris_city_code": "006",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -1562,19 +1072,11 @@
       "cand_no": 4,
       "ticket_num": 96594,
       "ticket_percent": 13.62,
-
       "ris_prv_code": "10",
       "ris_city_code": "006",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1587,19 +1089,11 @@
       "cand_no": 4,
       "ticket_num": 96594,
       "ticket_percent": 13.62,
-
       "ris_prv_code": "10",
       "ris_city_code": "006",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1612,19 +1106,11 @@
       "cand_no": 1,
       "ticket_num": 62138,
       "ticket_percent": 9.7,
-
       "ris_prv_code": "10",
       "ris_city_code": "007",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "彰化縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1637,19 +1123,11 @@
       "cand_no": 1,
       "ticket_num": 62138,
       "ticket_percent": 9.7,
-
       "ris_prv_code": "10",
       "ris_city_code": "007",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "彰化縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1662,19 +1140,11 @@
       "cand_no": 2,
       "ticket_num": 407820,
       "ticket_percent": 63.63,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "007",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "彰化縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -1687,19 +1157,11 @@
       "cand_no": 2,
       "ticket_num": 407820,
       "ticket_percent": 63.63,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "007",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "彰化縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -1712,19 +1174,11 @@
       "cand_no": 3,
       "ticket_num": 116154,
       "ticket_percent": 18.12,
-
       "ris_prv_code": "10",
       "ris_city_code": "007",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "彰化縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -1737,19 +1191,11 @@
       "cand_no": 3,
       "ticket_num": 116154,
       "ticket_percent": 18.12,
-
       "ris_prv_code": "10",
       "ris_city_code": "007",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "彰化縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -1762,19 +1208,11 @@
       "cand_no": 4,
       "ticket_num": 54776,
       "ticket_percent": 8.55,
-
       "ris_prv_code": "10",
       "ris_city_code": "007",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "彰化縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1787,19 +1225,11 @@
       "cand_no": 4,
       "ticket_num": 54776,
       "ticket_percent": 8.55,
-
       "ris_prv_code": "10",
       "ris_city_code": "007",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "彰化縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1812,19 +1242,11 @@
       "cand_no": 1,
       "ticket_num": 14552,
       "ticket_percent": 5.31,
-
       "ris_prv_code": "10",
       "ris_city_code": "008",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "南投縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1837,19 +1259,11 @@
       "cand_no": 1,
       "ticket_num": 14552,
       "ticket_percent": 5.31,
-
       "ris_prv_code": "10",
       "ris_city_code": "008",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "南投縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1862,19 +1276,11 @@
       "cand_no": 2,
       "ticket_num": 86357,
       "ticket_percent": 31.52,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "008",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "南投縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -1887,19 +1293,11 @@
       "cand_no": 2,
       "ticket_num": 86357,
       "ticket_percent": 31.52,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "008",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "南投縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -1912,19 +1310,11 @@
       "cand_no": 3,
       "ticket_num": 45556,
       "ticket_percent": 16.63,
-
       "ris_prv_code": "10",
       "ris_city_code": "008",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "南投縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -1937,19 +1327,11 @@
       "cand_no": 3,
       "ticket_num": 45556,
       "ticket_percent": 16.63,
-
       "ris_prv_code": "10",
       "ris_city_code": "008",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "南投縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -1962,19 +1344,11 @@
       "cand_no": 4,
       "ticket_num": 127537,
       "ticket_percent": 46.55,
-
       "ris_prv_code": "10",
       "ris_city_code": "008",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "南投縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -1987,19 +1361,11 @@
       "cand_no": 4,
       "ticket_num": 127537,
       "ticket_percent": 46.55,
-
       "ris_prv_code": "10",
       "ris_city_code": "008",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "南投縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2012,19 +1378,11 @@
       "cand_no": 1,
       "ticket_num": 25914,
       "ticket_percent": 7.22,
-
       "ris_prv_code": "10",
       "ris_city_code": "009",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "雲林縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2037,19 +1395,11 @@
       "cand_no": 1,
       "ticket_num": 25914,
       "ticket_percent": 7.22,
-
       "ris_prv_code": "10",
       "ris_city_code": "009",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "雲林縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2062,19 +1412,11 @@
       "cand_no": 2,
       "ticket_num": 237871,
       "ticket_percent": 66.29,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "009",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "雲林縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -2087,19 +1429,11 @@
       "cand_no": 2,
       "ticket_num": 237871,
       "ticket_percent": 66.29,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "009",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "雲林縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -2112,19 +1446,11 @@
       "cand_no": 3,
       "ticket_num": 68785,
       "ticket_percent": 19.17,
-
       "ris_prv_code": "10",
       "ris_city_code": "009",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "雲林縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -2137,19 +1463,11 @@
       "cand_no": 3,
       "ticket_num": 68785,
       "ticket_percent": 19.17,
-
       "ris_prv_code": "10",
       "ris_city_code": "009",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "雲林縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -2162,19 +1480,11 @@
       "cand_no": 4,
       "ticket_num": 26247,
       "ticket_percent": 7.31,
-
       "ris_prv_code": "10",
       "ris_city_code": "009",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "雲林縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2187,19 +1497,11 @@
       "cand_no": 4,
       "ticket_num": 26247,
       "ticket_percent": 7.31,
-
       "ris_prv_code": "10",
       "ris_city_code": "009",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "雲林縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2212,19 +1514,11 @@
       "cand_no": 1,
       "ticket_num": 17515,
       "ticket_percent": 6.37,
-
       "ris_prv_code": "10",
       "ris_city_code": "010",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2237,19 +1531,11 @@
       "cand_no": 1,
       "ticket_num": 17515,
       "ticket_percent": 6.37,
-
       "ris_prv_code": "10",
       "ris_city_code": "010",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2262,19 +1548,11 @@
       "cand_no": 2,
       "ticket_num": 180709,
       "ticket_percent": 65.7,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "010",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -2287,19 +1565,11 @@
       "cand_no": 2,
       "ticket_num": 180709,
       "ticket_percent": 65.7,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "010",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -2312,19 +1582,11 @@
       "cand_no": 3,
       "ticket_num": 63101,
       "ticket_percent": 22.94,
-
       "ris_prv_code": "10",
       "ris_city_code": "010",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -2337,19 +1599,11 @@
       "cand_no": 3,
       "ticket_num": 63101,
       "ticket_percent": 22.94,
-
       "ris_prv_code": "10",
       "ris_city_code": "010",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -2362,19 +1616,11 @@
       "cand_no": 4,
       "ticket_num": 13716,
       "ticket_percent": 4.99,
-
       "ris_prv_code": "10",
       "ris_city_code": "010",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2387,19 +1633,11 @@
       "cand_no": 4,
       "ticket_num": 13716,
       "ticket_percent": 4.99,
-
       "ris_prv_code": "10",
       "ris_city_code": "010",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2412,19 +1650,11 @@
       "cand_no": 1,
       "ticket_num": 41263,
       "ticket_percent": 7.48,
-
       "ris_prv_code": "10",
       "ris_city_code": "011",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2437,19 +1667,11 @@
       "cand_no": 1,
       "ticket_num": 41263,
       "ticket_percent": 7.48,
-
       "ris_prv_code": "10",
       "ris_city_code": "011",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2462,19 +1684,11 @@
       "cand_no": 2,
       "ticket_num": 347825,
       "ticket_percent": 63.05,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "011",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -2487,19 +1701,11 @@
       "cand_no": 2,
       "ticket_num": 347825,
       "ticket_percent": 63.05,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "011",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -2512,19 +1718,11 @@
       "cand_no": 3,
       "ticket_num": 134969,
       "ticket_percent": 24.47,
-
       "ris_prv_code": "10",
       "ris_city_code": "011",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -2537,19 +1735,11 @@
       "cand_no": 3,
       "ticket_num": 134969,
       "ticket_percent": 24.47,
-
       "ris_prv_code": "10",
       "ris_city_code": "011",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -2562,19 +1752,11 @@
       "cand_no": 4,
       "ticket_num": 27590,
       "ticket_percent": 5.0,
-
       "ris_prv_code": "10",
       "ris_city_code": "011",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2587,19 +1769,11 @@
       "cand_no": 4,
       "ticket_num": 27590,
       "ticket_percent": 5.0,
-
       "ris_prv_code": "10",
       "ris_city_code": "011",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2612,19 +1786,11 @@
       "cand_no": 1,
       "ticket_num": 47790,
       "ticket_percent": 7.64,
-
       "ris_prv_code": "10",
       "ris_city_code": "012",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2637,19 +1803,11 @@
       "cand_no": 1,
       "ticket_num": 47790,
       "ticket_percent": 7.64,
-
       "ris_prv_code": "10",
       "ris_city_code": "012",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2662,19 +1820,11 @@
       "cand_no": 2,
       "ticket_num": 374386,
       "ticket_percent": 59.88,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "012",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -2687,19 +1837,11 @@
       "cand_no": 2,
       "ticket_num": 374386,
       "ticket_percent": 59.88,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "012",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -2712,19 +1854,11 @@
       "cand_no": 3,
       "ticket_num": 151943,
       "ticket_percent": 24.3,
-
       "ris_prv_code": "10",
       "ris_city_code": "012",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -2737,19 +1871,11 @@
       "cand_no": 3,
       "ticket_num": 151943,
       "ticket_percent": 24.3,
-
       "ris_prv_code": "10",
       "ris_city_code": "012",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -2762,19 +1888,11 @@
       "cand_no": 4,
       "ticket_num": 51139,
       "ticket_percent": 8.18,
-
       "ris_prv_code": "10",
       "ris_city_code": "012",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2787,19 +1905,11 @@
       "cand_no": 4,
       "ticket_num": 51139,
       "ticket_percent": 8.18,
-
       "ris_prv_code": "10",
       "ris_city_code": "012",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "高雄縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2812,19 +1922,11 @@
       "cand_no": 1,
       "ticket_num": 26644,
       "ticket_percent": 5.78,
-
       "ris_prv_code": "10",
       "ris_city_code": "013",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "屏東縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2837,19 +1939,11 @@
       "cand_no": 1,
       "ticket_num": 26644,
       "ticket_percent": 5.78,
-
       "ris_prv_code": "10",
       "ris_city_code": "013",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "屏東縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2862,19 +1956,11 @@
       "cand_no": 2,
       "ticket_num": 289812,
       "ticket_percent": 62.91,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "013",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "屏東縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -2887,19 +1973,11 @@
       "cand_no": 2,
       "ticket_num": 289812,
       "ticket_percent": 62.91,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "013",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "屏東縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -2912,19 +1990,11 @@
       "cand_no": 3,
       "ticket_num": 117283,
       "ticket_percent": 25.46,
-
       "ris_prv_code": "10",
       "ris_city_code": "013",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "屏東縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -2937,19 +2007,11 @@
       "cand_no": 3,
       "ticket_num": 117283,
       "ticket_percent": 25.46,
-
       "ris_prv_code": "10",
       "ris_city_code": "013",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "屏東縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -2962,19 +2024,11 @@
       "cand_no": 4,
       "ticket_num": 26902,
       "ticket_percent": 5.84,
-
       "ris_prv_code": "10",
       "ris_city_code": "013",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "屏東縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -2987,19 +2041,11 @@
       "cand_no": 4,
       "ticket_num": 26902,
       "ticket_percent": 5.84,
-
       "ris_prv_code": "10",
       "ris_city_code": "013",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "屏東縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3012,19 +2058,11 @@
       "cand_no": 1,
       "ticket_num": 8160,
       "ticket_percent": 7.52,
-
       "ris_prv_code": "10",
       "ris_city_code": "014",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺東縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3037,19 +2075,11 @@
       "cand_no": 1,
       "ticket_num": 8160,
       "ticket_percent": 7.52,
-
       "ris_prv_code": "10",
       "ris_city_code": "014",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺東縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3062,19 +2092,11 @@
       "cand_no": 2,
       "ticket_num": 74211,
       "ticket_percent": 68.42,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "014",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺東縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -3087,19 +2109,11 @@
       "cand_no": 2,
       "ticket_num": 74211,
       "ticket_percent": 68.42,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "014",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺東縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -3112,19 +2126,11 @@
       "cand_no": 3,
       "ticket_num": 14506,
       "ticket_percent": 13.37,
-
       "ris_prv_code": "10",
       "ris_city_code": "014",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺東縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -3137,19 +2143,11 @@
       "cand_no": 3,
       "ticket_num": 14506,
       "ticket_percent": 13.37,
-
       "ris_prv_code": "10",
       "ris_city_code": "014",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺東縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -3162,19 +2160,11 @@
       "cand_no": 4,
       "ticket_num": 11584,
       "ticket_percent": 10.68,
-
       "ris_prv_code": "10",
       "ris_city_code": "014",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺東縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3187,19 +2177,11 @@
       "cand_no": 4,
       "ticket_num": 11584,
       "ticket_percent": 10.68,
-
       "ris_prv_code": "10",
       "ris_city_code": "014",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺東縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3212,19 +2194,11 @@
       "cand_no": 1,
       "ticket_num": 14568,
       "ticket_percent": 8.91,
-
       "ris_prv_code": "10",
       "ris_city_code": "015",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "花蓮縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3237,19 +2211,11 @@
       "cand_no": 1,
       "ticket_num": 14568,
       "ticket_percent": 8.91,
-
       "ris_prv_code": "10",
       "ris_city_code": "015",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "花蓮縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3262,19 +2228,11 @@
       "cand_no": 2,
       "ticket_num": 104740,
       "ticket_percent": 64.05,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "015",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "花蓮縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -3287,19 +2245,11 @@
       "cand_no": 2,
       "ticket_num": 104740,
       "ticket_percent": 64.05,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "015",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "花蓮縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -3312,19 +2262,11 @@
       "cand_no": 3,
       "ticket_num": 18383,
       "ticket_percent": 11.24,
-
       "ris_prv_code": "10",
       "ris_city_code": "015",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "花蓮縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -3337,19 +2279,11 @@
       "cand_no": 3,
       "ticket_num": 18383,
       "ticket_percent": 11.24,
-
       "ris_prv_code": "10",
       "ris_city_code": "015",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "花蓮縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -3362,19 +2296,11 @@
       "cand_no": 4,
       "ticket_num": 25836,
       "ticket_percent": 15.8,
-
       "ris_prv_code": "10",
       "ris_city_code": "015",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "花蓮縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3387,19 +2313,11 @@
       "cand_no": 4,
       "ticket_num": 25836,
       "ticket_percent": 15.8,
-
       "ris_prv_code": "10",
       "ris_city_code": "015",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "花蓮縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3412,19 +2330,11 @@
       "cand_no": 1,
       "ticket_num": 4170,
       "ticket_percent": 10.29,
-
       "ris_prv_code": "10",
       "ris_city_code": "016",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "澎湖縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3437,19 +2347,11 @@
       "cand_no": 1,
       "ticket_num": 4170,
       "ticket_percent": 10.29,
-
       "ris_prv_code": "10",
       "ris_city_code": "016",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "澎湖縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3462,19 +2364,11 @@
       "cand_no": 2,
       "ticket_num": 25367,
       "ticket_percent": 62.61,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "016",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "澎湖縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -3487,19 +2381,11 @@
       "cand_no": 2,
       "ticket_num": 25367,
       "ticket_percent": 62.61,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "016",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "澎湖縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -3512,19 +2398,11 @@
       "cand_no": 3,
       "ticket_num": 8070,
       "ticket_percent": 19.92,
-
       "ris_prv_code": "10",
       "ris_city_code": "016",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "澎湖縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -3537,19 +2415,11 @@
       "cand_no": 3,
       "ticket_num": 8070,
       "ticket_percent": 19.92,
-
       "ris_prv_code": "10",
       "ris_city_code": "016",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "澎湖縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -3562,19 +2432,11 @@
       "cand_no": 4,
       "ticket_num": 2907,
       "ticket_percent": 7.18,
-
       "ris_prv_code": "10",
       "ris_city_code": "016",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "澎湖縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3587,19 +2449,11 @@
       "cand_no": 4,
       "ticket_num": 2907,
       "ticket_percent": 7.18,
-
       "ris_prv_code": "10",
       "ris_city_code": "016",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "澎湖縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3618,13 +2472,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "連江縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3643,13 +2490,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "連江縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3662,19 +2502,11 @@
       "cand_no": 2,
       "ticket_num": 1221,
       "ticket_percent": 46.51,
-      "is_victor": "*",
       "ris_prv_code": "09",
       "ris_city_code": "007",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "連江縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -3687,19 +2519,11 @@
       "cand_no": 2,
       "ticket_num": 1221,
       "ticket_percent": 46.51,
-      "is_victor": "*",
       "ris_prv_code": "09",
       "ris_city_code": "007",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "連江縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -3718,13 +2542,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "連江縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -3743,13 +2560,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "連江縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -3768,13 +2578,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "連江縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3793,13 +2596,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "連江縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3818,13 +2614,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "金門縣",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3843,13 +2632,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "金門縣",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3862,19 +2644,11 @@
       "cand_no": 2,
       "ticket_num": 8401,
       "ticket_percent": 40.65,
-      "is_victor": "*",
       "ris_prv_code": "09",
       "ris_city_code": "020",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "金門縣",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -3887,19 +2661,11 @@
       "cand_no": 2,
       "ticket_num": 8401,
       "ticket_percent": 40.65,
-      "is_victor": "*",
       "ris_prv_code": "09",
       "ris_city_code": "020",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "金門縣",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -3918,13 +2684,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "金門縣",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -3943,13 +2702,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "金門縣",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -3968,13 +2720,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "金門縣",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -3993,13 +2738,6 @@
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "金門縣",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4012,19 +2750,11 @@
       "cand_no": 1,
       "ticket_num": 25950,
       "ticket_percent": 13.42,
-
       "ris_prv_code": "10",
       "ris_city_code": "017",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "基隆市",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4037,19 +2767,11 @@
       "cand_no": 1,
       "ticket_num": 25950,
       "ticket_percent": 13.42,
-
       "ris_prv_code": "10",
       "ris_city_code": "017",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "基隆市",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4062,19 +2784,11 @@
       "cand_no": 2,
       "ticket_num": 97223,
       "ticket_percent": 50.27,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "017",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "基隆市",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -4087,19 +2801,11 @@
       "cand_no": 2,
       "ticket_num": 97223,
       "ticket_percent": 50.27,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "017",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "基隆市",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -4112,19 +2818,11 @@
       "cand_no": 3,
       "ticket_num": 34256,
       "ticket_percent": 17.71,
-
       "ris_prv_code": "10",
       "ris_city_code": "017",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "基隆市",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -4137,19 +2835,11 @@
       "cand_no": 3,
       "ticket_num": 34256,
       "ticket_percent": 17.71,
-
       "ris_prv_code": "10",
       "ris_city_code": "017",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "基隆市",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -4162,19 +2852,11 @@
       "cand_no": 4,
       "ticket_num": 35978,
       "ticket_percent": 18.6,
-
       "ris_prv_code": "10",
       "ris_city_code": "017",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "基隆市",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4187,19 +2869,11 @@
       "cand_no": 4,
       "ticket_num": 35978,
       "ticket_percent": 18.6,
-
       "ris_prv_code": "10",
       "ris_city_code": "017",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "基隆市",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4212,19 +2886,11 @@
       "cand_no": 1,
       "ticket_num": 22603,
       "ticket_percent": 12.93,
-
       "ris_prv_code": "10",
       "ris_city_code": "018",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹市",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4237,19 +2903,11 @@
       "cand_no": 1,
       "ticket_num": 22603,
       "ticket_percent": 12.93,
-
       "ris_prv_code": "10",
       "ris_city_code": "018",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹市",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4262,19 +2920,11 @@
       "cand_no": 2,
       "ticket_num": 93812,
       "ticket_percent": 53.65,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "018",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹市",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -4287,19 +2937,11 @@
       "cand_no": 2,
       "ticket_num": 93812,
       "ticket_percent": 53.65,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "018",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹市",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -4312,19 +2954,11 @@
       "cand_no": 3,
       "ticket_num": 28281,
       "ticket_percent": 16.17,
-
       "ris_prv_code": "10",
       "ris_city_code": "018",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹市",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -4337,19 +2971,11 @@
       "cand_no": 3,
       "ticket_num": 28281,
       "ticket_percent": 16.17,
-
       "ris_prv_code": "10",
       "ris_city_code": "018",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹市",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -4362,19 +2988,11 @@
       "cand_no": 4,
       "ticket_num": 30155,
       "ticket_percent": 17.25,
-
       "ris_prv_code": "10",
       "ris_city_code": "018",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹市",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4387,19 +3005,11 @@
       "cand_no": 4,
       "ticket_num": 30155,
       "ticket_percent": 17.25,
-
       "ris_prv_code": "10",
       "ris_city_code": "018",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "新竹市",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4412,19 +3022,11 @@
       "cand_no": 1,
       "ticket_num": 46844,
       "ticket_percent": 11.11,
-
       "ris_prv_code": "10",
       "ris_city_code": "019",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中市",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4437,19 +3039,11 @@
       "cand_no": 1,
       "ticket_num": 46844,
       "ticket_percent": 11.11,
-
       "ris_prv_code": "10",
       "ris_city_code": "019",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中市",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4462,19 +3056,11 @@
       "cand_no": 2,
       "ticket_num": 195865,
       "ticket_percent": 46.45,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "019",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中市",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -4487,19 +3073,11 @@
       "cand_no": 2,
       "ticket_num": 195865,
       "ticket_percent": 46.45,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "019",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中市",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -4512,19 +3090,11 @@
       "cand_no": 3,
       "ticket_num": 82416,
       "ticket_percent": 19.55,
-
       "ris_prv_code": "10",
       "ris_city_code": "019",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中市",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -4537,19 +3107,11 @@
       "cand_no": 3,
       "ticket_num": 82416,
       "ticket_percent": 19.55,
-
       "ris_prv_code": "10",
       "ris_city_code": "019",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中市",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -4562,19 +3124,11 @@
       "cand_no": 4,
       "ticket_num": 96509,
       "ticket_percent": 22.89,
-
       "ris_prv_code": "10",
       "ris_city_code": "019",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中市",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4587,19 +3141,11 @@
       "cand_no": 4,
       "ticket_num": 96509,
       "ticket_percent": 22.89,
-
       "ris_prv_code": "10",
       "ris_city_code": "019",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺中市",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4612,19 +3158,11 @@
       "cand_no": 1,
       "ticket_num": 12761,
       "ticket_percent": 9.9,
-
       "ris_prv_code": "10",
       "ris_city_code": "020",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義市",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4637,19 +3175,11 @@
       "cand_no": 1,
       "ticket_num": 12761,
       "ticket_percent": 9.9,
-
       "ris_prv_code": "10",
       "ris_city_code": "020",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義市",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4662,19 +3192,11 @@
       "cand_no": 2,
       "ticket_num": 60628,
       "ticket_percent": 47.04,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "020",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義市",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -4687,19 +3209,11 @@
       "cand_no": 2,
       "ticket_num": 60628,
       "ticket_percent": 47.04,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "020",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義市",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -4712,19 +3226,11 @@
       "cand_no": 3,
       "ticket_num": 42984,
       "ticket_percent": 33.35,
-
       "ris_prv_code": "10",
       "ris_city_code": "020",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義市",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -4737,19 +3243,11 @@
       "cand_no": 3,
       "ticket_num": 42984,
       "ticket_percent": 33.35,
-
       "ris_prv_code": "10",
       "ris_city_code": "020",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義市",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -4762,19 +3260,11 @@
       "cand_no": 4,
       "ticket_num": 12515,
       "ticket_percent": 9.71,
-
       "ris_prv_code": "10",
       "ris_city_code": "020",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義市",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4787,19 +3277,11 @@
       "cand_no": 4,
       "ticket_num": 12515,
       "ticket_percent": 9.71,
-
       "ris_prv_code": "10",
       "ris_city_code": "020",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "嘉義市",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4812,19 +3294,11 @@
       "cand_no": 1,
       "ticket_num": 39058,
       "ticket_percent": 10.97,
-
       "ris_prv_code": "10",
       "ris_city_code": "021",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南市",
-      "cand_id": 8040,
-      "cand_name": "王清峰",
-      "cand_sex": "2",
-      "cand_birthyear": "1952",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4837,19 +3311,11 @@
       "cand_no": 1,
       "ticket_num": 39058,
       "ticket_percent": 10.97,
-
       "ris_prv_code": "10",
       "ris_city_code": "021",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南市",
-      "cand_id": 8039,
-      "cand_name": "陳履安",
-
-      "cand_birthyear": "1937",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4862,19 +3328,11 @@
       "cand_no": 2,
       "ticket_num": 201436,
       "ticket_percent": 56.58,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "021",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南市",
-      "cand_id": 8042,
-      "cand_name": "連戰",
-
-      "cand_birthyear": "1936",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "N"
     },
     {
@@ -4887,19 +3345,11 @@
       "cand_no": 2,
       "ticket_num": 201436,
       "ticket_percent": 56.58,
-      "is_victor": "*",
       "ris_prv_code": "10",
       "ris_city_code": "021",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南市",
-      "cand_id": 8041,
-      "cand_name": "李登輝",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 1,
-      "party_name": "中國國民黨",
       "is_current": "Y"
     },
     {
@@ -4912,19 +3362,11 @@
       "cand_no": 3,
       "ticket_num": 84929,
       "ticket_percent": 23.85,
-
       "ris_prv_code": "10",
       "ris_city_code": "021",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南市",
-      "cand_id": 8044,
-      "cand_name": "謝長廷",
-
-      "cand_birthyear": "1946",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -4937,19 +3379,11 @@
       "cand_no": 3,
       "ticket_num": 84929,
       "ticket_percent": 23.85,
-
       "ris_prv_code": "10",
       "ris_city_code": "021",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南市",
-      "cand_id": 8043,
-      "cand_name": "彭明敏",
-
-      "cand_birthyear": "1923",
-
-      "party_code": 16,
-      "party_name": "民主進步黨",
       "is_current": "N"
     },
     {
@@ -4962,19 +3396,11 @@
       "cand_no": 4,
       "ticket_num": 30603,
       "ticket_percent": 8.6,
-
       "ris_prv_code": "10",
       "ris_city_code": "021",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南市",
-      "cand_id": 8046,
-      "cand_name": "郝柏村",
-
-      "cand_birthyear": "1919",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     },
     {
@@ -4987,19 +3413,11 @@
       "cand_no": 4,
       "ticket_num": 30603,
       "ticket_percent": 8.6,
-
       "ris_prv_code": "10",
       "ris_city_code": "021",
       "ris_area_code": "00",
       "ris_dept_code": "000",
       "area_name": "臺南市",
-      "cand_id": 8045,
-      "cand_name": "林洋港",
-
-      "cand_birthyear": "1927",
-
-      "party_code": 998,
-      "party_name": "連署",
       "is_current": "N"
     }
   ]
