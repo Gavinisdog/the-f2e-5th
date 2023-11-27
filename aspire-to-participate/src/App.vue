@@ -26,6 +26,7 @@ const el = ref();
   <div class="root" ref="el">
     <div ref="headerRef" class="root-header">
       <Header v-if="router.currentRoute.value.name !== 'vote'" />
+      <VoteHeader v-else-if="router.currentRoute.value.name === 'map'" class="overflow-hidden" />
       <VoteHeader v-else class="overflow-hidden" />
     </div>
     <div class="" :style="countContainerHeight">
@@ -39,6 +40,7 @@ const el = ref();
     </div>
     <div class="root-footer" ref="footerRef">
       <Footer v-if="router.currentRoute.value.name !== 'vote'" />
+      <VoteFooter v-else-if="router.currentRoute.value.name === 'map'" class="overflow-hidden" />
       <VoteFooter v-else class="overflow-hidden" />
     </div>
   </div>
