@@ -4,12 +4,7 @@ import candidateImg2 from "@/assets/images/vote/vote-02.png";
 import candidateImg3 from "@/assets/images/vote/vote-03.png";
 import candidateImg4 from "@/assets/images/vote/vote-04.png";
 import ticketsNational1996 from "@/api/json/1996/ticketsN.json";
-
-import * as echarts from "echarts/core";
-import { GridComponent, GridComponentOption } from "echarts/components";
-import { BarChart, BarSeriesOption } from "echarts/charts";
-import { SVGRenderer } from "echarts/renderers";
-import { onMounted, Ref, ref } from "vue";
+import AnimateValue from "@/components/home/AnimationToValue.vue";
 
 const toRound = (numberToBeRound: number, digit: number) => {
   return Math.floor((numberToBeRound + Number.EPSILON) * 10 ** digit) / 10 ** digit;
@@ -46,7 +41,7 @@ const candidateList: Array<any> = [
   },
 ];
 
-const tickets1996: Array<any> = [];
+const tickets: Array<any> = [];
 // no type for this key
 const key = "00_000_00_000_0000";
 
@@ -58,42 +53,27 @@ candidateList.forEach((candidate) => {
   candidate.totalPercent = found?.ticket_percent;
   candidate.isCurrent = found?.is_current === "Y" ? true : false;
   if (candidate.totalTickets > 1) {
-    tickets1996.push(candidate);
+    tickets.push(candidate);
   }
 });
 
-echarts.use([GridComponent, BarChart, SVGRenderer]);
-
-type EChartsOption = echarts.ComposeOption<GridComponentOption | BarSeriesOption>;
-
-const candidateChart: Ref<HTMLElement | null> = ref(null);
-
-console.log(tickets1996);
-const option: EChartsOption = {
-  xAxis: {
-    type: "category",
-    data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-  },
-  yAxis: {
-    type: "value",
-  },
-  series: [
-    {
-      data: [120, 200, 150, 80, 70, 110, 130],
-      type: "bar",
-      showBackground: true,
-      backgroundStyle: {
-        color: "rgba(180, 180, 180, 0.2)",
-      },
-    },
-  ],
-};
-
-onMounted(() => {
-  const myChart = echarts.init(candidateChart.value);
-
-  myChart.setOption(option);
-});
+// const selectYear = ref(undefined);
+// const years = ref([
+//   { year: 1996 },
+//   { year: 2000 },
+//   { year: 2004 },
+//   { year: 2008 },
+//   { year: 2012 },
+//   { year: 2016 },
+//   { year: 2020 },
+// ]);
+// const atUpdate = (value: { year: number }) => {
+//   switch (value.year) {
+//     case 1996: {
+//       console.log(router);
+//     }
+//   }
+// };
 </script>
 
 <template>
@@ -132,7 +112,6 @@ onMounted(() => {
         </div>
       </div>
     </section>
-    <section ref="candidateChart" class="candidate-chart"></section>
     <section class="candidate-section overflow-scroll px-2 xs:px-0">
       <div class="flex">
         <div class="hidden from-fire-gradient"></div>
@@ -144,19 +123,20 @@ onMounted(() => {
         <div class="hidden from-rose-1 bg-rose-1 border-rose-1"></div>
         <div class="hidden from-blue-1 bg-blue-1 border-blue-1"></div>
         <div
-          v-for="(row, index) in tickets1996"
+          v-for="(row, index) in tickets"
           :key="index"
           :class="`bg-gradient-to-t from-${row.gradient} relative z-0 border-solid border-0 border-l border-${row.color} md:overflow-hidden`"
         >
           <div
-            class="min-w-[175px] min-h-[380px] xs:w-[319px] xs:h-[770px] flex flex-col justify-between"
+            class="min-w-[175px] min-h-[380px] xs:w-[319px] xs:h-[690px] flex flex-col justify-between"
           >
             <dl class="flex flex-col grow-0 pl-1.5">
               <dt class="block text-xs xs:text-sm font-sans font-bold leading-normal">
                 得票數
               </dt>
               <div class="block leading-4 font-sans font-bold xs:text-3xl">
-                {{ row.totalTickets.toLocaleString() }}
+                <!-- {{ row.totalTickets.toLocaleString() }} -->
+                <AnimateValue :value="row.totalTickets" />
               </div>
             </dl>
             <div class="grow">
@@ -164,10 +144,11 @@ onMounted(() => {
                 class="font-sans text-xs font-bold leading-relaxed absolute left-0 xs:text-base w-10 xs:w-16 text-center"
                 :style="`bottom: ${row.totalPercent}%`"
               >
-                {{ toRound(row.totalPercent, 2) }}%
+                {{ toRound(row.totalPercent, 2) }}
+                %
               </div>
               <div
-                :class="`min-w-min w-10 xs:w-16 bg-${row.color} absolute bottom-0 z-10`"
+                :class="`min-w-min w-10 xs:w-16 bg-${row.color} absolute bottom-0 z-10  animate-scale-up`"
                 :style="`height: ${row.totalPercent}%`"
               ></div>
               <img

@@ -23,6 +23,9 @@ export default {
     extend: {
       animation: {
         shake: "shake 5s cubic-bezier(0.45, 0.03, 0.52, 0.95) infinite",
+        expand: "expand 1s ease forwards",
+        "scale-up": "scale-up 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both",
+        "slide-top": "slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
       },
       keyframes: {
         shake: {
@@ -40,6 +43,32 @@ export default {
           },
           "18%": {
             transform: "translateX(-8px)",
+          },
+        },
+        expand: {
+          from: {
+            height: "0%",
+          },
+          to: {
+            height: "100%",
+          },
+        },
+        "scale-up": {
+          "0%": {
+            transform: "scaleY(0)",
+            "transform-origin": "0% 100%",
+          },
+          "100%": {
+            transform: "scaleY(1)",
+            "transform-origin": "0% 100%",
+          },
+        },
+        "slide-top": {
+          "0%": {
+            transform: "translateY(-100%)",
+          },
+          "100%": {
+            transform: "translateY(0%)",
           },
         },
       },

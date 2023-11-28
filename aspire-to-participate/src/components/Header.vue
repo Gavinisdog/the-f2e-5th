@@ -132,13 +132,11 @@ const socialList: Array<any> = [
                   民眾服務</a
                 >
               </dt>
-              <dt class="px-5 w-min cursor-pointer whitespace-nowrap mt-6">
-                <Button
-                  class="button-vote"
-                  @click="$router.push('vote'), (visible = false)"
-                >
-                  選舉開票結果</Button
-                >
+              <dt
+                class="px-5 w-min cursor-pointer whitespace-nowrap mt-6"
+                @click="$router.push('vote'), (visible = false)"
+              >
+                <Button class="button-vote"> 選舉開票結果</Button>
               </dt>
             </nav>
           </Sidebar>
