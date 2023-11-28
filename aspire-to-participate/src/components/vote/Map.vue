@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref, reactive, onMounted, Ref } from "vue";
-import MapPanel from '@/components/vote/MapPanel.vue'
+import MapPanel from "@/components/vote/MapPanel.vue";
 import * as echarts from "echarts";
 import mapGeo from "@/assets/map/TaiwanMapGEOJSON.json";
 import TaiwainCode from "@/api/json/1996/areasC.json";
@@ -14,20 +14,32 @@ import candidateImg4 from "@/assets/images/vote/vote-04.png";
 
 import TabMenu from "primevue/tabmenu";
 import Button from "primevue/button";
-const mode ='all' // all : 全台; area 區;
+const mode = "all"; // all : 全台; area 區;
 const active: Ref<number> = ref(0);
-const items = ref([ // 年份列表
+const items = ref([
+  // 年份列表
   { label: "2020" },
 ]);
 
 // 整理當縣市最高票候選人 strart
-const groupByCityCode = Object.groupBy(AreaTickect['00_000_00_000_0000'], ({ city_code }) => city_code);
+// @ts-ignore
+const groupByCityCode = Object.groupBy(
+  AreaTickect["00_000_00_000_0000"],
+  // @ts-ignore
+  ({ city_code }) => city_code
+);
 const maxTicketPercentByCity = {};
-Object.keys(groupByCityCode).forEach(city_code => {
+Object.keys(groupByCityCode).forEach((city_code) => {
   const candidates = groupByCityCode[city_code];
-  const maxTicketPercentCandidate = candidates.reduce((maxCandidate, candidate) => {
-    return candidate.ticket_percent > maxCandidate.ticket_percent ? candidate : maxCandidate;
-  }, candidates[0]);
+  const maxTicketPercentCandidate = candidates.reduce(
+    (maxCandidate: { ticket_percent: number }, candidate: { ticket_percent: number }) => {
+      return candidate.ticket_percent > maxCandidate.ticket_percent
+        ? candidate
+        : maxCandidate;
+    },
+    candidates[0]
+  );
+  // @ts-ignore
   maxTicketPercentByCity[city_code] = maxTicketPercentCandidate;
 });
 // 整理當縣市最高票候選人 end
@@ -35,53 +47,52 @@ const candidateList: Array<any> = [
   {
     name: "李東載",
     img: candidateImg1,
-    partyName:'腦性聯盟',
+    partyName: "腦性聯盟",
     no: 1,
     gradient: "fire-gradient",
     color: "fire-1", // 候選人代表顏色
-    vote:{
+    vote: {
       rate: 0,
-      ticket: 0
-    }
+      ticket: 0,
+    },
   },
   {
     name: "科軌道",
     img: candidateImg2,
-    partyName:'科學主義黨',
+    partyName: "科學主義黨",
     no: 2,
     gradient: "green-gradient",
     color: "green-1",
-    vote:{
-      rate: 0,  // 投票百分比
-      ticket: 0 // 候選人得票
-    }
+    vote: {
+      rate: 0, // 投票百分比
+      ticket: 0, // 候選人得票
+    },
   },
   {
     name: "河錫辰",
     img: candidateImg3,
     no: 3,
-    partyName:'科學主義黨',
+    partyName: "科學主義黨",
     gradient: "rose-gradient",
     color: "rose-1",
-    vote:{
+    vote: {
       rate: 0,
-      ticket: 0
-    }
+      ticket: 0,
+    },
   },
   {
     name: "徐東珠",
     img: candidateImg4,
     no: 4,
-    partyName:'生物進化聯盟',
+    partyName: "生物進化聯盟",
     gradient: "blue-gradient",
     color: "blue-1",
-    vote:{
+    vote: {
       rate: 0,
-      ticket: 0
-    }
+      ticket: 0,
+    },
   },
 ];
-
 
 // chartMap 物件
 const mapContainer = ref(null);
@@ -89,19 +100,24 @@ let myChart: any = null;
 
 const AllDataGetorHandler = () => {
   //  for pannel
-  candidateList.forEach((el)=>{
-    const data = totalTickect['00_000_00_000_0000'].find( area => area.cand_no === el.no
-    )|| []
-    el.vote['rate'] = data.ticket_percent || 0
-    el.vote['ticket'] =  data.ticket_num || 0
-  })
+  candidateList.forEach((el) => {
+    const data =
+      totalTickect["00_000_00_000_0000"].find((area) => area.cand_no === el.no) || [];
+    // @ts-ignore
+    el.vote["rate"] = data.ticket_percent || 0;
+    // @ts-ignore
+    el.vote["ticket"] = data.ticket_num || 0;
+  });
   // 預設全國資料 for map
   return mapGeo.features.map((feature) => {
-    
     // 地區碼
-    const cityCode = TaiwainCode['00_000_00_000_0000'].find(el=>el.area_name === feature.properties.name)?.city_code || ''
+    const cityCode =
+      TaiwainCode["00_000_00_000_0000"].find(
+        (el) => el.area_name === feature.properties.name
+      )?.city_code || "";
 
     // 全台灣地區顏色設定
+    // @ts-ignore
     const cityWinnerData = maxTicketPercentByCity[cityCode];
     const cityWinner = cityWinnerData ? cityWinnerData.cand_no : null;
 
@@ -139,9 +155,9 @@ const AllDataGetorHandler = () => {
   });
 };
 // 隨機分配最高票候選人
-const getRandomInt = (max: number) => {
-  return Math.floor(Math.random() * max);
-};
+// const getRandomInt = (max: number) => {
+//   return Math.floor(Math.random() * max);
+// };
 const setItemStyleBackgroundHandler = (candidate: number) => {
   let bgAreaColor = "";
   switch (candidate) {
@@ -354,10 +370,10 @@ onMounted(() => {
     <div class="max-content">
       <!-- 年度表 -->
       <TabMenu
-      :activeIndex="active"
-      class="flex justify-end"
-      :label="'text-2xl'"
-      :model="items"
+        :activeIndex="active"
+        class="flex justify-end"
+        :label="'text-2xl'"
+        :model="items"
       />
       <div class="mapContainer" ref="mapContainer" />
     </div>
@@ -365,7 +381,7 @@ onMounted(() => {
 </template>
 
 <style lang="scss" scoped>
-.max-content{
+.max-content {
   max-width: 1170px;
 }
 .mapContainer {
