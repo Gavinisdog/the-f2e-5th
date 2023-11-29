@@ -20,7 +20,30 @@ export default {
       itim: ["Itim"],
       twinkle: ["TwinkleStar"],
     },
-    extend: {},
+    extend: {
+      animation: {
+        shake: "shake 5s cubic-bezier(0.45, 0.03, 0.52, 0.95) infinite",
+      },
+      keyframes: {
+        shake: {
+          "0%, 20%": {
+            transform: "translateX(0)",
+          },
+          "2%, 6%, 10%, 14%": {
+            transform: "translateX(-10px)",
+          },
+          "4%, 8%, 12%": {
+            transform: "translateX(10px)",
+          },
+          "16%": {
+            transform: "translateX(8px)",
+          },
+          "18%": {
+            transform: "translateX(-8px)",
+          },
+        },
+      },
+    },
     colors: {
       transparent: "transparent",
       "light-1": "#c1c1c1",
@@ -43,6 +66,7 @@ export default {
       "v-grey": "#c5c7d0",
       "v-light-grey": "#f5f6f8",
       "v-ui-grey": "#e6e9ef",
+      "white-gradient": "#ffffff33",
       "blue-gradient": "#0080ff33",
       "green-gradient": "#59b20033",
       "fire-gradient": "#ff550033",

@@ -2,7 +2,6 @@
 <script lang="ts" setup>
 import { useWindowScroll, useWindowSize } from "@vueuse/core";
 import { ref } from "vue";
-
 const behavior: any = { behavior: "smooth" };
 const { y } = useWindowScroll(behavior);
 const scrollTo = ($event: any) => {
@@ -13,16 +12,13 @@ const scrollTo = ($event: any) => {
 };
 const emit = defineEmits(["atHeader"]);
 const { width } = useWindowSize();
-
 const visible = ref(false);
-
 const socialList: Array<any> = [
   { label: "Facebook", command: () => scrollTo("email") },
   { label: "Instagram", command: () => scrollTo("email") },
   { label: "YouTube", command: () => scrollTo("email") },
 ];
 </script>
-
 <template>
   <header class="min-h-[64px] w-full bg-gray-3 h-16 md:h-14 fixed z-50">
     <div class="header-wrapper">
@@ -37,7 +33,7 @@ const socialList: Array<any> = [
           <nav class="flex items-center" v-if="width > 768">
             <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
               <a
-                class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
+                class="text-pink-2 block h-16 -mb-1 hover:text-white no-underline leading-[3.75rem] w-min"
                 @click="scrollTo('manifesto')"
               >
                 候選人主張</a
@@ -45,7 +41,7 @@ const socialList: Array<any> = [
             </dt>
             <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
               <a
-                class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
+                class="text-pink-2 block h-16 -mb-1 hover:text-white no-underline leading-[3.75rem] w-min"
                 @click="scrollTo('news')"
               >
                 最新活動</a
@@ -53,7 +49,7 @@ const socialList: Array<any> = [
             </dt>
             <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
               <a
-                class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
+                class="text-pink-2 block h-16 -mb-1 hover:text-white no-underline leading-[3.75rem] w-min"
                 @click="scrollTo('issues')"
               >
                 政策議題</a
@@ -61,7 +57,7 @@ const socialList: Array<any> = [
             </dt>
             <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
               <a
-                class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
+                class="text-pink-2 block h-16 -mb-1 hover:text-white no-underline leading-[3.75rem] w-min"
                 @click="scrollTo('donate')"
               >
                 小額捐款</a
@@ -69,7 +65,7 @@ const socialList: Array<any> = [
             </dt>
             <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
               <a
-                class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
+                class="text-pink-2 block h-16 -mb-1 hover:text-white no-underline leading-[3.75rem] w-min"
                 @click="scrollTo('email')"
               >
                 民眾服務</a
@@ -98,7 +94,7 @@ const socialList: Array<any> = [
             <nav class="text-center">
               <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
                 <a
-                  class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
+                  class="text-pink-2 block h-16 -mb-1 hover:text-white no-underline w-min"
                   @click="scrollTo('manifesto'), (visible = false)"
                 >
                   候選人主張</a
@@ -106,7 +102,7 @@ const socialList: Array<any> = [
               </dt>
               <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
                 <a
-                  class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
+                  class="text-pink-2 block h-16 -mb-1 hover:text-white no-underline w-min"
                   @click="scrollTo('news'), (visible = false)"
                 >
                   最新活動</a
@@ -114,7 +110,7 @@ const socialList: Array<any> = [
               </dt>
               <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
                 <a
-                  class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
+                  class="text-pink-2 block h-16 -mb-1 hover:text-white no-underline w-min"
                   @click="scrollTo('issues'), (visible = false)"
                 >
                   政策議題</a
@@ -122,7 +118,7 @@ const socialList: Array<any> = [
               </dt>
               <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
                 <a
-                  class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
+                  class="text-pink-2 block h-16 -mb-1 hover:text-white no-underline w-min"
                   @click="scrollTo('donate'), (visible = false)"
                 >
                   小額捐款</a
@@ -130,7 +126,7 @@ const socialList: Array<any> = [
               </dt>
               <dt class="px-5 w-min cursor-pointer whitespace-nowrap">
                 <a
-                  class="text-pink-2 block h-[60px] hover:text-white no-underline leading-[3.75rem] w-min"
+                  class="text-pink-2 block h-16 -mb-1 hover:text-white no-underline w-min"
                   @click="scrollTo('email'), (visible = false)"
                 >
                   民眾服務</a

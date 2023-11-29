@@ -77,31 +77,42 @@ console.log()
         <div 
           class="flex flex-row gap-1 items-center"
         >
-          <div 
+          {{ candidator.partyName }}
+        </div>
+        <div class="flex flex-row gap-1 items-center">
+          <div
             class="tag border-[3px] border-solid w-6 h-6 rounded-[100%] flex-shrink-0 flex justify-center items-center"
             :class="`border-${candidator.color}`"
           >
-            <span :class="`text-${candidator.color} font-bold text-xl`">{{candidator.no}}</span>
+            <span :class="`text-${candidator.color} font-bold text-xl`">{{
+              candidator.no
+            }}</span>
           </div>
-          <div class="text-lg font-bold text-v-dark">{{candidator.name}}</div>
+          <div class="text-lg font-bold text-v-dark">{{ candidator.name }}</div>
           <div class="flex-grow ml-6">
-            <div class="flex justify-between text-v-dark text-[14px]"><span>{{candidator.vote.rate}}%</span><span>{{candidator.vote.ticket.toLocaleString()}}</span></div>
-            <ProgressBar :value="candidator.vote.rate" class="flex-grow text-center h-4" style="height: 6px"></ProgressBar>
+            <div class="flex justify-between text-v-dark text-[14px]">
+              <span>{{ candidator.vote.rate }}%</span
+              ><span>{{ candidator.vote.ticket.toLocaleString() }}</span>
+            </div>
+            <ProgressBar
+              :value="candidator.vote.rate"
+              class="flex-grow text-center h-4"
+              style="height: 6px"
+            ></ProgressBar>
           </div>
         </div>
-
       </div>
     </div>
   </div>
 </template>
 <style lang="scss" scoped>
-.shadow-ex{
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+.shadow-ex {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
-.control-Pannel{
+.control-Pannel {
   max-width: 328px;
 }
-:deep(.p-progressbar-label){
-  color: transparent
+:deep(.p-progressbar-label) {
+  color: transparent;
 }
 </style>

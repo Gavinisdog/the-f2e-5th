@@ -1,13 +1,11 @@
 <script setup lang="ts">
 import { Ref, ref } from "vue";
-
 const isShow: Ref = ref(false);
 const toggleFooter = () => {
   isShow.value = !isShow.value;
 };
 const isMarqueeMove = ref(false);
 </script>
-
 <template>
   <footer>
     <div class="bottom-0 fixed">
@@ -16,7 +14,7 @@ const isMarqueeMove = ref(false);
           href="https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%B8%BD%E7%B5%B1%E5%8F%8A%E5%89%AF%E7%B8%BD%E7%B5%B1%E5%85%AC%E6%B0%91%E7%9B%B4%E6%8E%A5%E9%81%B8%E8%88%89%E5%88%97%E8%A1%A8"
         >
           <MarqueeText
-            class="text-v-dark text-sm font-serif font-bold py-2 w-screen"
+            class="text-v-dark text-sm font-serif font-bold py-2 w-screen bg-white-gradient"
             :duration="30"
             :paused="isMarqueeMove"
             @mouseenter="isMarqueeMove = !isMarqueeMove"
@@ -63,7 +61,6 @@ const isMarqueeMove = ref(false);
     </transition>
   </footer>
 </template>
-
 <style scoped lang="scss">
 .footer-slide-enter-active,
 .footer-slide-leave-active {

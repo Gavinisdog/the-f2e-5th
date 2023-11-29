@@ -21,64 +21,85 @@ let currentIndex = ref('') // '': 沒有選區區域 ex:1-xx
 const Area = ref('')
 let usePanelChangCity = ref(false)
 const active: Ref<number> = ref(0);
-const items = ref([ // 年份列表
+const items = ref([
+  // 年份列表
   { label: "2020" },
 ]);
 
 
 const mapPannelList: Array<any> = []
+// 整理當縣市最高票候選人 strart
+// @ts-ignore
+const groupByCityCode = Object.groupBy(
+  AreaTickect["00_000_00_000_0000"],
+  // @ts-ignore
+  ({ city_code }) => city_code
+);
+const maxTicketPercentByCity = {};
+Object.keys(groupByCityCode).forEach((city_code) => {
+  const candidates = groupByCityCode[city_code];
+  const maxTicketPercentCandidate = candidates.reduce(
+    (maxCandidate: { ticket_percent: number }, candidate: { ticket_percent: number }) => {
+      return candidate.ticket_percent > maxCandidate.ticket_percent
+        ? candidate
+        : maxCandidate;
+    },
+    candidates[0]
+  );
+  // @ts-ignore
+  maxTicketPercentByCity[city_code] = maxTicketPercentCandidate;
+});
 // 整理當縣市最高票候選人 end
 const candidateList: Ref<Array<any>> = ref([
   {
     name: "李東載",
     img: candidateImg1,
-    partyName:'腦性聯盟',
+    partyName: "腦性聯盟",
     no: 1,
     gradient: "fire-gradient",
     color: "fire-1", // 候選人代表顏色
-    vote:{
+    vote: {
       rate: 0,
-      ticket: 0
-    }
+      ticket: 0,
+    },
   },
   {
     name: "科軌道",
     img: candidateImg2,
-    partyName:'科學主義黨',
+    partyName: "科學主義黨",
     no: 2,
     gradient: "green-gradient",
     color: "green-1",
-    vote:{
-      rate: 0,  // 投票百分比
-      ticket: 0 // 候選人得票
-    }
+    vote: {
+      rate: 0, // 投票百分比
+      ticket: 0, // 候選人得票
+    },
   },
   {
     name: "河錫辰",
     img: candidateImg3,
     no: 3,
-    partyName:'科學主義黨',
+    partyName: "科學主義黨",
     gradient: "rose-gradient",
     color: "rose-1",
-    vote:{
+    vote: {
       rate: 0,
-      ticket: 0
-    }
+      ticket: 0,
+    },
   },
   {
     name: "徐東珠",
     img: candidateImg4,
     no: 4,
-    partyName:'生物進化聯盟',
+    partyName: "生物進化聯盟",
     gradient: "blue-gradient",
     color: "blue-1",
-    vote:{
+    vote: {
       rate: 0,
-      ticket: 0
-    }
+      ticket: 0,
+    },
   },
 ]);
-
 
 // chartMap 物件
 const mapContainer = ref(null);
@@ -144,6 +165,7 @@ const AllDataGetorHandler = () => {
     }
     
     // 全台灣地區顏色設定
+    // @ts-ignore
     const cityWinnerData = maxTicketPercentByCity[cityCode];
     const cityWinner = cityWinnerData ? cityWinnerData.cand_no : null;
 
@@ -180,6 +202,10 @@ const AllDataGetorHandler = () => {
     };
   });
 };
+// 隨機分配最高票候選人
+// const getRandomInt = (max: number) => {
+//   return Math.floor(Math.random() * max);
+// };
 const setItemStyleBackgroundHandler = (candidate: number) => {
   let bgAreaColor = "";
   switch (candidate) {
@@ -416,7 +442,7 @@ onMounted(() => {
 </template>
 
 <style lang="scss" scoped>
-.max-content mx-auto{
+.max-content {
   max-width: 1170px;
 }
 .mapContainer {
@@ -439,10 +465,3 @@ onMounted(() => {
   padding: 20px 24px;
 }
 </style>
-
-<!-- 明天務必討論一下
-1.問題處
-2.資料結構 候選人 新北縣式資料
-3.展示功能
-4.compont 控制 echart
-5.處理 echart 回傳給 componet 響應式資料 -->
