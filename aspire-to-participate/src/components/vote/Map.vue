@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref, reactive, onMounted, Ref, watch } from "vue";
-import MapPanel from '@/components/vote/MapPanel.vue'
+import MapPanel from "@/components/vote/MapPanel.vue";
 import * as echarts from "echarts";
 import mapGeo from "@/assets/map/TaiwanMapGEOJSON.json";
 import TaiwainCode from "@/api/json/1996/areasC.json";
@@ -13,21 +13,18 @@ import candidateImg3 from "@/assets/images/vote/vote-03.png";
 import candidateImg4 from "@/assets/images/vote/vote-04.png";
 
 import TabMenu from "primevue/tabmenu";
-import Button from "primevue/button";
 
-
-let mode = ref('all') // all : 全台; area 區;
-let currentIndex = ref('') // '': 沒有選區區域 ex:1-xx
-const Area = ref('')
-let usePanelChangCity = ref(false)
+let mode = ref("all"); // all : 全台; area 區;
+let currentIndex: Ref<number> = ref(0); // '': 沒有選區區域 ex:1-xx
+const Area = ref("");
+let usePanelChangCity = ref(false);
 const active: Ref<number> = ref(0);
 const items = ref([
   // 年份列表
-  { label: "2020" },
+  { label: "1996" },
 ]);
 
-
-const mapPannelList: Array<any> = []
+const mapPannelList: Array<any> = [];
 // 整理當縣市最高票候選人 strart
 // @ts-ignore
 const groupByCityCode = Object.groupBy(
@@ -105,65 +102,67 @@ const candidateList: Ref<Array<any>> = ref([
 const mapContainer = ref(null);
 let myChart: any = null;
 
-
 watch(mode, (newMode) => {
-  newMode === 'all' ? allTicket() : allAreaTicket(currentIndex.value)
-})
-watch(currentIndex, (newCurrentIndex) => {
-  if(newCurrentIndex !== currentIndex){
-    allAreaTicket(currentIndex.value)
-  }
-})
-const groupByCityCode = Object.groupBy(AreaTickect['00_000_00_000_0000'], ({ city_code }) => city_code);
-const maxTicketPercentByCity = {};
-Object.keys(groupByCityCode).forEach(city_code => {
-  const candidates = groupByCityCode[city_code];
-  const maxTicketPercentCandidate = candidates.reduce((maxCandidate, candidate) => {
-    return candidate.ticket_percent > maxCandidate.ticket_percent ? candidate : maxCandidate;
-  }, candidates[0]);
-  maxTicketPercentByCity[city_code] = maxTicketPercentCandidate;
+  newMode === "all" ? allTicket() : allAreaTicket();
 });
-
+watch(currentIndex, (newCurrentIndex) => {
+  if (newCurrentIndex !== currentIndex.value) {
+    allAreaTicket();
+  }
+});
 
 // 產生全國票選資料給候選人
 const allTicket = () => {
   // 整理當縣市最高票候選人 strart
   //  for pannel
   // console.log('產生全國票選資料給候選人')
-  candidateList.value.forEach((el)=>{
-    const data = totalTickect['00_000_00_000_0000'].find( area => area.cand_no === el.no
-    )|| []
-    el.vote['rate'] = data.ticket_percent || 0
-    el.vote['ticket'] =  data.ticket_num || 0
-  })
-}
+  candidateList.value.forEach((el) => {
+    const data = totalTickect["00_000_00_000_0000"].find(
+      (area) => area.cand_no === el.no
+    ) || {
+      ticket_percent: 0,
+      ticket_num: 0,
+    };
+    el.vote["rate"] = data.ticket_percent || 0;
+    el.vote["ticket"] = data.ticket_num || 0;
+  });
+};
 // 產生各地區票選資料
-const allAreaTicket = ()=>{
+const allAreaTicket = () => {
   // console.log('產生各地區票選資料')
-  candidateList.value.forEach((el)=>{
-    const code = option.series[0].data[currentIndex.value]?.cityCode
-    const data = AreaTickect['00_000_00_000_0000'].find( area => area.cand_no === el.no 
-    && area.city_code === code)|| []
-    el.vote['rate'] = parseFloat(data.ticket_percent) || parseFloat((Math.random() * 15 + 1).toFixed(2))
-    el.vote['ticket'] = data.ticket_num || Math.random() * 15000 + 1
-  })
-}
+  candidateList.value.forEach((el) => {
+    const code = option.series[0].data[currentIndex.value]?.cityCode;
+    const data = AreaTickect["00_000_00_000_0000"].find(
+      (area) => area.cand_no === el.no && area.city_code === code
+    ) || {
+      ticket_percent:
+        Math.floor(Math.random() * 15 + 1 + Number.EPSILON * 10 ** 2) / 10 ** 2,
+      ticket_num: Math.random() * 15000 + 1,
+    };
+    el.vote["rate"] =
+      data.ticket_percent || parseFloat((Math.random() * 15 + 1).toFixed(2));
+    el.vote["ticket"] = data.ticket_num || Math.random() * 15000 + 1;
+  });
+};
 const AllDataGetorHandler = () => {
   //  for pannel 地圖
-  
+
   // 預設全國資料 for map
   return mapGeo.features.map((feature) => {
-    mode.value === 'all' ? allTicket() : allAreaTicket()
+    mode.value === "all" ? allTicket() : allAreaTicket();
     // 地區碼
-    const cityCode = TaiwainCode['00_000_00_000_0000'].find(el=>el.area_name === feature.properties.name)?.city_code || ''
-    if(cityCode !== ''){
+    const cityCode =
+      TaiwainCode["00_000_00_000_0000"].find(
+        (el) => el.area_name === feature.properties.name
+      )?.city_code || "";
+    if (cityCode !== "") {
       mapPannelList.push({
         name: feature.properties.name,
         code: cityCode,
-        id: feature.properties.COUNTYID
-      })
+        id: feature.properties.COUNTYID,
+      });
     }
-    
+
     // 全台灣地區顏色設定
     // @ts-ignore
     const cityWinnerData = maxTicketPercentByCity[cityCode];
@@ -227,13 +226,13 @@ const setItemStyleBackgroundHandler = (candidate: number) => {
   }
   return bgAreaColor;
 };
-const centerCoordHandler = () => {
-  // 获取当前地图中心点坐标
-  let centerCoord = myChart.getOption().series[0].center;
-  let currentZoom = myChart.getOption().series[0].zoom;
-  // console.log("当前地图中心点坐标:", centerCoord);
-  // console.log("当前地图Zoom:", currentZoom);
-};
+// const centerCoordHandler = () => {
+//   // 获取当前地图中心点坐标
+//   let centerCoord = myChart.getOption().series[0].center;
+//   let currentZoom = myChart.getOption().series[0].zoom;
+//   console.log("当前地图中心点坐标:", centerCoord);
+//   console.log("当前地图Zoom:", currentZoom);
+// };
 
 // 移動地圖 控制zoom 跟 center
 const zoomAndCeterHandler = (
@@ -257,21 +256,22 @@ const zoomAndCeterHandler = (
 const clickSthCityHandler = async (
   params: any,
   code: any,
+  // @ts-ignore
   outcontrl: boolean = false
 ) => {
   // 获取当前点击区域的中心坐标, 放大倍率
   // console.log(params)
   // console.log(params.data)
-  if(params !== null && params.data.id !== ''){
+  if (params !== null && params.data.id !== "") {
     // 使用者直接點擊地圖
-    Area.value = params.data.id
+    Area.value = params.data.id;
   }
-  
-  usePanelChangCity.value = false
 
-  let zoomVaule =  null;
-  let centerValue =  null;
-  if ( params === null && Area.value !== '') {
+  usePanelChangCity.value = false;
+
+  let zoomVaule = null;
+  let centerValue = null;
+  if (params === null && Area.value !== "") {
     // 使用外部componet 來操作echart
     const data = JSON.parse(JSON.stringify(option.series[0].data));
     const findIndex = data.findIndex((el: { id: any }) => el.id === code);
@@ -281,38 +281,37 @@ const clickSthCityHandler = async (
       type: "select",
       dataIndex: findIndex,
     });
-    currentIndex.value = findIndex
+    currentIndex.value = findIndex;
     zoomVaule = findObj.zoom;
     centerValue = findObj.center;
-    usePanelChangCity.value = true
-
-  }else if(params !== null){
+    usePanelChangCity.value = true;
+  } else if (params !== null) {
     // 直接點擊 Map
     zoomVaule = params?.data.zoom;
     centerValue = params?.data.center;
-    currentIndex.value = params?.dataIndex
-    Area.value = params.data.id
-    mode.value = 'area'
-  } 
+    currentIndex.value = params?.dataIndex;
+    Area.value = params.data.id;
+    mode.value = "area";
+  }
   zoomAndCeterHandler(zoomVaule, centerValue);
 };
 // mapCrtol 操控資料
-const pannelCotrol = (v)=>{
-   if(v === ''){
-    mode.value = 'all'
+const pannelCotrol = (v: string) => {
+  if (v === "") {
+    mode.value = "all";
     myChart.dispatchAction({
-          type: "unselect",
-          dataIndex: currentIndex.value
-        });
-        currentIndex.value = ''
-    return zoomAndCeterHandler(5, [2.107717973667881, -0.4230652624372137])
-  }else{
-    mode.value = 'area'
+      type: "unselect",
+      dataIndex: currentIndex.value,
+    });
+    currentIndex.value = 0;
+    return zoomAndCeterHandler(5, [2.107717973667881, -0.4230652624372137]);
+  } else {
+    mode.value = "area";
   }
   // console.log('v: ',v) // 對應地圖 COUNTYID; option data id;
-  Area.value = v
-  clickSthCityHandler(null, v, true)
-}
+  Area.value = v;
+  clickSthCityHandler(null, v, true);
+};
 const windowResizeHandler = () => {
   // 監聽視窗大小變化，調整地圖大小
   myChart.resize();
@@ -359,7 +358,7 @@ const option = reactive({
         ],
       },
       roam: true,
-      selectedMode: 'single', // 或 'single'
+      selectedMode: "single", // 或 'single'
       label: {
         show: false,
         emphasis: {
@@ -397,36 +396,38 @@ onMounted(() => {
   myChart.on("click", clickSthCityHandler);
 
   // 监听地图视图变化事件
-  myChart.on("globalout", centerCoordHandler);
+  // myChart.on("globalout", centerCoordHandler);
 
   // 監聽地圖點擊空白處(回到預設狀態)
-  myChart
-    .getZr()
-    .on("click", (event: any) =>{
-      if (!event.target) {
-        myChart.dispatchAction({
-          type: "unselect",
-          dataIndex: currentIndex.value
-        });
-        currentIndex.value = ''
-        mode.value = 'all'
-        return zoomAndCeterHandler(5, [2.107717973667881, -0.4230652624372137])
-      }
-    });
+  myChart.getZr().on("click", (event: any) => {
+    if (!event.target) {
+      myChart.dispatchAction({
+        type: "unselect",
+        dataIndex: currentIndex.value,
+      });
+      currentIndex.value = 0;
+      mode.value = "all";
+      return zoomAndCeterHandler(5, [2.107717973667881, -0.4230652624372137]);
+    }
+  });
   // 畫面整體寬度有異變
   window.addEventListener("resize", windowResizeHandler);
   myChart.hideLoading();
   myChart.setOption(option);
 });
-
 </script>
 
 <template>
   <div class="layout">
     <!-- control 面板 -->
-    <MapPanel @changCity="(v)=>pannelCotrol(v)" 
-      :mode="mode" :Area="Area"
-      :candidateList="candidateList" :mapPannelList="mapPannelList" :usePanelChangCity="usePanelChangCity" />
+    <MapPanel
+      @changCity="(v) => pannelCotrol(v)"
+      :mode="mode"
+      :Area="Area"
+      :candidateList="candidateList"
+      :mapPannelList="mapPannelList"
+      :usePanelChangCity="usePanelChangCity"
+    />
     <!-- E-chart -->
     <div class="max-content mx-auto">
       <!-- 年度表 -->
