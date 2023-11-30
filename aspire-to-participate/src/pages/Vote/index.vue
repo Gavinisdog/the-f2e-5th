@@ -5,7 +5,7 @@ import candidateImg3 from "@/assets/images/vote/vote-03.png";
 import candidateImg4 from "@/assets/images/vote/vote-04.png";
 import ticketsNational1996 from "@/api/json/1996/ticketsN.json";
 import AnimateValue from "@/components/home/AnimationToValue.vue";
-
+// TODO Netlify Fetch
 const toRound = (numberToBeRound: number, digit: number) => {
   return Math.floor((numberToBeRound + Number.EPSILON) * 10 ** digit) / 10 ** digit;
 };
