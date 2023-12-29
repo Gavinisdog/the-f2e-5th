@@ -5,8 +5,10 @@ import { Ref, ref, watchEffect } from "vue";
 import theme from "@/assets/data/theme.json";
 import colors from "@/assets/data/color.json";
 
-const getAreaCode = (data: any) => {
-  return `${data.prv_code}_${data.city_code}_${data.area_code}_${data.dept_code}_${data.li_code}`;
+import type { Location, Ticket, CandidatePair, CandidateWinner } from "@/types";
+
+const getAreaCode = (data?: Location) => {
+  return `${data?.prv_code}_${data?.city_code}_${data?.area_code}_${data?.dept_code}_${data?.li_code}`;
 };
 
 const uniqueArray = (list: Array<any>) => {
@@ -18,9 +20,9 @@ const uniqueArray = (list: Array<any>) => {
   }, []);
 };
 
-const getCandidateData = (tickets: Array<any> = []): Array<any> => {
+const getCandidateData = (tickets: Array<Ticket>): Array<CandidatePair> => {
   const candidateList = uniqueArray(tickets.map((data) => data.cand_no));
-  return candidateList.map((candidateNo: any) => {
+  const candidatePair = candidateList.map((candidateNo: number) => {
     const president = tickets.find(
       (data) => data.cand_no === candidateNo && data.is_vice !== "Y"
     );
@@ -29,28 +31,30 @@ const getCandidateData = (tickets: Array<any> = []): Array<any> => {
     );
     return {
       candidateNo,
-      areaCode: getAreaCode(president),
-      areaName: president.area_name,
-      presidentName: president.cand_name,
-      vicePresidentName: vicePresident.cand_name,
-      partyName: president.party_name,
-      partyCode: president.party_code,
-      ticketQty: president.ticket_num,
-      ticketPercent: president.ticket_percent,
+      areaCode: getAreaCode(president) || "",
+      areaName: president?.area_name || "",
+      presidentName: president?.cand_name || "",
+      vicePresidentName: vicePresident?.cand_name || "",
+      partyName: president?.party_name || "",
+      partyCode: president?.party_code || 0,
+      partyColor: colors.find((party) => party.party_name === president?.party_name),
+      ticketQty: president?.ticket_num || 0,
+      ticketPercent: president?.ticket_percent || 0,
     };
   });
+  return candidatePair;
 };
 
-const getTicketsData = (cities: Array<any>, cityTickets: Array<any>) => {
-  const cityTicketsList = cities.map((city) => {
+const getTicketsData = (cities: Array<Location>, cityTickets: Array<Ticket>) => {
+  const cityWinner = cities.map((city) => {
     const areaCode = getAreaCode(city);
     const areaName = city.area_name;
     const tickets = cityTickets.filter((ticketBox) => ticketBox.area_name === areaName);
     const winner = tickets.sort((a, b) => {
       return b.ticket_num - a.ticket_num;
     })[0];
-    const winnerColor = colors?.find((party) => party.party_name === winner.party_name)
-      ?.color_code;
+    const winnerColor =
+      colors.find((party) => party.party_name === winner.party_name)?.color_code || "ccc";
     return {
       areaCode,
       areaName,
@@ -58,38 +62,39 @@ const getTicketsData = (cities: Array<any>, cityTickets: Array<any>) => {
       winnerColor,
     };
   });
-  return cityTicketsList;
+  return cityWinner;
 };
 
 export const getElectionData = () => {
   // 選舉年份
-  const themeId: Ref<string> = ref(theme[0].theme_items[0].theme_id);
-  const cities: Ref<Array<any>> = ref([]);
-  const districts: Ref<Array<any>> = ref([]);
-  const lanes: Ref<Array<any>> = ref([]);
+  const themes = theme[0].theme_items;
+  const cities: Ref<Array<Location>> = ref([]);
+  const districts: Ref<Array<Location>> = ref([]);
+  const lanes: Ref<Array<Location>> = ref([]);
+  const selectedThemeId: Ref<string> = ref(theme[0].theme_items[0].theme_id);
   const selectedCityId: Ref<string> = ref("");
   const selectedDistrictId: Ref<string> = ref("");
   const selectedLaneId: Ref<string> = ref("");
-  const nationTickets: Ref<Array<any>> = ref([]);
-  const cityTickets: Ref<Array<any>> = ref([]);
-  const districtTickets: Ref<Array<any>> = ref([]);
-  const laneTickets: Ref<Array<any>> = ref([]);
-  const nationCandidateData: Ref<Array<any>> = ref([]);
-  const cityCandidateData: Ref<Array<any>> = ref([]);
-  const districtCandidateData: Ref<Array<any>> = ref([]);
-  const laneCandidateData: Ref<Array<any>> = ref([]);
-  const cityTicketsData: Ref<Array<any>> = ref([]);
-  const districtTicketsData: Ref<Array<any>> = ref([]);
-  const laneTicketsData: Ref<Array<any>> = ref([]);
+  const nationTickets: Ref<Array<Ticket>> = ref([]);
+  const cityTickets: Ref<Array<Ticket>> = ref([]);
+  const districtTickets: Ref<Array<Ticket>> = ref([]);
+  const laneTickets: Ref<Array<Ticket>> = ref([]);
+  const nationCandidateData: Ref<Array<CandidatePair>> = ref([]);
+  const cityCandidateData: Ref<Array<CandidatePair>> = ref([]);
+  const districtCandidateData: Ref<Array<CandidatePair>> = ref([]);
+  const laneCandidateData: Ref<Array<CandidatePair>> = ref([]);
+  const cityTicketsData: Ref<Array<CandidateWinner>> = ref([]);
+  const districtTicketsData: Ref<Array<CandidateWinner>> = ref([]);
+  const laneTicketsData: Ref<Array<CandidateWinner>> = ref([]);
 
   const resetSelectedId = () => {
     selectedCityId.value = "";
     selectedDistrictId.value = "";
     selectedLaneId.value = "";
   };
-  watchEffect(async (): Promise<any> => {
-    const response = await axios.get<any>(
-      `/areas/ELC/P0/00/${themeId.value}/C/00_000_00_000_0000.json`
+  watchEffect(async () => {
+    const response = await axios.get(
+      `/areas/ELC/P0/00/${selectedThemeId.value}/C/00_000_00_000_0000.json`
     );
     if (!(response instanceof AxiosError)) {
       cities.value = [];
@@ -101,10 +106,10 @@ export const getElectionData = () => {
     }
   });
 
-  watchEffect(async (): Promise<any> => {
-    if (!themeId.value) return;
-    const response = await axios.get<any>(
-      `/tickets/ELC/P0/00/${themeId.value}/N/00_000_00_000_0000.json`
+  watchEffect(async () => {
+    if (!selectedThemeId.value) return;
+    const response = await axios.get(
+      `/tickets/ELC/P0/00/${selectedThemeId.value}/N/00_000_00_000_0000.json`
     );
     if (!(response instanceof AxiosError)) {
       // 年度全國得票
@@ -115,8 +120,8 @@ export const getElectionData = () => {
       resetSelectedId();
     }
 
-    const reply = await axios.get<any>(
-      `/tickets/ELC/P0/00/${themeId.value}/C/00_000_00_000_0000.json`
+    const reply = await axios.get(
+      `/tickets/ELC/P0/00/${selectedThemeId.value}/C/00_000_00_000_0000.json`
     );
     if (!(reply instanceof AxiosError)) {
       // 年度全行政區得票
@@ -129,10 +134,10 @@ export const getElectionData = () => {
     }
   });
 
-  watchEffect(async (): Promise<any> => {
-    if (!themeId.value || !selectedCityId.value) return;
-    const response = await axios.get<any>(
-      `/areas/ELC/P0/00/${themeId.value}/D/${selectedCityId.value}.json`
+  watchEffect(async () => {
+    if (!selectedThemeId.value || !selectedCityId.value) return;
+    const response = await axios.get(
+      `/areas/ELC/P0/00/${selectedThemeId.value}/D/${selectedCityId.value}.json`
     );
     if (!(response instanceof AxiosError)) {
       districts.value = response.data[selectedCityId.value];
@@ -142,8 +147,8 @@ export const getElectionData = () => {
       resetSelectedId();
     }
 
-    const reply = await axios.get<any>(
-      `/tickets/ELC/P0/00/${themeId.value}/D/${selectedCityId.value}.json`
+    const reply = await axios.get(
+      `/tickets/ELC/P0/00/${selectedThemeId.value}/D/${selectedCityId.value}.json`
     );
     if (!(reply instanceof AxiosError)) {
       districtTickets.value = reply.data[selectedCityId.value];
@@ -155,10 +160,11 @@ export const getElectionData = () => {
     }
   });
 
-  watchEffect(async (): Promise<any> => {
-    if (!themeId.value || !selectedCityId.value || !selectedDistrictId.value) return;
-    const response = await axios.get<any>(
-      `/areas/ELC/P0/00/${themeId.value}/L/${selectedCityId.value}.json`
+  watchEffect(async () => {
+    if (!selectedThemeId.value || !selectedCityId.value || !selectedDistrictId.value)
+      return;
+    const response = await axios.get(
+      `/areas/ELC/P0/00/${selectedThemeId.value}/L/${selectedCityId.value}.json`
     );
     if (!(response instanceof AxiosError)) {
       lanes.value = response.data[selectedDistrictId.value];
@@ -167,8 +173,8 @@ export const getElectionData = () => {
       resetSelectedId();
     }
 
-    const reply = await axios.get<any>(
-      `/tickets/ELC/P0/00/${themeId.value}/L/${selectedCityId.value}.json`
+    const reply = await axios.get(
+      `/tickets/ELC/P0/00/${selectedThemeId.value}/L/${selectedCityId.value}.json`
     );
     if (!(reply instanceof AxiosError)) {
       laneTickets.value = reply.data[selectedDistrictId.value];
@@ -181,10 +187,11 @@ export const getElectionData = () => {
   });
 
   return {
-    themeId,
+    themes,
     cities,
     districts,
     lanes,
+    selectedThemeId,
     selectedCityId,
     selectedDistrictId,
     selectedLaneId,
